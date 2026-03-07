@@ -5,3 +5,6 @@ para documentar todo lo posible de perplexity.
 cuestione me ha cambiado la estructura del proyecto.
 Eh aceptado la segunda que me ha dado porque la primera no me convencia.
 
+3. Voy a seguir este orden en la creacion de codigo: models → utils → analyzer → file_loader → input_handler → cli → app.  
+
+4. Decidi hacer los test robustos por gusto.

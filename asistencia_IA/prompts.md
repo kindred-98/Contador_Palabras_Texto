@@ -23,3 +23,22 @@ No quiero codigo aun. Como eh dicho quiero una planificacion y una estructura co
 
 # TERCER PROMPT
 Porque en la estructura creada me pone la carpeta interfaces dentro de la carpeta errores? porque no mejor dejarla en el src a la altura de las demas carpetas.
+
+# CUARTO PROMPT 
+Comenzemos con el models. Creame los models como un señior para el contador de palabras
+
+# QUINTO PROMPT
+Ahora quiero conectar los models con los utils y firmame las funciones que devolveran estos modelos.
+
+# SEXTO PROMPT 
+Quiero que me generes los test como un señior y con caso de prueba reales
+
+# SEPTIMO PROMPT
+Creame el codigo de file_loader y input_handler. 
+Estado del proyecto 🎉
+✅ models.py
+✅ utils.py + tests
+✅ analyzer.py + Counter
+✅ file_loader.py + open()
+✅ input_handler.py + input()
+⏳ interfaces/cli.py (próximo)

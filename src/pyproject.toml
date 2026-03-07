@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text_analyzer"
+version = "1.0.0"
+description = "Analizador de texto profesional CLI+GUI"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+testpaths = [
+    "test"
+]
+python_files = "test_*.py"
+addopts = "--cache-clear"
+cache_dir = ".pytest_cache_disabled"

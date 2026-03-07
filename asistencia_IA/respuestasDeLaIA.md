@@ -219,6 +219,9 @@ Crear carpeta text_analyzer y estructura de subcarpetas vacías según el esquem
 Si quieres, el siguiente paso es que elijamos exactamente los nombres de funciones/clases en cada módulo y sus firmas, y luego ya pasamos a escribir el código siguiendo esta planificación.
 
 # RESPUESTA DEL TERCER PROMPT 3
+Buena pregunta: en realidad no hay ninguna razón para meter interfaces dentro de una carpeta llamada “errores”; fue solo un malentendido de nombres, no una buena práctica.
+
+La idea “senior” es exactamente la que dices: todas las capas principales (core, io, interfaces) al mismo nivel dentro del paquete de src, cada una como un sub‑paquete bien separado. Quedaría así:
 
 text_analyzer/
 ├── .gitignore
@@ -250,6 +253,79 @@ text_analyzer/
     ├── decisiones.md
     └── incidencias.md
 
-Esto respeta las recomendaciones de separar capas: lógica de dominio (core), acceso a datos/archivos (io) e interfaces de usuario (CLI/GUI) cada una en su paquete propio, dentro del paquete principal text_analyzer alojado en src/.
+- Esto respeta las recomendaciones de separar capas: lógica de dominio (core), acceso a datos/archivos (io) e interfaces de usuario (CLI/GUI) cada una en su paquete propio, dentro del paquete principal text_analyzer alojado en src/.
 
-Si quieres, en el siguiente mensaje definimos nombres concretos de funciones/métodos en cada módulo (solo diseño, sin código aún) para que tengas el plan totalmente cerrado antes de picar nada.
+- Si quieres, en el siguiente mensaje definimos nombres concretos de funciones/métodos en cada módulo (solo diseño, sin código aún) para que tengas el plan totalmente cerrado antes de picar nada.
+
+# PREGUNTAS DEL EJERCICIO
+
+1) ¿Cómo capturo varias líneas de texto en Python hasta que el usuario pulse Enter dos veces? 
+
+Una forma típica con input() es ir leyendo línea a línea y parar cuando el usuario introduce una línea vacía, y considerar “Enter dos veces seguidas” como “dos líneas vacías seguidas”. En pseudocódigo:
+
+- Crear una lista lineas.
+- Llevar un contador de líneas vacías seguidas.
+### En un bucle:
+- Leer con input().
+- Si la línea está vacía:
+- Incrementar el contador de vacías.
+- Si ya es 2 → salir del bucle.
+
+### Si la línea NO está vacía:
+- Reiniciar el contador de vacías a 0.
+- Añadir la línea a la lista
+- Al final, unir las líneas con "\n".join(lineas) para obtener un solo texto.
+ importante: input() solo lee una línea cada vez, así que para “multilínea” simulas el final mirando cuándo el usuario deja la línea en blanco (una o dos veces seguidas, según tus reglas).
+
+
+2) ¿Cuál es la diferencia entre input() y sys.stdin.read() para capturar texto largo?
+
+Conceptualmente:
+
+### input():
+- Lee una sola línea cada vez (hasta que el usuario pulse Enter).
+- Devuelve un str.
+- Es ideal para entradas interactivas paso a paso: menús, preguntas - - cortas, o multilínea simulada con un bucle.
+Normalmente se usa junto con print() para hacer diálogos con el usuario.
+
+### sys.stdin.read():
+- Lee todo lo que haya en la entrada estándar de golpe (hasta EOF: fin de archivo).
+- También devuelve un str, pero puede contener muchas líneas, incluso texto pegado desde un archivo.
+
+### Es más útil cuando:
+- Rediriges un archivo: python script.py < archivo.txt.
+- O quieres que el usuario pegue un bloque grande y señales fin con Ctrl+D (Linux/macOS) o Ctrl+Z (Windows).
+- No está pensado para interacción paso a paso, sino para “leer entrada en bloque”.
+
+ Para tu proyecto de analizador de texto:
+- Si quieres un modo interactivo “usuario escribe en consola y termina con Enter dos veces”, lo razonable es usar un bucle con input() como en el punto 1.
+
+- Si quisieras soportar también “leer todo un bloque que se le pasa por redirección”, podrías ofrecer un modo avanzado con sys.stdin.read() que se traga todo el texto de golpe.
+
+# RESPUESTA DEL QUINTO PROMPT
+Resumen de lo que hicimos, fue creacion de funciones de core.
+Texto crudo ─┐
+             ├─> normalize_text() ──> normalized_text
+             ├─> count_characters() ─> num_chars, num_chars_no_spaces  
+             ├─> extract_words() ────> lista_palabras ──\
+             │                                           ├─> Counter ──> word_frequencies
+             │                                           │               └─> most_common_words  
+             ├─> count_sentences() ──> num_sentences     │
+             └─> count_paragraphs() ──> num_paragraphs ──┘
+
+↓ Todos los datos ──> analyze_text() ──> AnalysisResult (inmutable)
+
+# RESPUESTA DEL SEXTO PROMPT
+
+cd text_analyzer
+pytest tests/test_analyzer.py -v
+- O con cobertura:
+- pytest --cov=src/text_analyzer tests/ -v
+
+Cobertura que garantiza estos tests:
+✅ Utils individuales: cada función probada aislada
+✅ Casos reales: Lorem Ipsum, español con acentos, párrafos reales
+✅ Edge cases: vacío, solo espacios, configs diferentes
+✅ Configuración: min_word_length, top_n, case_sensitive
+✅ Regex: abreviaturas, puntuación compleja
+✅ Counter: frecuencias correctas

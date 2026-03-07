@@ -34,3 +34,19 @@ text_analyzer/
     └── respuestaDeLaIA.md
 
 ´´´
+Comandos para probar TODO:
+
+# 1. Instalar dependencias
+pip install -r requirements.txt
+
+# 2. Tests del core
+pytest test/test_analyzer.py -v
+
+# 3. Probar CLI
+python -m src.text_analyzer.app
+
+# 4. Probar GUI  
+python -m src.text_analyzer.app --gui
+
+# 5. ejecucion
+python run.py
