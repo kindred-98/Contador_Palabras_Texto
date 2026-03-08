@@ -14,33 +14,35 @@ from collections import Counter
 from .models import AnalysisConfig
 
 
+
 def normalize_text(text: str, config: AnalysisConfig) -> str:
     """
     Normaliza el texto según la configuración.
-    
+
     Reglas:
-    - strip() global
+    - Normaliza saltos de línea (\r\n, \r -> \n)
+    - Convierte saltos de línea y tabs a espacios
+    - Colapsa whitespace múltiple en un solo espacio
     - lower() si no es case_sensitive
-    - replace() para normalizar saltos de línea (\r\n -> \n)
-    - re.sub() para colapsar espacios múltiples
+    - strip() final
     """
+
     if not text:
         return ""
-    
-    # 1. Strip global
-    normalized = text.strip()
-    
-    # 2. Normalizar saltos de línea: \r\n -> \n
-    normalized = normalized.replace("\r\n", "\n").replace("\r", "\n")
-    
-    # 3. lower() solo si no es case_sensitive
+
+    # Normalizar saltos de línea
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+
+    # Convertir saltos de línea y tabs en espacios
+    normalized = normalized.replace("\n", " ").replace("\t", " ")
+
+    # Colapsar cualquier whitespace múltiple en un solo espacio
+    normalized = re.sub(r"\s+", " ", normalized)
+
+    # Aplicar lower si corresponde
     if not config.case_sensitive:
         normalized = normalized.lower()
-    
-    # 4. Colapsar múltiples espacios/tabs/saltos en un solo espacio
-    normalized = re.sub(r'\s+', ' ', normalized)
-    
-    # 5. Strip final
+
     return normalized.strip()
 
 

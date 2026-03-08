@@ -2,36 +2,51 @@
 Uso practico de la IA en programacion con PYTHON
 
 ´´´ 
-text_analyzer/
-├── .gitignore
-├── README.md
+Contador_Palabras_Texto/
+├── .pytest_cache
+├── .venv/                     
+├── asistencia_IA/             
+│   ├── prompts.md
+│   ├── decisiones.md
+│   ├── incidencias.md
+│   └── respuestaDeLaIA.md
 ├── src/
+│   ├── __init__.py 
+│   ├── run.py        
 │   └── text_analyzer/
-│       ├── __init__.py
+│       ├── __pycache__/
 │       ├── core/
+│       │   ├── __pycache__/
 │       │   ├── __init__.py
-│       │   ├── models.py
 │       │   ├── analyzer.py
+│       │   ├── models.py
 │       │   └── utils.py
+│       ├── interfaces/
+│       │   ├── __pycache__/
+│       │   ├── __init__.py         
+│       │   ├── cli.py
+│       │   └── gui.py
 │       ├── io/
+│       │   ├── __pycache__/
 │       │   ├── __init__.py
 │       │   ├── file_loader.py
 │       │   └── input_handler.py
-│       ├── interfaces/        
-│       │   ├── __init__.py
-│       │   ├── cli.py
-│       │   └── gui.py
-│       └── app.py
-├── tests/
+│       ├── __init__.py
+│       └──  app.py
+├── test/
+│   ├── __pycache__/
 │   ├── __init__.py
+│   ├── conftest.py
 │   ├── test_analyzer.py
-│   ├── test_file_loader.py
-│   └── test_cli.py
-└── asistencia_ia/
-    ├── prompts.md
-    ├── decisiones.md
-    └── incidencias.md
-    └── respuestaDeLaIA.md
+│   ├── test_cli.py
+│   └── test_file_loader.py
+├── .gitignore
+├── analisis_resultado.txt     
+├── pyproject.toml
+├── pytest.ini
+├── README.md
+└── requirements.txt
+
 
 ´´´
 Comandos para probar TODO:

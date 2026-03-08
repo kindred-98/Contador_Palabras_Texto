@@ -35,10 +35,11 @@ Quiero que me generes los test como un señior y con caso de prueba reales
 
 # SEPTIMO PROMPT
 Creame el codigo de file_loader y input_handler. 
-Estado del proyecto 🎉
-✅ models.py
-✅ utils.py + tests
-✅ analyzer.py + Counter
-✅ file_loader.py + open()
-✅ input_handler.py + input()
-⏳ interfaces/cli.py (próximo)
+
+# OCTAVO PROMPT 
+Fueron muchos de preguntas y mandadas de errores a la IA sobre problmas con los test.
+Claro esta que primero los busque por mismos. viendo los erroes que me salian en la terminal
+PD: Intente cambiarlo usando el metodo prueba y error sin ayuda.
+Luego la IA me guio un poco con pregunta directas del error donde era el cambio y porque-
+Dejo todo en incidencias, documentado en incidencias.
+

@@ -1,0 +1,14 @@
+📊 ANÁLISIS DE TEXTO - 29 caracteres
+============================================================
+📈 CARACTERES: 29 (sin espacios: 24)
+📝 PALABRAS: 5
+📜 ORACIONES: 1
+📑 PÁRRAFOS: 1
+
+🏆 TOP 5 PALABRAS MÁS FRECUENTES:
+----------------------------------------
+   1. kindred         →   1 veces
+   2. yasuo           →   1 veces
+   3. son             →   1 veces
+   4. unos            →   1 veces
+   5. mmgv            →   1 veces

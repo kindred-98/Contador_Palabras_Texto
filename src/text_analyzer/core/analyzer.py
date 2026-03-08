@@ -33,8 +33,8 @@ def analyze_text(text: str, config: AnalysisConfig | None = None) -> AnalysisRes
         config = AnalysisConfig()
     
     # Validar texto no vacío
-    raw_text_stripped = text.strip()
-    if not raw_text_stripped:
+    raw_text = text 
+    if not raw_text:
         raise ValueError("No se puede analizar texto vacío")
     
     # 1. Normalizar texto
