@@ -124,3 +124,9 @@ Resultado esperado: proyecto estable, testeable, profesional y listo para portfo
 
 ## ROADMAP VISUAL
 ![alt text](<ChatGPT Image 8 mar 2026, 22_30_40.png>)
+
+## ESTRUCTURA BASICA INICIAL ANTES DE COMENZAR CON EL ROADMAP
+![alt text](image.png)
+
+## PRUEBA DE QUE TODO PASA
+![alt text](<Captura de pantalla 2026-03-08 235759.png>)
