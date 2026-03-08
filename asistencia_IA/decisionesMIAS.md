@@ -20,3 +20,8 @@ de como funciona python.
 
 9. Problema resulto de los test, sigo avanzado.
 
+10. Ya que tengo la base del proyecto ahora si comienzo con mi planificacion.
+Agrego archivo roadmap.md y imagen del mismo.
+Ire implementando cada cosa paso a paso y comentandolo todo.
+
+11. 

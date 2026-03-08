@@ -43,3 +43,30 @@ PD: Intente cambiarlo usando el metodo prueba y error sin ayuda.
 Luego la IA me guio un poco con pregunta directas del error donde era el cambio y porque-
 Dejo todo en incidencias, documentado en incidencias.
 
+## NOVENO PROMPT
+PD: Interectue con ella mucho con preguntas y dudas por lo tanto fuero muchas preguntas asi que eh resumido un poco aqui lo que le he pedido. las dudas y preguntas eran sobre el proyecto y el codigo.
+
+Quiero hacerla lo mas profersional posible este proyecto, ya que todo lo que hago lo monto en mi repositorio de git hub, pero a esta app le faltan muchas cosas por hacer o arreglar.
+
+cosas que no hace y deberia hacer:
+- solo funciona en la terminal, no hay un modo de seleccion para el cli o gui. 
+- no es muy interactiva o entendible al ojo humano cuando se despliega- es un contado de palabra lo se pero quiero que al entrar sea mas legible, por ej: pon aqui la palabra que quieres que cuente, que la cuentes que la separe en silabas, que diga si la palabra es esdrujula. grave etc.
+- que guarde la paalabra en un archivo y que nunca se boorre, por si alguien la vuelve a buscar que ya eeste guardada y no tenga que volver a hacer el proceso, si no que la toma desde el historia y si no esta ahi si la genere la app. 
+
+📊 ANÁLISIS DE TEXTO - 29 caracteres ======================================= 
+📈 CARACTERES: 29 (sin espacios: 24) 
+📝 PALABRAS: 5 
+📜 ORACIONES: 1 
+📑 PÁRRAFOS: 1 
+🏆 TOP 5 PALABRAS MÁS FRECUENTES: ---------------------------------------- 
+1. kindred → 1 veces 
+2. yasuo → 1 veces 
+3. son → 1 veces 
+4. unos → 1 veces 5. mmgv → 1 veces 
+
+hasta ahora hace esto, y esta bien, me gusta pero, quiero que haga mas.
+
+Entonce analizando todo lo que te eh dicho quiero que piense como un señior y me des un roadmap de evolución para mi app.
+
+luego se lo eh pedido en visual.
+
