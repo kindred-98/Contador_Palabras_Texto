@@ -1,67 +1,8 @@
 # Contador_Palabras_Texto
-Uso practico de la IA en programacion con PYTHON
 
-´´´ 
-Contador_Palabras_Texto/
-├── .pytest_cache
-├── .venv/                     
-├── asistencia_IA/             
-│   ├── prompts.md
-│   ├── decisiones.md
-│   ├── incidencias.md
-│   └── respuestaDeLaIA.md
-├── src/
-│   ├── __init__.py 
-│   ├── run.py        
-│   └── text_analyzer/
-│       ├── __pycache__/
-│       ├── core/
-│       │   ├── __pycache__/
-│       │   ├── __init__.py
-│       │   ├── analyzer.py
-│       │   ├── models.py
-│       │   └── utils.py
-│       ├── interfaces/
-│       │   ├── __pycache__/
-│       │   ├── __init__.py         
-│       │   ├── cli.py
-│       │   └── gui.py
-│       ├── io/
-│       │   ├── __pycache__/
-│       │   ├── __init__.py
-│       │   ├── file_loader.py
-│       │   └── input_handler.py
-│       ├── __init__.py
-│       └──  app.py
-├── test/
-│   ├── __pycache__/
-│   ├── __init__.py
-│   ├── conftest.py
-│   ├── test_analyzer.py
-│   ├── test_cli.py
-│   └── test_file_loader.py
-├── .gitignore
-├── analisis_resultado.txt     
-├── pyproject.toml
-├── pytest.ini
-├── README.md
-└── requirements.txt
+🚧 Proyecto en construcción. La documentación definitiva estará disponible al finalizar la fase de desarrollo.
 
-
-´´´
-Comandos para probar TODO:
-
-# 1. Instalar dependencias
-pip install -r requirements.txt
-
-# 2. Tests del core
-pytest test/test_analyzer.py -v
-
-# 3. Probar CLI
-python -m src.text_analyzer.app
-
-# 4. Probar GUI  
-python -m src.text_analyzer.app --gui
-
-# 5. ejecucion
-python run.py
+Uso practico de la IA en programacion con:
+PYTHON 
+DiCampus
+RUSGAR
