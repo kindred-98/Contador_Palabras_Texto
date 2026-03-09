@@ -278,3 +278,4 @@ La aplicación y su sistema de pruebas funcionan correctamente.
 Pero todo lo antes creado en el proyecto fue con PERPLEXITY-
 Es buena tiene sus ventajas y deventajas pero me abandono a mitad de camino. jajajaja
 
+6. 

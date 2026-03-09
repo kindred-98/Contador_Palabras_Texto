@@ -1,3 +1,5 @@
+# FASE 0
+
 1. Eh agregado el archivo respuestaDeLaIA.md 
 para documentar todo lo posible de perplexity.
 
@@ -24,4 +26,8 @@ de como funciona python.
 Agrego archivo roadmap.md y imagen del mismo.
 Ire implementando cada cosa paso a paso y comentandolo todo.
 
-11. 
+##FASE 1
+
+11. Eliminacion de run.py por main.py. Se evito tener dos arranques distintos.
+12. Mejorando la terminal con rich.
+

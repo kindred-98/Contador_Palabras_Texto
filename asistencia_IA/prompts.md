@@ -1,3 +1,5 @@
+# FASE 0
+
 # PRIMER PROMPT
 
 Tengo una tareas.
@@ -69,4 +71,12 @@ hasta ahora hace esto, y esta bien, me gusta pero, quiero que haga mas.
 Entonce analizando todo lo que te eh dicho quiero que piense como un señior y me des un roadmap de evolución para mi app.
 
 luego se lo eh pedido en visual.
+
+
+# FASE 1
+
+Mejora la experiencia de usuario en terminal creando una CLI profesional con la libreria rich.
+Quiero que sea claro y visual, con herramientas de análisis de texto y navegación mediante menú interactivo.
+
+
 

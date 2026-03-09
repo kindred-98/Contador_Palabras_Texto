@@ -1,3 +1,5 @@
+# FASE 0
+
 # RESPUESTA DEL PRIMER PROMPT.
 
 Te resumo: tu tarea es hacer un programa de terminal en Python que analice un texto (escrito por teclado o leído de un .txt) y muestre estadísticas: palabras, caracteres, oraciones, párrafos y palabras más frecuentes, además de usar Git mientras lo desarrollas.
@@ -338,3 +340,29 @@ Estado del proyecto 🎉
 ✅ file_loader.py + open()
 ✅ input_handler.py + input()
 ⏳ interfaces/cli.py (próximo)
+
+
+# FASE 1
+
+Respuestas y acciones implementadas
+
+1. Menú interactivo completo
+- 5 opciones: Analizar texto, Analizar palabra, Ver historial, Exportar resultados, Salir.
+
+2. Análisis de palabras individuales
+- Conteo de ocurrencias y posiciones de palabras.
+
+3. Historial de análisis
+- Guardado en lista y visualizado en tabla con Rich.
+
+4. Exportación de resultados
+- Guardado a archivo .txt desde la CLI.
+
+5. Uso de Rich para visualización
+- Paneles, tablas, colores, emojis.
+- Barra de progreso simulando análisis de texto largo.
+
+6. Mejoras en análisis de texto
+- Número de palabras, caracteres y top N palabras más frecuentes.
+- Tabla con barra visual representando frecuencia de palabras.
+
