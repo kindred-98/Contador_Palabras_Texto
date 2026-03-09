@@ -78,5 +78,7 @@ luego se lo eh pedido en visual.
 Mejora la experiencia de usuario en terminal creando una CLI profesional con la libreria rich.
 Quiero que sea claro y visual, con herramientas de análisis de texto y navegación mediante menú interactivo.
 
+# FASE 2
+
 
 

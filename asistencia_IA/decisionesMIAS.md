@@ -26,8 +26,9 @@ de como funciona python.
 Agrego archivo roadmap.md y imagen del mismo.
 Ire implementando cada cosa paso a paso y comentandolo todo.
 
-##FASE 1
+## FASE 1
 
 11. Eliminacion de run.py por main.py. Se evito tener dos arranques distintos.
 12. Mejorando la terminal con rich.
 
+## FASE 2

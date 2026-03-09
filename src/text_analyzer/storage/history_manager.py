@@ -1,43 +1,40 @@
+# src/text_analyzer/storage/history_manager.py
 import json
 from pathlib import Path
+from typing import Optional, Any
 
-# Ruta del archivo JSON
-BASE_DIR = Path(__file__).resolve().parent
-HISTORY_FILE = BASE_DIR / "history.json"
+HISTORY_FILE = Path(__file__).parent / "history.json"
 
+def _read_history() -> dict:
+    if HISTORY_FILE.exists():
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
 
-def load_history():
-    """Carga historial desde JSON"""
-    if not HISTORY_FILE.exists():
-        return {"texts": {}, "words": {}}
-
-    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_history(history):
-    """Guarda historial en JSON"""
+def _write_history(data: dict) -> None:
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(history, f, indent=4, ensure_ascii=False)
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
+# --- Texto completo ---
+def get_text_analysis(text: str) -> Optional[dict]:
+    data = _read_history()
+    return data.get("texts", {}).get(text)
 
-def get_text_analysis(text):
-    history = load_history()
-    return history["texts"].get(text)
+def save_text_analysis(text: str, result: dict) -> None:
+    data = _read_history()
+    if "texts" not in data:
+        data["texts"] = {}
+    data["texts"][text] = result
+    _write_history(data)
 
+# --- Palabra individual ---
+def get_word_analysis(word: str) -> Optional[dict]:
+    data = _read_history()
+    return data.get("words", {}).get(word)
 
-def save_text_analysis(text, result):
-    history = load_history()
-    history["texts"][text] = result
-    save_history(history)
-
-
-def get_word_analysis(word):
-    history = load_history()
-    return history["words"].get(word)
-
-
-def save_word_analysis(word, result):
-    history = load_history()
-    history["words"][word] = result
-    save_history(history)
+def save_word_analysis(word: str, result: dict) -> None:
+    data = _read_history()
+    if "words" not in data:
+        data["words"] = {}
+    data["words"][word] = result
+    _write_history(data)

@@ -1,3 +1,5 @@
+# FASE 0
+
 1. La IA me ha dado la primera estructra del proyecto con una carpeta
 llamada errores que dentro tenia la interfaz del proyecto.
 Eso es una mala practica laboral.
@@ -278,4 +280,8 @@ La aplicación y su sistema de pruebas funcionan correctamente.
 Pero todo lo antes creado en el proyecto fue con PERPLEXITY-
 Es buena tiene sus ventajas y deventajas pero me abandono a mitad de camino. jajajaja
 
-6. 
+# FASE 1
+
+Sin incidencias, todo fue integrado con exito.
+
+# FASE 2

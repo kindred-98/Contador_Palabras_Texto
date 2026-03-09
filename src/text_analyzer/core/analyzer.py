@@ -20,6 +20,8 @@ from .utils import (
 from text_analyzer.storage.history_manager import (
     get_text_analysis,
     save_text_analysis,
+    get_word_analysis,
+    save_word_analysis
 )
 
 def analyze_text(text: str, config: AnalysisConfig | None = None) -> AnalysisResult:

@@ -366,3 +366,5 @@ Respuestas y acciones implementadas
 - Número de palabras, caracteres y top N palabras más frecuentes.
 - Tabla con barra visual representando frecuencia de palabras.
 
+# FASE 2
+

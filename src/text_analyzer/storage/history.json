@@ -33,6 +33,117 @@
                 ]
             ],
             "errors": []
+        },
+        "que tal panita como vas con la programcion loco hechandole bola marico una cosa de loco es cli y gui": {
+            "raw_text": "que tal panita como vas con la programcion loco hechandole bola marico una cosa de loco es cli y gui",
+            "normalized_text": "que tal panita como vas con la programcion loco hechandole bola marico una cosa de loco es cli y gui",
+            "num_characters": 100,
+            "num_characters_no_spaces": 81,
+            "num_words": 19,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "que": 1,
+                "tal": 1,
+                "panita": 1,
+                "como": 1,
+                "vas": 1,
+                "con": 1,
+                "la": 1,
+                "programcion": 1,
+                "loco": 2,
+                "hechandole": 1,
+                "bola": 1,
+                "marico": 1,
+                "una": 1,
+                "cosa": 1,
+                "de": 1,
+                "es": 1,
+                "cli": 1,
+                "gui": 1
+            },
+            "most_common_words": [
+                [
+                    "loco",
+                    2
+                ],
+                [
+                    "que",
+                    1
+                ],
+                [
+                    "tal",
+                    1
+                ],
+                [
+                    "panita",
+                    1
+                ],
+                [
+                    "como",
+                    1
+                ],
+                [
+                    "vas",
+                    1
+                ],
+                [
+                    "con",
+                    1
+                ],
+                [
+                    "la",
+                    1
+                ],
+                [
+                    "programcion",
+                    1
+                ],
+                [
+                    "hechandole",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "angel es una locura progamando": {
+            "raw_text": "angel es una locura progamando",
+            "normalized_text": "angel es una locura progamando",
+            "num_characters": 30,
+            "num_characters_no_spaces": 26,
+            "num_words": 5,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "angel": 1,
+                "es": 1,
+                "una": 1,
+                "locura": 1,
+                "progamando": 1
+            },
+            "most_common_words": [
+                [
+                    "angel",
+                    1
+                ],
+                [
+                    "es",
+                    1
+                ],
+                [
+                    "una",
+                    1
+                ],
+                [
+                    "locura",
+                    1
+                ],
+                [
+                    "progamando",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {}
