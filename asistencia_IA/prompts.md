@@ -67,18 +67,25 @@ cosas que no hace y deberia hacer:
 4. unos → 1 veces 5. mmgv → 1 veces 
 
 hasta ahora hace esto, y esta bien, me gusta pero, quiero que haga mas.
+Entonces analizando todo, lo que te eh dicho quiero que piense como un señior y me des un roadmap de evolución para mi app.
 
-Entonce analizando todo lo que te eh dicho quiero que piense como un señior y me des un roadmap de evolución para mi app.
-
-luego se lo eh pedido en visual.
-
+- luego se lo eh pedido en visual.
 
 # FASE 1
 
 Mejora la experiencia de usuario en terminal creando una CLI profesional con la libreria rich.
 Quiero que sea claro y visual, con herramientas de análisis de texto y navegación mediante menú interactivo.
 
+Tambien fueron usados distintos prompt para ciertas cositas, como la exportaciones de resultado, creacion del script de main.
+
 # FASE 2
+
+- Vamos a la fase 2: implementar historial y persistencia en JSON/SQLite y consultar desde CLI.
+
+- Cuando el GUI analiza una palabra, el historial rompe el menú principal. porque y como lo arreglamos.
+
+- Le eh dado especificamente luego como queria que fuera mi interfaz del cli al entrar y eh agregago un historial rapido.
+
 
 
 

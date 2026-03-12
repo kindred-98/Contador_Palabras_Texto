@@ -144,6 +144,149 @@
                 ]
             ],
             "errors": []
+        },
+        "wdrr fanatic": {
+            "raw_text": "wdrr fanatic",
+            "normalized_text": "wdrr fanatic",
+            "num_characters": 12,
+            "num_characters_no_spaces": 11,
+            "num_words": 2,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "wdrr": 1,
+                "fanatic": 1
+            },
+            "most_common_words": [
+                [
+                    "wdrr",
+                    1
+                ],
+                [
+                    "fanatic",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "el bertys es una locura": {
+            "raw_text": "el bertys es una locura",
+            "normalized_text": "el bertys es una locura",
+            "num_characters": 23,
+            "num_characters_no_spaces": 19,
+            "num_words": 5,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "el": 1,
+                "bertys": 1,
+                "es": 1,
+                "una": 1,
+                "locura": 1
+            },
+            "most_common_words": [
+                [
+                    "el",
+                    1
+                ],
+                [
+                    "bertys",
+                    1
+                ],
+                [
+                    "es",
+                    1
+                ],
+                [
+                    "una",
+                    1
+                ],
+                [
+                    "locura",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "entro a ala 1:30": {
+            "raw_text": "entro a ala 1:30",
+            "normalized_text": "entro a ala 1:30",
+            "num_characters": 16,
+            "num_characters_no_spaces": 13,
+            "num_words": 2,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "entro": 1,
+                "ala": 1
+            },
+            "most_common_words": [
+                [
+                    "entro",
+                    1
+                ],
+                [
+                    "ala",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "vamos a vender burguer": {
+            "raw_text": "vamos a vender burguer",
+            "normalized_text": "vamos a vender burguer",
+            "num_characters": 22,
+            "num_characters_no_spaces": 19,
+            "num_words": 3,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "vamos": 1,
+                "vender": 1,
+                "burguer": 1
+            },
+            "most_common_words": [
+                [
+                    "vamos",
+                    1
+                ],
+                [
+                    "vender",
+                    1
+                ],
+                [
+                    "burguer",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "AnalysisResult(raw_text='vamos a vender burguer', normalized_text='vamos a vender burguer', num_characters=22, num_characters_no_spaces=19, num_words=3, num_sentences=1, num_paragraphs=1, word_frequencies=Counter({'vamos': 1, 'vender': 1, 'burguer': 1}), most_common_words=[('vamos', 1), ('vender', 1), ('burguer', 1)], config=AnalysisConfig(min_word_length=1, top_n=10, case_sensitive=False), errors=[])": {
+            "raw_text": "AnalysisResult(raw_text='vamos a vender burguer', normalized_text='vamos a vender burguer', num_characters=22, num_characters_no_spaces=19, num_words=3, num_sentences=1, num_paragraphs=1, word_frequencies=Counter({'vamos': 1, 'vender': 1, 'burguer': 1}), most_common_words=[('vamos', 1), ('vender', 1), ('burguer', 1)], config=AnalysisConfig(min_word_length=1, top_n=10, case_sensitive=False), errors=[])",
+            "normalized_text": "analysisresult(raw_text='vamos a vender burguer', normalized_text='vamos a vender burguer', num_characters=22, num_characters_no_spaces=19, num_words=3, num_sentences=1, num_paragraphs=1, word_frequencies=counter({'vamos': 1, 'vender': 1, 'burguer': 1}), most_common_words=[('vamos', 1), ('vender', 1), ('burguer', 1)], config=analysisconfig(min_word_length=1, top_n=10, case_sensitive=false), errors=[])",
+            "num_characters": 404,
+            "num_characters_no_spaces": 376,
+            "num_words": 18,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "analysisresult": 1,
+                "vamos": 4,
+                "vender": 4,
+                "burguer": 4,
+                "counter": 1,
+                "config": 1,
+                "analysisconfig": 1,
+                "false": 1,
+                "errors": 1
+            },
+            "most_common_words": [
+                [
+                    "vamos",
+                    4
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {}

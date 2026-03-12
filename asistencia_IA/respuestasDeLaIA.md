@@ -368,3 +368,29 @@ Respuestas y acciones implementadas
 
 # FASE 2
 
+Respuestas y acciones implementadas 
+
+1. Historial compatible con CLI y GUI
+- Creamos la función resumen_historial(h) que convierte cualquier entrada del historial en texto legible.
+- Así el menú puede mostrar tanto strings como AnalysisResult sin romperse.
+
+2. Menú principal enriquecido con Rich
+- Se mantuvo el estilo de la Fase 1: paneles, colores, iconos.
+- Se agregó la opción de Historial rápido como opción 3 del menú principal:
+* Muestra últimos 5 análisis de manera compacta.
+* Tabla Rich con columnas “N°” y “Último análisis”.
+
+3. Integración CLI + GUI
+- El historial se comparte entre CLI y GUI.
+- Cualquier análisis hecho por GUI se refleja automáticamente en el historial y se muestra en el menú.
+
+4. Diagnóstico final de tu Fase 2
+
+| Elemento                  | Estado |
+| ------------------------- | ------ |
+| history_manager           | ✅      |
+| persistencia JSON         | ✅      |
+| consulta historial        | ✅      |
+| cache antes de analizar   | ✅      |
+| reconstrucción de objetos | ✅      |
+| arquitectura limpia       | ✅      |

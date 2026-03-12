@@ -128,5 +128,12 @@ Resultado esperado: proyecto estable, testeable, profesional y listo para portfo
 ## ESTRUCTURA BASICA INICIAL ANTES DE COMENZAR CON EL ROADMAP
 ![alt text](image.png)
 
-## PRUEBA DE QUE TODO PASA
+## PRUEBA DE QUE TODO PASA, ANTES DE COMENZAR A APLICAR CAMBIOS.
 ![alt text](<Captura de pantalla 2026-03-08 235759.png>)
+
+## INTERFAZ DE INICIO ACTUALIZADA
+![alt text](<Captura de pantalla 2026-03-12 105619.png>)
+![alt text](<Captura de pantalla 2026-03-12 105642.png>)
+![alt text](<Captura de pantalla 2026-03-12 105825.png>)
+![alt text](<Captura de pantalla 2026-03-12 105852.png>)
+![alt text](<Captura de pantalla 2026-03-12 110446.png>)

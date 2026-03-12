@@ -285,3 +285,8 @@ Es buena tiene sus ventajas y deventajas pero me abandono a mitad de camino. jaj
 Sin incidencias, todo fue integrado con exito.
 
 # FASE 2
+
+- Mientras me cambiaba de perplexity a chatgpt me sugerio muchos cambios lo cuales ignore. 
+- Tambien me cambio el archivo creado con rich. 
+- Problema: Historial no consistente entre CLI y GUI: TypeError: 'AnalysisResult' object is not subscriptable.
+- Solución: función resumen_historial() para convertir objetos a string.
