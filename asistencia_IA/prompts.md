@@ -87,5 +87,17 @@ Tambien fueron usados distintos prompt para ciertas cositas, como la exportacion
 - Le eh dado especificamente luego como queria que fuera mi interfaz del cli al entrar y eh agregago un historial rapido.
 
 
+# FASE 3 
+Apliquemos la 3 fase.
+Fase 3 – Análisis lingüístico de palabras
+🎯 Objetivo: Analizar cada palabra más a fondo.
 
+1. Dividir palabras en sílabas.
+2. Determinar tipo de palabra (aguda, grave, esdrújula, sobresdrújula).
+3. Detectar acento escrito (tilde) y número de sílabas.
+4. Guardar análisis lingüístico en historial.
 
+- Quiero que el script nuevo este fuera de analyzer, para no mezclar codigo.
+
+# FASE 4
+Use el mismo prompt de la fase.

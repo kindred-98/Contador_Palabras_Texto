@@ -394,3 +394,300 @@ Respuestas y acciones implementadas
 | cache antes de analizar   | ✅      |
 | reconstrucción de objetos | ✅      |
 | arquitectura limpia       | ✅      |
+
+
+# FASE 3
+
+Me genero el codigo y me guio donde tenia que cambiar en analyzer y cli.
+
+| Cómo se verá ahora en la terminal |
+
+Cuando analices una palabra:
+
+🔎 Resultado Palabra
+- Palabra: programación
+- Veces encontrada: 2
+- Posiciones: [4, 9]
+
+Luego aparecerá:
+
+🧠 Análisis Lingüístico
+Propiedad           Valor
+--------------------------------
+- Palabra             programación
+- Sílabas             pro-gra-ma-ción
+- Número de sílabas   4
+- Tiene tilde         Sí
+- Tipo de palabra     aguda
+---------------------------------------------------------------------
+
+- La IA me ah recomendado esto, y la verdad esta interesante pero no lo aplicare porque quiero seguir mi roadmap
+
+OJITO:
+Si quieres, en el siguiente paso te puedo enseñar 3 mejoras brutales para tu Fase 3 que convierten tu proyecto en algo que muy pocos devs junior hacen:
+
+1️⃣ detección automática de idioma
+2️⃣ análisis de legibilidad (Flesch)
+3️⃣ análisis de n-grams (bigramas y trigramas)
+
+Eso lo vuelve una herramienta profesional de análisis de texto.
+
+# FASE 4
+
+Resumen técnico y estructurado de la Fase 4 como si fuera documentación de desarrollo del proyecto. 
+
+Esto sirve para mi como:
+- memoria de proyecto
+- documentación GitHub
+- portafolio
+- justificar decisiones de arquitectura
+
+### 📦 FASE 4 — Exportación de Resultados
+🎯 Objetivo de la fase
+Permitir que el usuario pueda guardar, revisar y compartir los análisis realizados por la aplicación, exportándolos en formatos estándar compatibles con herramientas externas.
+
+Los formatos implementados fueron:
+- TXT → lectura simple
+- JSON → datos estructurados
+- CSV → análisis en Excel / Power BI
+
+Además se añadió:
+- timestamp automático en los archivos
+- exportación basada en datos estructurados
+- selección de formato desde CLI
+
+### 1️⃣ Prompt inicial de la fase
+Fase 4 – Exportación de resultados
+Objetivo: Permitir guardar y compartir análisis.
+
+Exportar análisis a:
+- CSV
+- TXT
+- JSON
+Permitir exportar:
+- historial
+- resultado actual
+- ambos
+Añadir timestamp a los archivos exportados.
+
+### 2️⃣ Primera solución propuesta por la IA
+
+La IA propuso implementar un módulo independiente de exportación dentro de la arquitectura del proyecto:
+
+src/
+ └─ text_analyzer/
+     ├─ core/
+     ├─ interfaces/
+     ├─ storage/
+     └─ io/
+         └─ exporter.py
+
+Funciones propuestas
+- export_txt()
+- export_json()
+- export_csv()
+
+También se añadió:
+-generate_filename()
+para generar nombres de archivo con timestamp.
+
+Ejemplo generado:
+- analysis_20260312_113455.csv
+
+### 3️⃣ Incidencia detectada durante el diseño
+
+Problema detectado
+El sistema inicialmente exportaba strings del historial, por ejemplo:
+- Total palabras: 20 | Total caracteres: 120
+
+Esto presenta problemas:
+- difícil de procesar
+- no estructurado
+- imposible analizar en Excel o pandas
+
+### 4️⃣ Decisión importante tomada por el usuario
+
+El usuario propuso una mejora clave:
+- Exportar datos estructurados en lugar de strings
+
+Con la siguiente idea:
+- texto analizado
++
+- palabras más frecuentes
++
+- análisis lingüístico
+
+Esto permitiría abrir el archivo en:
+- Excel
+- Power BI
+- pandas
+Esta decisión mejoró significativamente el diseño del sistema.
+
+### 5️⃣ Solución final implementada
+
+Se implementó un sistema donde el resultado del análisis se guarda como estructura de datos.
+
+- Ejemplo:
+ultimo_resultado = {
+    "texto_original": texto,
+    "num_palabras": num_palabras,
+    "num_caracteres": num_caracteres,
+    "top_palabras": top_palabras
+}
+
+Luego el módulo exporter.py convierte esa estructura a:
+
+- TXT
+- JSON
+- CSV
+
+### 6️⃣ Cambios realizados en el CLI
+
+Se modificó la función:
+- exportar_resultados()
+para permitir elegir formato de exportación.
+
+Menú implementado:
+- Formato de exportación
+1) TXT
+2) JSON
+3) CSV
+
+Esto conecta con las funciones del módulo:
+- export_txt()
+- export_json()
+- export_csv()
+
+### 7️⃣ Estructura del CSV generada
+
+Ejemplo real:
+- metric,value
+- num_caracteres,120
+- num_palabras,20
+
+- top_palabras,frecuencia
+- python,5
+- codigo,3
+- programacion,2
+
+Ventajas:
+- compatible con Excel
+- compatible con Power BI
+- compatible con pandas
+
+### 8️⃣ Ejemplo de JSON generado
+{
+ "texto_original": "Python es un lenguaje...",
+ "num_palabras": 20,
+ "num_caracteres": 120,
+ "top_palabras": [
+   ["python",5],
+   ["codigo",3]
+ ]
+}
+
+Ventajas:
+- interoperabilidad
+- APIs
+- análisis automatizado
+
+### 9️⃣ Decisiones de diseño en las que hubo acuerdo
+
+Hubo acuerdo en:
+1️⃣ Separar responsabilidades
+
+Arquitectura modular:
+- interfaces → CLI / GUI
+- core → análisis
+- storage → historial
+- io → exportación
+
+Esto sigue principios de:
+- Clean Architecture
+- Single Responsibility
+
+2️⃣ Exportación como módulo independiente
+En lugar de poner exportación dentro del CLI.
+
+Ventajas:
+- reutilizable
+- fácil de ampliar
+- compatible con GUI futura
+
+3️⃣ Uso de timestamp
+
+Archivos generados automáticamente:
+- analysis_20260312_113455.csv
+Evita sobrescribir archivos.
+
+### 🔟 Puntos donde hubo mejora propuesta por el usuario
+
+La mejora más importante fue:
+Exportación estructurada
+
+- Propuesta del usuario:
+
+texto analizado
++
+palabras más frecuentes
++
+análisis lingüístico
+Esta mejora convirtió la exportación en algo mucho más profesional.
+
+### 1️⃣1️⃣ Incidencias técnicas durante la fase
+
+Incidencia 1
+Exportación basada en strings del historial
+Problema:
+- datos no estructurados
+Solución:
+- guardar resultado estructurado
+- exportarlo como dict
+
+Incidencia 2
+CLI no tenía referencia al último análisis.
+Solución implementada:
+- ultimo_resultado
+variable global que almacena el último análisis realizado.
+
+### 1️⃣2️⃣ Estado final del sistema tras Fase 4
+
+La aplicación ahora incluye:
+
+- CLI profesional con Rich
+- GUI
+- análisis de texto
+- análisis lingüístico
+- historial
+- persistencia
+- exportación avanzada
+- archivos estructurados
+- timestamp automático
+
+### 1️⃣3️⃣ Impacto en el proyecto
+
+La fase 4 convierte la aplicación en una herramienta real de análisis de texto.
+Ahora los resultados pueden ser usados en:
+- Excel
+- Power BI
+- pipelines de datos
+- dashboards
+- scripts de análisis
+
+### 1️⃣4️⃣ Prompt final para resumir la Fase 4
+
+Este es el prompt que podrías usar para documentar la fase:
+
+Resume técnicamente la Fase 4 de desarrollo de una aplicación de análisis de texto en Python.
+
+Incluye:
+1. Objetivo de la fase
+2. Problema inicial del sistema de exportación
+3. Incidencias detectadas
+4. Decisiones de diseño tomadas
+5. Mejoras propuestas por el usuario
+6. Arquitectura implementada
+7. Cambios realizados en el CLI
+8. Formatos de exportación implementados
+9. Ejemplos de salida CSV y JSON
+10. Impacto de la mejora en el proyecto

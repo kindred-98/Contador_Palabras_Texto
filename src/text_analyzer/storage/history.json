@@ -654,5 +654,64 @@
             "errors": []
         }
     },
-    "words": {}
+    "words": {
+        "programacion": {
+            "word": "programacion",
+            "syllables": [
+                "pro",
+                "gra",
+                "ma",
+                "cio"
+            ],
+            "syllable_count": 4,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "angel": {
+            "word": "angel",
+            "syllables": [
+                "a",
+                "nge"
+            ],
+            "syllable_count": 2,
+            "has_tilde": false,
+            "stress_type": "aguda"
+        },
+        "waleska": {
+            "word": "waleska",
+            "syllables": [
+                "wa",
+                "le",
+                "ska"
+            ],
+            "syllable_count": 3,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "ornitorrinco": {
+            "word": "ornitorrinco",
+            "syllables": [
+                "o",
+                "rni",
+                "to",
+                "rri",
+                "nco"
+            ],
+            "syllable_count": 5,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "guasacaca": {
+            "word": "guasacaca",
+            "syllables": [
+                "gua",
+                "sa",
+                "ca",
+                "ca"
+            ],
+            "syllable_count": 4,
+            "has_tilde": false,
+            "stress_type": "grave"
+        }
+    }
 }

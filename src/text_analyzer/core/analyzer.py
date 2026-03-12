@@ -7,6 +7,7 @@ No conoce de archivos, CLI, GUI - solo texto puro -> resultados.
 
 from collections import Counter
 from typing import List, Tuple
+from text_analyzer.core.linguistic import analyze_word_linguistics
 
 from .models import AnalysisResult, AnalysisConfig
 from .utils import (
@@ -124,3 +125,42 @@ def get_top_words_analysis(result: AnalysisResult, n: int = 5) -> List[Tuple[str
     Convenience function para mostrar resúmenes rápidos.
     """
     return result.word_frequencies.most_common(n)
+
+def analyze_single_word(word: str):
+    """
+    Analiza una palabra con información lingüística.
+    """
+
+    if not word:
+        raise ValueError("La palabra no puede estar vacía")
+
+    # ===============================
+    # CONSULTAR HISTORIAL
+    # ===============================
+
+    cached = get_word_analysis(word)
+
+    if cached:
+        return cached
+
+    # ===============================
+    # ANALISIS LINGÜÍSTICO
+    # ===============================
+
+    linguistic = analyze_word_linguistics(word)
+
+    result = {
+        "word": linguistic.word,
+        "syllables": linguistic.syllables,
+        "syllable_count": linguistic.syllable_count,
+        "has_tilde": linguistic.has_tilde,
+        "stress_type": linguistic.stress_type
+    }
+
+    # ===============================
+    # GUARDAR EN HISTORIAL
+    # ===============================
+
+    save_word_analysis(word, result)
+
+    return result

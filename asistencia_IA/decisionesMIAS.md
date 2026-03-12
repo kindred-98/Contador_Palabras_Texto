@@ -59,3 +59,9 @@ Ire implementando cada cosa paso a paso y comentandolo todo.
 ⚠️ Desacuerdo / ajuste:
 
 Originalmente querías que GUI guardara strings como CLI, pero decidimos guardar AnalysisResult y resumirlo dinámicamente.
+
+## FASE 3
+-Creacion de linguistic.py para no contaminar analyzer.py, sino crear un módulo lingüístico separado.
+- la propuesta de la IA me tento.
+
+## FASE 4

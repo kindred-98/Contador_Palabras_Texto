@@ -290,3 +290,6 @@ Sin incidencias, todo fue integrado con exito.
 - Tambien me cambio el archivo creado con rich. 
 - Problema: Historial no consistente entre CLI y GUI: TypeError: 'AnalysisResult' object is not subscriptable.
 - Solución: función resumen_historial() para convertir objetos a string.
+
+# FASE 3
+
