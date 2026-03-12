@@ -287,6 +287,371 @@
                 ]
             ],
             "errors": []
+        },
+        "\n    Python es un lenguaje de programación interpretado, de alto nivel y general propósito.\n    Su diseño filosofía enfatiza la legibilidad del código y su sintaxis permite a los programadores expresar conceptos en pocas líneas de código.\n    ": {
+            "raw_text": "\n    Python es un lenguaje de programación interpretado, de alto nivel y general propósito.\n    Su diseño filosofía enfatiza la legibilidad del código y su sintaxis permite a los programadores expresar conceptos en pocas líneas de código.\n    ",
+            "normalized_text": "python es un lenguaje de programación interpretado, de alto nivel y general propósito. su diseño filosofía enfatiza la legibilidad del código y su sintaxis permite a los programadores expresar conceptos en pocas líneas de código.",
+            "num_characters": 243,
+            "num_characters_no_spaces": 195,
+            "num_words": 32,
+            "num_sentences": 2,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "python": 1,
+                "es": 1,
+                "un": 1,
+                "lenguaje": 1,
+                "de": 3,
+                "programación": 1,
+                "interpretado": 1,
+                "alto": 1,
+                "nivel": 1,
+                "general": 1,
+                "propósito": 1,
+                "su": 2,
+                "diseño": 1,
+                "filosofía": 1,
+                "enfatiza": 1,
+                "la": 1,
+                "legibilidad": 1,
+                "del": 1,
+                "código": 2,
+                "sintaxis": 1,
+                "permite": 1,
+                "los": 1,
+                "programadores": 1,
+                "expresar": 1,
+                "conceptos": 1,
+                "en": 1,
+                "pocas": 1,
+                "líneas": 1
+            },
+            "most_common_words": [
+                [
+                    "de",
+                    3
+                ],
+                [
+                    "su",
+                    2
+                ],
+                [
+                    "código",
+                    2
+                ],
+                [
+                    "python",
+                    1
+                ],
+                [
+                    "es",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "\n    Este es el primer párrafo.\n    Termina aquí.\n\n    Este es el segundo párrafo con dos oraciones.\n    Esta es la segunda oración.\n\n    Tercer párrafo: ¡Hola mundo!\n    ": {
+            "raw_text": "\n    Este es el primer párrafo.\n    Termina aquí.\n\n    Este es el segundo párrafo con dos oraciones.\n    Esta es la segunda oración.\n\n    Tercer párrafo: ¡Hola mundo!\n    ",
+            "normalized_text": "este es el primer párrafo. termina aquí. este es el segundo párrafo con dos oraciones. esta es la segunda oración. tercer párrafo: ¡hola mundo!",
+            "num_characters": 171,
+            "num_characters_no_spaces": 120,
+            "num_words": 24,
+            "num_sentences": 5,
+            "num_paragraphs": 3,
+            "word_frequencies": {
+                "este": 2,
+                "es": 3,
+                "el": 2,
+                "primer": 1,
+                "párrafo": 3,
+                "termina": 1,
+                "aquí": 1,
+                "segundo": 1,
+                "con": 1,
+                "dos": 1,
+                "oraciones": 1,
+                "esta": 1,
+                "la": 1,
+                "segunda": 1,
+                "oración": 1,
+                "tercer": 1,
+                "hola": 1,
+                "mundo": 1
+            },
+            "most_common_words": [
+                [
+                    "es",
+                    3
+                ],
+                [
+                    "párrafo",
+                    3
+                ],
+                [
+                    "este",
+                    2
+                ],
+                [
+                    "el",
+                    2
+                ],
+                [
+                    "primer",
+                    1
+                ],
+                [
+                    "termina",
+                    1
+                ],
+                [
+                    "aquí",
+                    1
+                ],
+                [
+                    "segundo",
+                    1
+                ],
+                [
+                    "con",
+                    1
+                ],
+                [
+                    "dos",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "   \n\t  ": {
+            "raw_text": "   \n\t  ",
+            "normalized_text": "",
+            "num_characters": 7,
+            "num_characters_no_spaces": 0,
+            "num_words": 0,
+            "num_sentences": 0,
+            "num_paragraphs": 0,
+            "word_frequencies": {},
+            "most_common_words": [],
+            "errors": [
+                "No se encontraron palabras válidas (todas < min_word_length)"
+            ]
+        },
+        "uno dos tres cuatro cinco": {
+            "raw_text": "uno dos tres cuatro cinco",
+            "normalized_text": "uno dos tres cuatro cinco",
+            "num_characters": 25,
+            "num_characters_no_spaces": 21,
+            "num_words": 5,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "uno": 1,
+                "dos": 1,
+                "tres": 1,
+                "cuatro": 1,
+                "cinco": 1
+            },
+            "most_common_words": [
+                [
+                    "uno",
+                    1
+                ],
+                [
+                    "dos",
+                    1
+                ],
+                [
+                    "tres",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n        ": {
+            "raw_text": "\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n        ",
+            "normalized_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+            "num_characters": 226,
+            "num_characters_no_spaces": 163,
+            "num_words": 29,
+            "num_sentences": 3,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "lorem": 1,
+                "ipsum": 1,
+                "dolor": 1,
+                "sit": 1,
+                "amet": 1,
+                "consectetur": 1,
+                "adipiscing": 1,
+                "elit": 1,
+                "sed": 1,
+                "do": 1,
+                "eiusmod": 1,
+                "tempor": 1,
+                "incididunt": 1,
+                "ut": 2,
+                "labore": 1,
+                "et": 1,
+                "dolore": 1,
+                "magna": 1,
+                "aliqua": 1,
+                "enim": 1,
+                "ad": 1,
+                "minim": 1,
+                "veniam": 1,
+                "quis": 1,
+                "nostrud": 1,
+                "exercitation": 1,
+                "ullamco": 1,
+                "laboris": 1
+            },
+            "most_common_words": [
+                [
+                    "ut",
+                    2
+                ],
+                [
+                    "lorem",
+                    1
+                ],
+                [
+                    "ipsum",
+                    1
+                ],
+                [
+                    "dolor",
+                    1
+                ],
+                [
+                    "sit",
+                    1
+                ],
+                [
+                    "amet",
+                    1
+                ],
+                [
+                    "consectetur",
+                    1
+                ],
+                [
+                    "adipiscing",
+                    1
+                ],
+                [
+                    "elit",
+                    1
+                ],
+                [
+                    "sed",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "\n        El rápido zorro marrón saltó sobre el perro perezoso.\n        ¡Qué tan rápido corrió el zorro veloz!\n        ": {
+            "raw_text": "\n        El rápido zorro marrón saltó sobre el perro perezoso.\n        ¡Qué tan rápido corrió el zorro veloz!\n        ",
+            "normalized_text": "el rápido zorro marrón saltó sobre el perro perezoso. ¡qué tan rápido corrió el zorro veloz!",
+            "num_characters": 118,
+            "num_characters_no_spaces": 77,
+            "num_words": 16,
+            "num_sentences": 2,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "el": 3,
+                "rápido": 2,
+                "zorro": 2,
+                "marrón": 1,
+                "saltó": 1,
+                "sobre": 1,
+                "perro": 1,
+                "perezoso": 1,
+                "qué": 1,
+                "tan": 1,
+                "corrió": 1,
+                "veloz": 1
+            },
+            "most_common_words": [
+                [
+                    "el",
+                    3
+                ],
+                [
+                    "rápido",
+                    2
+                ],
+                [
+                    "zorro",
+                    2
+                ],
+                [
+                    "marrón",
+                    1
+                ],
+                [
+                    "saltó",
+                    1
+                ],
+                [
+                    "sobre",
+                    1
+                ],
+                [
+                    "perro",
+                    1
+                ],
+                [
+                    "perezoso",
+                    1
+                ],
+                [
+                    "qué",
+                    1
+                ],
+                [
+                    "tan",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "a yo tu de en el la los": {
+            "raw_text": "a yo tu de en el la los",
+            "normalized_text": "a yo tu de en el la los",
+            "num_characters": 23,
+            "num_characters_no_spaces": 16,
+            "num_words": 0,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {},
+            "most_common_words": [],
+            "errors": [
+                "No se encontraron palabras válidas (todas < min_word_length)"
+            ]
+        },
+        "Hola Hola mundo Mundo": {
+            "raw_text": "Hola Hola mundo Mundo",
+            "normalized_text": "hola hola mundo mundo",
+            "num_characters": 21,
+            "num_characters_no_spaces": 18,
+            "num_words": 4,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hola": 2,
+                "mundo": 2
+            },
+            "most_common_words": [
+                [
+                    "hola",
+                    2
+                ],
+                [
+                    "mundo",
+                    2
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {}
