@@ -1,5 +1,3 @@
-# src/text_analyzer/interfaces/cli.py
-
 from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Prompt
@@ -19,7 +17,7 @@ console = Console()
 historial = []
 
 # ===============================
-# Almacena el último resultado como AnalysisResult real
+# Nuevo: ultimo_resultado ahora es AnalysisResult
 # ===============================
 ultimo_resultado: AnalysisResult | None = None
 
@@ -33,10 +31,11 @@ def mostrar_menu():
     console.print("[magenta]3) Ver historial de análisis[/magenta] 📜")
     console.print("[blue]4) Exportar resultados[/blue] 💾")
     console.print("[red]5) Salir[/red] ❌")
-    return Prompt.ask("Ingresa el número de la opción")
+    opcion = Prompt.ask("Ingresa el número de la opción")
+    return opcion
 
 # ===============================
-# ANALIZAR TEXTO
+# ANALIZAR TEXTO (AHORA DEVUELVE AnalysisResult REAL)
 # ===============================
 def analizar_texto():
     global ultimo_resultado
@@ -45,7 +44,7 @@ def analizar_texto():
     texto = Prompt.ask("\nIngresa el texto a analizar 📄")
 
     if not texto.strip():
-        logger.warning("CLI: texto ingresado vacío")
+        logger.warning("CLI: El texto ingresado está vacío")
         console.print("[red]Texto vacío. Intenta de nuevo.[/red]")
         return ""
 
@@ -53,25 +52,19 @@ def analizar_texto():
     for _ in track(range(50), description="Procesando..."):
         time.sleep(0.01)
 
-    # ===============================
-    # ANALISIS REAL
-    # ===============================
-    config = AnalysisConfig(case_sensitive=False, min_word_length=2, top_n=10)
+    config = AnalysisConfig(top_n=10)
     result = analyze_text(texto, config=config)
-    ultimo_resultado = result  # Guardamos el AnalysisResult
+    ultimo_resultado = result  # Guardamos el objeto AnalysisResult real
 
-    # ===============================
-    # Mostrar resumen con Rich
-    # ===============================
     analisis_panel = (
         f"[bold green]Total palabras:[/bold green] {result.num_words} | "
         f"[bold green]Total caracteres:[/bold green] {result.num_characters} | "
         f"[bold yellow]Palabra más frecuente:[/bold yellow] "
         f"'{result.most_common_words[0][0]}' ({result.most_common_words[0][1]} veces)" if result.most_common_words else ""
     )
+
     console.print(Panel(analisis_panel, title="✅ Estadísticas Generales", expand=False))
 
-    # Tabla de palabras más frecuentes
     table = Table(title="📊 Palabras más frecuentes", show_lines=True)
     table.add_column("Palabra", style="cyan", no_wrap=True)
     table.add_column("Frecuencia", style="magenta")
@@ -83,7 +76,6 @@ def analizar_texto():
         table.add_row(palabra, str(freq), bar)
 
     console.print(table)
-
     guardar_historial(analisis_panel)
     logger.info("CLI: análisis de texto completado")
     return texto
@@ -109,9 +101,9 @@ def analizar_palabra(texto):
         f"[bold cyan]Veces encontrada:[/bold cyan] {contador} | "
         f"[bold magenta]Posiciones:[/bold magenta] {posiciones}"
     )
+
     console.print(Panel(analisis, title="🔎 Resultado Palabra", expand=False))
 
-    # Tabla de análisis lingüístico
     table = Table(title="🧠 Análisis Lingüístico", show_lines=True)
     table.add_column("Propiedad", style="cyan")
     table.add_column("Valor", style="green")
@@ -121,25 +113,50 @@ def analizar_palabra(texto):
     table.add_row("Tiene tilde", "Sí" if linguistic["has_tilde"] else "No")
     table.add_row("Tipo de palabra", linguistic["stress_type"])
     console.print(table)
-
     guardar_historial(analisis)
     logger.info(f"CLI: análisis de palabra '{palabra}' completado")
 
 # ===============================
 # HISTORIAL
 # ===============================
-def guardar_historial(analisis):
-    historial.append(analisis)
+# ===============================
+# HISTORIAL
+# ===============================
+
+def guardar_historial(analisis: str | AnalysisResult):
+    """
+    Añade al historial un registro de análisis en formato string.
+    - Si recibe AnalysisResult, genera un resumen legible.
+    - Si recibe str, lo guarda tal cual.
+    """
+    if isinstance(analisis, AnalysisResult):
+        resumen = (
+            f"Palabras: {analisis.num_words}, "
+            f"Caracteres: {analisis.num_characters}, "
+            f"Top: {', '.join([w for w, _ in analisis.most_common_words[:5]])}"
+        )
+        historial.append(resumen)
+    else:
+        historial.append(str(analisis))
+
 
 def ver_historial():
+    """
+    Muestra en consola el historial de análisis de texto.
+    Compatible con strings y AnalysisResult (resumidos).
+    """
     logger.info("CLI: usuario consultó historial")
+
     if historial:
         console.print(Panel("[bold magenta]📜 HISTORIAL DE ANÁLISIS[/bold magenta]", expand=False))
+
         table = Table(show_header=True, header_style="bold blue")
         table.add_column("N°")
         table.add_column("Resultado")
+
         for i, h in enumerate(historial, 1):
             table.add_row(str(i), h)
+
         console.print(table)
     else:
         logger.warning("CLI: historial consultado pero está vacío")
@@ -200,3 +217,16 @@ def run_cli():
                 console.print("[red]Opción inválida.[/red]")
         except Exception as e:
             handle_error(e)
+
+# ===============================
+# GUI SUPPORT / TEST COMPATIBILITY
+# ===============================
+def format_analysis_report(result: AnalysisResult | str) -> str:
+    """
+    Función para compatibilidad con tests antiguos.
+    Si recibe AnalysisResult devuelve un resumen básico,
+    si recibe string devuelve el mismo string.
+    """
+    if isinstance(result, AnalysisResult):
+        return f"Texto: {result.raw_text}\nPalabras: {result.num_words}"
+    return str(result)

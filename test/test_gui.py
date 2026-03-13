@@ -3,6 +3,7 @@
 import pytest
 from unittest.mock import patch, MagicMock
 from pathlib import Path
+import sys
 
 from src.text_analyzer.interfaces.gui import TextAnalyzerGUI
 
@@ -118,7 +119,17 @@ def test_exportar(monkeypatch, app, tmp_path):
 # ===============================
 
 def test_salir_button(monkeypatch, app):
+    called = {}
+
     # Patch sys.exit para no cerrar realmente
-    monkeypatch.setattr("sys.exit", lambda: "exit_called")
-    result = app.protocol("WM_DELETE_WINDOW")()
-    assert result == "exit_called"
+    def fake_exit():
+        called["exit"] = True
+        return None  # Nunca retorna un string
+
+    monkeypatch.setattr(sys, "exit", fake_exit)
+
+    # Llamamos al handler de cerrar ventana
+    app.protocol("WM_DELETE_WINDOW")()
+
+    # Verificamos que se llamó
+    assert called.get("exit") is True

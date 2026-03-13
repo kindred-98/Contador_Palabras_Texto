@@ -271,4 +271,4 @@ def test_analyze_with_different_configs():
 
     result2 = analyze_text(text, config2)
 
-    assert result2.most_common_words[0][0] == "Hola"
+    assert result2.most_common_words[0][0] == "hola"

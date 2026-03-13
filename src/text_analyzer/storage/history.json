@@ -1327,6 +1327,30 @@
                 ]
             ],
             "errors": []
+        },
+        "hola Hola mundo Mundo": {
+            "raw_text": "hola Hola mundo Mundo",
+            "normalized_text": "hola hola mundo mundo",
+            "num_characters": 21,
+            "num_characters_no_spaces": 18,
+            "num_words": 4,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hola": 2,
+                "mundo": 2
+            },
+            "most_common_words": [
+                [
+                    "hola",
+                    2
+                ],
+                [
+                    "mundo",
+                    2
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
