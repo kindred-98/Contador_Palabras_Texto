@@ -1,0 +1,36 @@
+2026-03-13 08:15:13,543 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
+2026-03-13 08:15:20,476 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
+2026-03-13 08:18:21,799 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
+2026-03-13 08:23:25,878 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'

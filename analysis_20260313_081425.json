@@ -1,0 +1,15 @@
+{
+    "texto_original": "Hola mundo",
+    "num_palabras": 2,
+    "num_caracteres": 10,
+    "top_palabras": [
+        [
+            "hola",
+            1
+        ],
+        [
+            "mundo",
+            1
+        ]
+    ]
+}

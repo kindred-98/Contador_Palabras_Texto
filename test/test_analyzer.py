@@ -1,14 +1,15 @@
 # tests/test_analyzer.py
+
 import pytest
 from collections import Counter
 from pathlib import Path
 
-from text_analyzer.core.models import (
+from src.text_analyzer.core.models import (
     AnalysisConfig,
     AnalysisResult
 )
 
-from text_analyzer.core.utils import (
+from src.text_analyzer.core.utils import (
     normalize_text,
     extract_words,
     count_sentences,
@@ -16,7 +17,7 @@ from text_analyzer.core.utils import (
     count_characters
 )
 
-from text_analyzer.core.analyzer import analyze_text
+from src.text_analyzer.core.analyzer import analyze_text
 
 
 class TestUtils:
@@ -46,6 +47,14 @@ class TestUtils:
 
         assert result == ""
 
+    def test_normalize_text_unicode(self):
+        """Soporte unicode."""
+        text = "ÁÉÍÓÚ Ñ Ü"
+
+        result = normalize_text(text, AnalysisConfig())
+
+        assert "áéíóú ñ ü" in result
+
     def test_extract_words_real_text(self):
         """Extrae palabras reales, ignora puntuación básica."""
 
@@ -66,6 +75,14 @@ class TestUtils:
         config = AnalysisConfig(min_word_length=3)
 
         words = extract_words(text, config)
+
+        assert words == []
+
+    def test_extract_words_special_characters(self):
+        """Ignora símbolos."""
+        text = "!@# $%^ &*()"
+
+        words = extract_words(text, AnalysisConfig())
 
         assert words == []
 
@@ -103,6 +120,14 @@ class TestUtils:
         count = count_paragraphs(text)
 
         assert count == 3
+
+    def test_count_paragraphs_single(self):
+        """Texto simple debe contar 1 párrafo."""
+        text = "Un solo párrafo."
+
+        count = count_paragraphs(text)
+
+        assert count == 1
 
     def test_count_characters(self):
         """Cuenta caracteres totales y sin espacios."""
@@ -177,6 +202,15 @@ class TestAnalyzer:
 
         assert len(result.most_common_words) == 3
         assert result.most_common_words[0][0] == "uno"
+
+    def test_large_text_performance(self):
+        """Texto grande no debe romper el análisis."""
+
+        text = "hola mundo " * 1000
+
+        result = analyze_text(text)
+
+        assert result.num_words == 2000
 
 
 class TestRealWorldCases:

@@ -3,7 +3,9 @@ from tkinter import filedialog
 import sys
 from text_analyzer.core.analyzer import analyze_text, analyze_single_word
 from text_analyzer.interfaces.gui_formatter import format_analysis
+from text_analyzer.login.logger import setup_logger
 
+logger = setup_logger()
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -13,6 +15,8 @@ class TextAnalyzerGUI(ctk.CTk):
 
     def __init__(self):
         super().__init__()
+
+        logger.info("GUI iniciada")
 
         self.title("📊 Text Analyzer Pro")
         self.geometry("900x700")
@@ -125,19 +129,19 @@ class TextAnalyzerGUI(ctk.CTk):
 
         if not path:
             return
-
+        
         with open(path, "r", encoding="utf-8") as f:
             contenido = f.read()
-
+        
         self.text_input.delete("1.0", "end")
         self.text_input.insert("1.0", contenido)
-
+        logger.info(f"Archivo cargado: {path}")
     # =========================
     # ANALIZAR TEXTO
     # =========================
 
     def analizar_texto(self):
-
+    
         texto = self.text_input.get("1.0", "end").strip()
 
         if not texto:
@@ -157,6 +161,8 @@ class TextAnalyzerGUI(ctk.CTk):
     # =========================
 
     def analizar_palabra(self):
+        logger.info("Usuario ejecutó análisis de palabra")
+        
 
         palabra = self.text_input.get("1.0", "end").strip()
 
@@ -178,6 +184,7 @@ class TextAnalyzerGUI(ctk.CTk):
 
         self.result_box.delete("1.0", "end")
         self.result_box.insert("1.0", salida)
+        logger.warning("Intento de análisis de palabra vacío")
 
     # =========================
     # EXPORTAR
@@ -201,8 +208,11 @@ class TextAnalyzerGUI(ctk.CTk):
         with open(path, "w", encoding="utf-8") as f:
             f.write(contenido)
 
+        logger.info(f"Resultados exportados a: {path}")
 
 def run_gui():
+
+    logger.info("Aplicación iniciada")
 
     app = TextAnalyzerGUI()
 

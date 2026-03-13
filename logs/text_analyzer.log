@@ -1,0 +1,144 @@
+2026-03-13 07:06:19,736 | INFO | text_analyzer | Aplicación iniciada
+2026-03-13 07:06:20,229 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:06:34,407 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:06:34,418 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-13 07:06:50,761 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:06:50,772 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-13 07:07:14,889 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:07:14,894 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-13 07:13:50,601 | INFO | text_analyzer | Aplicación iniciada
+2026-03-13 07:13:50,602 | INFO | text_analyzer | Análisis de texto ejecutado
+2026-03-13 07:13:50,602 | ERROR | text_analyzer | Error al cargar archivo
+2026-03-13 07:19:19,484 | INFO | text_analyzer | CLI iniciado
+2026-03-13 07:19:29,211 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 07:19:30,595 | INFO | text_analyzer | Aplicación iniciada
+2026-03-13 07:19:30,688 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:22:19,814 | INFO | text_analyzer | CLI iniciado
+2026-03-13 07:22:23,125 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 07:22:51,934 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-13 07:22:55,739 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 07:22:57,939 | INFO | text_analyzer | Aplicación iniciada
+2026-03-13 07:22:58,028 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:23:05,413 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:23:05,417 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-13 07:23:07,118 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:23:07,126 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-13 07:32:02,704 | INFO | text_analyzer | CLI iniciado
+2026-03-13 07:32:04,711 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 07:32:13,113 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-13 07:32:16,422 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 07:32:34,533 | INFO | text_analyzer | Aplicación iniciada
+2026-03-13 07:32:34,626 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:32:37,603 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:58:01,335 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-13 07:58:01,346 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-13 07:58:01,356 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-13 07:58:01,368 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-13 07:58:01,376 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-13 07:58:01,383 | INFO | text_analyzer | CLI iniciado
+2026-03-13 07:58:01,386 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 07:58:01,909 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-13 07:58:01,910 | INFO | text_analyzer | CLI: análisis de palabra 'hola'
+2026-03-13 07:58:01,919 | INFO | text_analyzer | CLI: análisis de palabra 'hola' completado
+2026-03-13 07:58:01,920 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-13 07:58:01,924 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 07:58:02,391 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:58:02,856 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:58:02,989 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:58:03,020 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:58:03,021 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-13 07:58:03,116 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:58:03,146 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 07:58:03,265 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:58:03,347 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-0\test_cargar_archivo0\test.txt
+2026-03-13 07:58:03,463 | INFO | text_analyzer | GUI iniciada
+2026-03-13 07:58:03,502 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-0\test_exportar0\export.txt
+2026-03-13 07:58:03,623 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:14:25,163 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-13 08:14:25,175 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-13 08:14:25,185 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-13 08:14:25,195 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-13 08:14:25,203 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-13 08:14:25,210 | INFO | text_analyzer | CLI iniciado
+2026-03-13 08:14:25,213 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 08:14:25,737 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-13 08:14:25,738 | INFO | text_analyzer | CLI: análisis de palabra 'hola'
+2026-03-13 08:14:25,742 | INFO | text_analyzer | CLI: análisis de palabra 'hola' completado
+2026-03-13 08:14:25,743 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-13 08:14:25,746 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 08:14:26,004 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:14:26,442 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:14:26,685 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:14:26,714 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 08:14:26,813 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:14:26,847 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-1\test_cargar_archivo0\test.txt
+2026-03-13 08:14:26,949 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:14:26,984 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-1\test_exportar0\export.txt
+2026-03-13 08:14:27,114 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:15:07,627 | INFO | text_analyzer | CLI iniciado
+2026-03-13 08:15:09,219 | WARNING | text_analyzer | CLI: intento de analizar palabra sin texto previo
+2026-03-13 08:15:10,611 | WARNING | text_analyzer | CLI: intento de analizar palabra sin texto previo
+2026-03-13 08:15:11,371 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 08:15:13,543 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
+2026-03-13 08:15:17,066 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 08:15:20,476 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
+2026-03-13 08:15:46,697 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 08:15:48,105 | INFO | text_analyzer | Aplicación iniciada
+2026-03-13 08:15:48,190 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:15:55,370 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 08:15:55,371 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-13 08:18:13,616 | INFO | text_analyzer | CLI iniciado
+2026-03-13 08:18:19,487 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 08:18:21,799 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
+2026-03-13 08:23:10,886 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 08:23:17,229 | INFO | text_analyzer | CLI iniciado
+2026-03-13 08:23:23,125 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 08:23:25,878 | ERROR | text_analyzer | Error detectado: normalize_text() got an unexpected keyword argument 'case_sensitive'
+Traceback (most recent call last):
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 186, in run_cli
+    texto = analizar_texto()
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\interfaces\cli.py", line 59, in analizar_texto
+    result = analyze_text(texto, config=config)
+  File "c:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\text_analyzer\core\analyzer.py", line 72, in analyze_text
+    normalized_text = normalize_text(text, case_sensitive=getattr(config, "case_sensitive", False))
+TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
+2026-03-13 08:26:44,601 | INFO | text_analyzer | CLI iniciado
+2026-03-13 08:27:01,224 | WARNING | text_analyzer | CLI: intento de analizar palabra sin texto previo
+2026-03-13 08:27:03,248 | WARNING | text_analyzer | CLI: intento de analizar palabra sin texto previo
+2026-03-13 08:29:33,055 | WARNING | text_analyzer | CLI: intento de analizar palabra sin texto previo
+2026-03-13 08:31:27,953 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 08:31:41,432 | INFO | text_analyzer | CLI iniciado
+2026-03-13 08:31:44,248 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-13 08:31:46,983 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-13 08:31:57,015 | INFO | text_analyzer | CLI: análisis de palabra 'que tal hombre'
+2026-03-13 08:31:57,032 | INFO | text_analyzer | CLI: análisis de palabra 'que tal hombre' completado
+2026-03-13 08:32:00,959 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-13 08:32:05,647 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-13 08:32:07,287 | INFO | text_analyzer | Aplicación iniciada
+2026-03-13 08:32:07,380 | INFO | text_analyzer | GUI iniciada
+2026-03-13 08:32:15,662 | INFO | text_analyzer | Usuario ejecutó análisis de palabra
+2026-03-13 08:32:15,676 | WARNING | text_analyzer | Intento de análisis de palabra vacío

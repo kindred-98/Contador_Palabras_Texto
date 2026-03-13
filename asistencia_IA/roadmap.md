@@ -1,5 +1,6 @@
-# 🗺 Roadmap Profesional – Text Analyzer
+<!-- markdownlint-disable MD032 -->
 
+# 🗺 Roadmap Profesional – Text Analyzer
 
 ## Fase 0 – Base (ya implementada)
 ✅ Objetivo: Tener un proyecto funcional y testeado.
@@ -12,7 +13,6 @@
 
 Resultado esperado: todos los tests pasan, CLI mínimo funcional, código limpio.
 
-
 ## Fase 1 – Mejoras en CLI y experiencia usuario
 🎯 Objetivo: Hacer la app más legible y profesional en la terminal.
 
@@ -24,7 +24,6 @@ Resultado esperado: todos los tests pasan, CLI mínimo funcional, código limpio
 4) Exportar resultados
 5) Salir
 ´´´
-
 2. guiada para analizar palabras individuales.
 3. Usar librería de terminal para mejorar presentación:
 - Rich (Python library) – tablas, colores
@@ -35,7 +34,6 @@ Resultado esperado: todos los tests pasan, CLI mínimo funcional, código limpio
 - Distinción visual entre datos principales y secundarios
 
 Resultado esperado: CLI limpio, comprensible, atractivo visualmente.
-
 
 ## Fase 2 – Historial y persistencia
 🎯 Objetivo: Evitar recalcular palabras o textos ya analizados.
@@ -86,10 +84,11 @@ Resultado esperado: GUI funcional y coherente con la CLI, reutilizando lógica d
 
 
 ## Fase 6 – Optimización y escalabilidad
+
 🎯 Objetivo: Proyectos grandes requieren código eficiente y mantenible.
 
 1. Añadir logging profesional (logging module)
-2. Manejar errores y excepciones con mensajes claros   
+2. Manejar errores y excepciones con mensajes claros
 3. Mejorar tests:
 - Cobertura de tests ≥ 95% (pytest-cov)
 - Tests de CLI y GUI
@@ -100,7 +99,6 @@ Resultado esperado: GUI funcional y coherente con la CLI, reutilizando lógica d
 - sistencia_ia/ actualizado con decisiones y prompts
 
 Resultado esperado: proyecto estable, testeable, profesional y listo para portfolio.
-
 
 ## Fase 7 – Extras opcionales (destacan en GitHub)
 

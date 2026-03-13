@@ -1,53 +1,17 @@
-# src/text_analyzer/core/analyzer.py
-
-"""
-Motor principal del análisis de texto. Orquesta utils para devolver AnalysisResult.
-No conoce de archivos, CLI, GUI - solo texto puro -> resultados.
-"""
-
 from collections import Counter
-from typing import List, Tuple
 from text_analyzer.core.linguistic import analyze_word_linguistics
-
 from .models import AnalysisResult, AnalysisConfig
-from .utils import (
-    normalize_text,
-    extract_words,
-    count_sentences,
-    count_paragraphs,
-    count_characters
-)
-
-from text_analyzer.storage.history_manager import (
-    get_text_analysis,
-    save_text_analysis,
-    get_word_analysis,
-    save_word_analysis
-)
+from .utils import normalize_text, extract_words, count_sentences, count_paragraphs, count_characters
+from text_analyzer.storage.history_manager import get_text_analysis, save_text_analysis, get_word_analysis, save_word_analysis
 
 def analyze_text(text: str, config: AnalysisConfig | None = None) -> AnalysisResult:
-    """
-    Función principal: texto -> AnalysisResult completo.
-    
-    1. Validar texto no vacío
-    2. Revisar si el análisis existe en historial
-    3. Normalizar texto
-    4. Calcular métricas
-    5. Guardar resultado en historial
-    """
-
     if config is None:
         config = AnalysisConfig()
 
-    raw_text = text
-    if not raw_text:
+    if not text:
         raise ValueError("No se puede analizar texto vacío")
 
-    # ===============================
-    # FASE 2 — CONSULTAR HISTORIAL
-    # ===============================
-    cached = get_text_analysis(raw_text)
-
+    cached = get_text_analysis(text)
     if cached:
         return AnalysisResult(
             raw_text=cached["raw_text"],
@@ -63,12 +27,7 @@ def analyze_text(text: str, config: AnalysisConfig | None = None) -> AnalysisRes
             errors=cached["errors"],
         )
 
-    # ===============================
-    # ANALISIS NORMAL
-    # ===============================
-
     normalized_text = normalize_text(text, config)
-
     total_chars, chars_no_spaces = count_characters(text)
     words = extract_words(normalized_text, config)
 
@@ -96,11 +55,7 @@ def analyze_text(text: str, config: AnalysisConfig | None = None) -> AnalysisRes
         errors=errors
     )
 
-    # ===============================
-    # GUARDAR EN HISTORIAL
-    # ===============================
-
-    serializable_result = {
+    save_text_analysis(text, {
         "raw_text": result.raw_text,
         "normalized_text": result.normalized_text,
         "num_characters": result.num_characters,
@@ -111,44 +66,19 @@ def analyze_text(text: str, config: AnalysisConfig | None = None) -> AnalysisRes
         "word_frequencies": dict(result.word_frequencies),
         "most_common_words": result.most_common_words,
         "errors": result.errors
-    }
-
-    save_text_analysis(raw_text, serializable_result)
+    })
 
     return result
 
-
-def get_top_words_analysis(result: AnalysisResult, n: int = 5) -> List[Tuple[str, int]]:
-    """
-    Extrae las N palabras más frecuentes del resultado.
-    
-    Convenience function para mostrar resúmenes rápidos.
-    """
-    return result.word_frequencies.most_common(n)
-
 def analyze_single_word(word: str):
-    """
-    Analiza una palabra con información lingüística.
-    """
-
     if not word:
         raise ValueError("La palabra no puede estar vacía")
 
-    # ===============================
-    # CONSULTAR HISTORIAL
-    # ===============================
-
     cached = get_word_analysis(word)
-
     if cached:
         return cached
 
-    # ===============================
-    # ANALISIS LINGÜÍSTICO
-    # ===============================
-
     linguistic = analyze_word_linguistics(word)
-
     result = {
         "word": linguistic.word,
         "syllables": linguistic.syllables,
@@ -157,10 +87,5 @@ def analyze_single_word(word: str):
         "stress_type": linguistic.stress_type
     }
 
-    # ===============================
-    # GUARDAR EN HISTORIAL
-    # ===============================
-
     save_word_analysis(word, result)
-
     return result

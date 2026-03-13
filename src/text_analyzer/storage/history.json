@@ -1051,6 +1051,282 @@
                 ]
             ],
             "errors": []
+        },
+        "que tal gente eh dormido 3 horas": {
+            "raw_text": "que tal gente eh dormido 3 horas",
+            "normalized_text": "que tal gente eh dormido 3 horas",
+            "num_characters": 32,
+            "num_characters_no_spaces": 26,
+            "num_words": 6,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "que": 1,
+                "tal": 1,
+                "gente": 1,
+                "eh": 1,
+                "dormido": 1,
+                "horas": 1
+            },
+            "most_common_words": [
+                [
+                    "que",
+                    1
+                ],
+                [
+                    "tal",
+                    1
+                ],
+                [
+                    "gente",
+                    1
+                ],
+                [
+                    "eh",
+                    1
+                ],
+                [
+                    "dormido",
+                    1
+                ],
+                [
+                    "horas",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "que tal gente eh dormido 3 horas claro que si": {
+            "raw_text": "que tal gente eh dormido 3 horas claro que si",
+            "normalized_text": "que tal gente eh dormido 3 horas claro que si",
+            "num_characters": 45,
+            "num_characters_no_spaces": 36,
+            "num_words": 9,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "que": 2,
+                "tal": 1,
+                "gente": 1,
+                "eh": 1,
+                "dormido": 1,
+                "horas": 1,
+                "claro": 1,
+                "si": 1
+            },
+            "most_common_words": [
+                [
+                    "que",
+                    2
+                ],
+                [
+                    "tal",
+                    1
+                ],
+                [
+                    "gente",
+                    1
+                ],
+                [
+                    "eh",
+                    1
+                ],
+                [
+                    "dormido",
+                    1
+                ],
+                [
+                    "horas",
+                    1
+                ],
+                [
+                    "claro",
+                    1
+                ],
+                [
+                    "si",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "ok": {
+            "raw_text": "ok",
+            "normalized_text": "ok",
+            "num_characters": 2,
+            "num_characters_no_spaces": 2,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "ok": 1
+            },
+            "most_common_words": [
+                [
+                    "ok",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo ": {
+            "raw_text": "hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo ",
+            "normalized_text": "hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo hola mundo",
+            "num_characters": 11000,
+            "num_characters_no_spaces": 9000,
+            "num_words": 2000,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hola": 1000,
+                "mundo": 1000
+            },
+            "most_common_words": [
+                [
+                    "hola",
+                    1000
+                ],
+                [
+                    "mundo",
+                    1000
+                ]
+            ],
+            "errors": []
+        },
+        "Hola mundo": {
+            "raw_text": "Hola mundo",
+            "normalized_text": "hola mundo",
+            "num_characters": 10,
+            "num_characters_no_spaces": 9,
+            "num_words": 2,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hola": 1,
+                "mundo": 1
+            },
+            "most_common_words": [
+                [
+                    "hola",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "hola que tal": {
+            "raw_text": "hola que tal",
+            "normalized_text": "hola que tal",
+            "num_characters": 12,
+            "num_characters_no_spaces": 10,
+            "num_words": 3,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hola": 1,
+                "que": 1,
+                "tal": 1
+            },
+            "most_common_words": [
+                [
+                    "hola",
+                    1
+                ],
+                [
+                    "que",
+                    1
+                ],
+                [
+                    "tal",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "buenas": {
+            "raw_text": "buenas",
+            "normalized_text": "buenas",
+            "num_characters": 6,
+            "num_characters_no_spaces": 6,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "buenas": 1
+            },
+            "most_common_words": [
+                [
+                    "buenas",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "sss": {
+            "raw_text": "sss",
+            "normalized_text": "sss",
+            "num_characters": 3,
+            "num_characters_no_spaces": 3,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "sss": 1
+            },
+            "most_common_words": [
+                [
+                    "sss",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "hola": {
+            "raw_text": "hola",
+            "normalized_text": "hola",
+            "num_characters": 4,
+            "num_characters_no_spaces": 4,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hola": 1
+            },
+            "most_common_words": [
+                [
+                    "hola",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "hola gente bella": {
+            "raw_text": "hola gente bella",
+            "normalized_text": "hola gente bella",
+            "num_characters": 16,
+            "num_characters_no_spaces": 14,
+            "num_words": 3,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hola": 1,
+                "gente": 1,
+                "bella": 1
+            },
+            "most_common_words": [
+                [
+                    "hola",
+                    1
+                ],
+                [
+                    "gente",
+                    1
+                ],
+                [
+                    "bella",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
@@ -1252,6 +1528,109 @@
                 "di"
             ],
             "syllable_count": 3,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "fea": {
+            "word": "fea",
+            "syllables": [
+                "fea"
+            ],
+            "syllable_count": 1,
+            "has_tilde": false,
+            "stress_type": "monosílaba"
+        },
+        "que tal gente eh dormido 3 horas": {
+            "word": "que tal gente eh dormido 3 horas",
+            "syllables": [
+                "que",
+                " ta",
+                "l ge",
+                "nte",
+                " e",
+                "h do",
+                "rmi",
+                "do",
+                " 3 ho",
+                "ra"
+            ],
+            "syllable_count": 10,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "que tal gente eh dormido 3 horas claro que si": {
+            "word": "que tal gente eh dormido 3 horas claro que si",
+            "syllables": [
+                "que",
+                " ta",
+                "l ge",
+                "nte",
+                " e",
+                "h do",
+                "rmi",
+                "do",
+                " 3 ho",
+                "ra",
+                "s cla",
+                "ro",
+                " que",
+                " si"
+            ],
+            "syllable_count": 14,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "que": {
+            "word": "que",
+            "syllables": [
+                "que"
+            ],
+            "syllable_count": 1,
+            "has_tilde": false,
+            "stress_type": "monosílaba"
+        },
+        "ok": {
+            "word": "ok",
+            "syllables": [
+                "o"
+            ],
+            "syllable_count": 1,
+            "has_tilde": false,
+            "stress_type": "monosílaba"
+        },
+        "hola": {
+            "word": "hola",
+            "syllables": [
+                "ho",
+                "la"
+            ],
+            "syllable_count": 2,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "que tal hombre": {
+            "word": "que tal hombre",
+            "syllables": [
+                "que",
+                " ta",
+                "l ho",
+                "mbre"
+            ],
+            "syllable_count": 4,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "hola gente bella": {
+            "word": "hola gente bella",
+            "syllables": [
+                "ho",
+                "la",
+                " ge",
+                "nte",
+                " be",
+                "lla"
+            ],
+            "syllable_count": 6,
             "has_tilde": false,
             "stress_type": "grave"
         }
