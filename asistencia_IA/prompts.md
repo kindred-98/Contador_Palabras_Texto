@@ -100,4 +100,8 @@ Fase 3 – Análisis lingüístico de palabras
 - Quiero que el script nuevo este fuera de analyzer, para no mezclar codigo.
 
 # FASE 4
-Use el mismo prompt de la fase.
+Use el mismo prompt de la fase. solo le dije implementame esto. y pegue el la fase entera.
+
+# LA FASE 5 LA VOY A DOCUMENTAR DIFERENTE SOLO POR HACER TODO TIPO DE PRACTICAR CON LA IA.
+
+![alt text](<ChatGPT Image 13 mar 2026, 01_34_00.png>)

@@ -691,3 +691,7 @@ Incluye:
 8. Formatos de exportación implementados
 9. Ejemplos de salida CSV y JSON
 10. Impacto de la mejora en el proyecto
+
+# FASE 5
+
+La comento bajo imagen solo por practica.

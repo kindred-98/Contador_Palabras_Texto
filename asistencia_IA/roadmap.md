@@ -137,3 +137,4 @@ Resultado esperado: proyecto estable, testeable, profesional y listo para portfo
 ![alt text](<Captura de pantalla 2026-03-12 105825.png>)
 ![alt text](<Captura de pantalla 2026-03-12 105852.png>)
 ![alt text](<Captura de pantalla 2026-03-12 110446.png>)
+![alt text](image.png)

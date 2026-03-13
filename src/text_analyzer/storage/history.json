@@ -652,6 +652,405 @@
                 ]
             ],
             "errors": []
+        },
+        "angel": {
+            "raw_text": "angel",
+            "normalized_text": "angel",
+            "num_characters": 5,
+            "num_characters_no_spaces": 5,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "angel": 1
+            },
+            "most_common_words": [
+                [
+                    "angel",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "angel david": {
+            "raw_text": "angel david",
+            "normalized_text": "angel david",
+            "num_characters": 11,
+            "num_characters_no_spaces": 10,
+            "num_words": 2,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "angel": 1,
+                "david": 1
+            },
+            "most_common_words": [
+                [
+                    "angel",
+                    1
+                ],
+                [
+                    "david",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "coño de la madre lo hice jajaja": {
+            "raw_text": "coño de la madre lo hice jajaja",
+            "normalized_text": "coño de la madre lo hice jajaja",
+            "num_characters": 31,
+            "num_characters_no_spaces": 25,
+            "num_words": 7,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "coño": 1,
+                "de": 1,
+                "la": 1,
+                "madre": 1,
+                "lo": 1,
+                "hice": 1,
+                "jajaja": 1
+            },
+            "most_common_words": [
+                [
+                    "coño",
+                    1
+                ],
+                [
+                    "de",
+                    1
+                ],
+                [
+                    "la",
+                    1
+                ],
+                [
+                    "madre",
+                    1
+                ],
+                [
+                    "lo",
+                    1
+                ],
+                [
+                    "hice",
+                    1
+                ],
+                [
+                    "jajaja",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "soy un crack vale\nç": {
+            "raw_text": "soy un crack vale\nç",
+            "normalized_text": "soy un crack vale ç",
+            "num_characters": 19,
+            "num_characters_no_spaces": 15,
+            "num_words": 4,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "soy": 1,
+                "un": 1,
+                "crack": 1,
+                "vale": 1
+            },
+            "most_common_words": [
+                [
+                    "soy",
+                    1
+                ],
+                [
+                    "un",
+                    1
+                ],
+                [
+                    "crack",
+                    1
+                ],
+                [
+                    "vale",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "vamos por buen camino": {
+            "raw_text": "vamos por buen camino",
+            "normalized_text": "vamos por buen camino",
+            "num_characters": 21,
+            "num_characters_no_spaces": 18,
+            "num_words": 4,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "vamos": 1,
+                "por": 1,
+                "buen": 1,
+                "camino": 1
+            },
+            "most_common_words": [
+                [
+                    "vamos",
+                    1
+                ],
+                [
+                    "por",
+                    1
+                ],
+                [
+                    "buen",
+                    1
+                ],
+                [
+                    "camino",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "programacion": {
+            "raw_text": "programacion",
+            "normalized_text": "programacion",
+            "num_characters": 12,
+            "num_characters_no_spaces": 12,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "programacion": 1
+            },
+            "most_common_words": [
+                [
+                    "programacion",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "progrmacion": {
+            "raw_text": "progrmacion",
+            "normalized_text": "progrmacion",
+            "num_characters": 11,
+            "num_characters_no_spaces": 11,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "progrmacion": 1
+            },
+            "most_common_words": [
+                [
+                    "progrmacion",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "📊 ANÁLISIS DE TEXTO - 12 caracteres\n============================================================\n📈 CARACTERES: 12 (sin espacios: 10)\n📝 PALABRAS: 2\n📜 ORACIONES: 1\n📑 PÁRRAFOS: 1\n\n🏆 TOP 2 PALABRAS MÁS FRECUENTES:\n----------------------------------------\n   1. angel           →   1 veces\n   2. david           →   1 veces": {
+            "raw_text": "📊 ANÁLISIS DE TEXTO - 12 caracteres\n============================================================\n📈 CARACTERES: 12 (sin espacios: 10)\n📝 PALABRAS: 2\n📜 ORACIONES: 1\n📑 PÁRRAFOS: 1\n\n🏆 TOP 2 PALABRAS MÁS FRECUENTES:\n----------------------------------------\n   1. angel           →   1 veces\n   2. david           →   1 veces",
+            "normalized_text": "📊 análisis de texto - 12 caracteres ============================================================ 📈 caracteres: 12 (sin espacios: 10) 📝 palabras: 2 📜 oraciones: 1 📑 párrafos: 1 🏆 top 2 palabras más frecuentes: ---------------------------------------- 1. angel → 1 veces 2. david → 1 veces",
+            "num_characters": 318,
+            "num_characters_no_spaces": 248,
+            "num_words": 18,
+            "num_sentences": 3,
+            "num_paragraphs": 2,
+            "word_frequencies": {
+                "análisis": 1,
+                "de": 1,
+                "texto": 1,
+                "caracteres": 2,
+                "sin": 1,
+                "espacios": 1,
+                "palabras": 2,
+                "oraciones": 1,
+                "párrafos": 1,
+                "top": 1,
+                "más": 1,
+                "frecuentes": 1,
+                "angel": 1,
+                "veces": 2,
+                "david": 1
+            },
+            "most_common_words": [
+                [
+                    "caracteres",
+                    2
+                ],
+                [
+                    "palabras",
+                    2
+                ],
+                [
+                    "veces",
+                    2
+                ],
+                [
+                    "análisis",
+                    1
+                ],
+                [
+                    "de",
+                    1
+                ],
+                [
+                    "texto",
+                    1
+                ],
+                [
+                    "sin",
+                    1
+                ],
+                [
+                    "espacios",
+                    1
+                ],
+                [
+                    "oraciones",
+                    1
+                ],
+                [
+                    "párrafos",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "agregando boton de salir y self.destroy": {
+            "raw_text": "agregando boton de salir y self.destroy",
+            "normalized_text": "agregando boton de salir y self.destroy",
+            "num_characters": 39,
+            "num_characters_no_spaces": 34,
+            "num_words": 6,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "agregando": 1,
+                "boton": 1,
+                "de": 1,
+                "salir": 1,
+                "self": 1,
+                "destroy": 1
+            },
+            "most_common_words": [
+                [
+                    "agregando",
+                    1
+                ],
+                [
+                    "boton",
+                    1
+                ],
+                [
+                    "de",
+                    1
+                ],
+                [
+                    "salir",
+                    1
+                ],
+                [
+                    "self",
+                    1
+                ],
+                [
+                    "destroy",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "veamos si con los cambios hemos arreglado el problema de destrucion al salir del gui": {
+            "raw_text": "veamos si con los cambios hemos arreglado el problema de destrucion al salir del gui",
+            "normalized_text": "veamos si con los cambios hemos arreglado el problema de destrucion al salir del gui",
+            "num_characters": 84,
+            "num_characters_no_spaces": 70,
+            "num_words": 15,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "veamos": 1,
+                "si": 1,
+                "con": 1,
+                "los": 1,
+                "cambios": 1,
+                "hemos": 1,
+                "arreglado": 1,
+                "el": 1,
+                "problema": 1,
+                "de": 1,
+                "destrucion": 1,
+                "al": 1,
+                "salir": 1,
+                "del": 1,
+                "gui": 1
+            },
+            "most_common_words": [
+                [
+                    "veamos",
+                    1
+                ],
+                [
+                    "si",
+                    1
+                ],
+                [
+                    "con",
+                    1
+                ],
+                [
+                    "los",
+                    1
+                ],
+                [
+                    "cambios",
+                    1
+                ],
+                [
+                    "hemos",
+                    1
+                ],
+                [
+                    "arreglado",
+                    1
+                ],
+                [
+                    "el",
+                    1
+                ],
+                [
+                    "problema",
+                    1
+                ],
+                [
+                    "de",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "kassadin": {
+            "raw_text": "kassadin",
+            "normalized_text": "kassadin",
+            "num_characters": 8,
+            "num_characters_no_spaces": 8,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "kassadin": 1
+            },
+            "most_common_words": [
+                [
+                    "kassadin",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
@@ -710,6 +1109,149 @@
                 "ca"
             ],
             "syllable_count": 4,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "progrmacion": {
+            "word": "progrmacion",
+            "syllables": [
+                "pro",
+                "grma",
+                "cio"
+            ],
+            "syllable_count": 3,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "📊 ANÁLISIS DE TEXTO - 12 caracteres\n============================================================\n📈 CARACTERES: 12 (sin espacios: 10)\n📝 PALABRAS: 2\n📜 ORACIONES: 1\n📑 PÁRRAFOS: 1\n\n🏆 TOP 2 PALABRAS MÁS FRECUENTES:\n----------------------------------------\n   1. angel           →   1 veces\n   2. david           →   1 veces": {
+            "word": "📊 ANÁLISIS DE TEXTO - 12 caracteres\n============================================================\n📈 CARACTERES: 12 (sin espacios: 10)\n📝 PALABRAS: 2\n📜 ORACIONES: 1\n📑 PÁRRAFOS: 1\n\n🏆 TOP 2 PALABRAS MÁS FRECUENTES:\n----------------------------------------\n   1. angel           →   1 veces\n   2. david           →   1 veces",
+            "syllables": [
+                "📊 a",
+                "ná",
+                "li",
+                "si",
+                "s de",
+                " te",
+                "xto",
+                " - 12 ca",
+                "ra",
+                "cte",
+                "re",
+                "s\n============================================================\n📈 ca",
+                "ra",
+                "cte",
+                "re",
+                "s: 12 (si",
+                "n e",
+                "spa",
+                "cio",
+                "s: 10)\n📝 pa",
+                "la",
+                "bra",
+                "s: 2\n📜 o",
+                "ra",
+                "cio",
+                "ne",
+                "s: 1\n📑 pá",
+                "rra",
+                "fo",
+                "s: 1\n\n🏆 to",
+                "p 2 pa",
+                "la",
+                "bra",
+                "s má",
+                "s fre",
+                "cue",
+                "nte",
+                "s:\n----------------------------------------\n   1. a",
+                "nge",
+                "l           →   1 ve",
+                "ce",
+                "s\n   2. da",
+                "vi",
+                "d           →   1 ve",
+                "ce"
+            ],
+            "syllable_count": 45,
+            "has_tilde": true,
+            "stress_type": "sobresdrújula"
+        },
+        "agregando boton de salir y self.destroy": {
+            "word": "agregando boton de salir y self.destroy",
+            "syllables": [
+                "a",
+                "gre",
+                "ga",
+                "ndo",
+                " bo",
+                "to",
+                "n de",
+                " sa",
+                "li",
+                "r y se",
+                "lf.de",
+                "stro"
+            ],
+            "syllable_count": 12,
+            "has_tilde": false,
+            "stress_type": "aguda"
+        },
+        "lala esta loca": {
+            "word": "lala esta loca",
+            "syllables": [
+                "la",
+                "la",
+                " e",
+                "sta",
+                " lo",
+                "ca"
+            ],
+            "syllable_count": 6,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "veamos si con los cambios hemos arreglado el problema de destrucion al salir del gui": {
+            "word": "veamos si con los cambios hemos arreglado el problema de destrucion al salir del gui",
+            "syllables": [
+                "vea",
+                "mo",
+                "s si",
+                " co",
+                "n lo",
+                "s ca",
+                "mbio",
+                "s he",
+                "mo",
+                "s a",
+                "rre",
+                "gla",
+                "do",
+                " e",
+                "l pro",
+                "ble",
+                "ma",
+                " de",
+                " de",
+                "stru",
+                "cio",
+                "n a",
+                "l sa",
+                "li",
+                "r de",
+                "l gui"
+            ],
+            "syllable_count": 26,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "kassadin": {
+            "word": "kassadin",
+            "syllables": [
+                "ka",
+                "ssa",
+                "di"
+            ],
+            "syllable_count": 3,
             "has_tilde": false,
             "stress_type": "grave"
         }

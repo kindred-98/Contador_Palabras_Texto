@@ -1,85 +1,210 @@
-# src/text_analyzer/interfaces/gui.py
-import tkinter as tk
-from tkinter import ttk, scrolledtext, filedialog, messagebox
-from text_analyzer.core.analyzer import analyze_text
-from text_analyzer.core.models import AnalysisConfig
-from text_analyzer.io.file_loader import read_text_file, write_text_file
-from text_analyzer.interfaces.cli import guardar_historial, format_analysis_report
+import customtkinter as ctk
+from tkinter import filedialog
+import sys
+from text_analyzer.core.analyzer import analyze_text, analyze_single_word
+from text_analyzer.interfaces.gui_formatter import format_analysis
 
-class TextAnalyzerGUI:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("🚀 Analizador de Texto Profesional")
-        self.root.geometry("900x700")
-        self.config = AnalysisConfig()
-        self.setup_ui()
 
-    def setup_ui(self):
-        frame = ttk.Frame(self.root, padding="10")
-        frame.grid(row=0, column=0, sticky=(tk.W,tk.E,tk.N,tk.S))
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 
-        ttk.Label(frame,text="📝 Texto a analizar:", font=("Arial",12,"bold")).grid(row=0,column=0,sticky=tk.W,pady=5)
-        self.text_input = scrolledtext.ScrolledText(frame,height=10,width=80)
-        self.text_input.grid(row=1,column=0,columnspan=3,sticky=(tk.W,tk.E),pady=5)
 
-        ttk.Button(frame,text="📁 Cargar archivo",command=self.load_file).grid(row=2,column=0,padx=5,pady=5)
-        ttk.Button(frame,text="🔍 ANALIZAR",command=self.analyze_text,style="Accent.TButton").grid(row=2,column=1,padx=5,pady=5)
-        ttk.Button(frame,text="💾 Guardar informe",command=self.save_report).grid(row=2,column=2,padx=5,pady=5)
+class TextAnalyzerGUI(ctk.CTk):
 
-        ttk.Label(frame,text="📊 RESULTADOS:", font=("Arial",12,"bold")).grid(row=3,column=0,sticky=tk.W,pady=(20,5))
-        self.results_text = scrolledtext.ScrolledText(frame,height=15,width=80,state=tk.DISABLED)
-        self.results_text.grid(row=4,column=0,columnspan=3,sticky=(tk.W,tk.E,tk.N,tk.S),pady=5)
+    def __init__(self):
+        super().__init__()
 
-        ttk.Label(frame,text="Top palabras:").grid(row=5,column=0,sticky=tk.W)
-        self.top_n_var = tk.StringVar(value="10")
-        ttk.Entry(frame,textvariable=self.top_n_var,width=5).grid(row=5,column=1,sticky=tk.W)
+        self.title("📊 Text Analyzer Pro")
+        self.geometry("900x700")
 
-    def load_file(self):
-        file_path = filedialog.askopenfilename(title="Seleccionar archivo .txt",
-                                               filetypes=[("Archivos TXT","*.txt"),("Todos","*.*")])
-        if file_path:
-            try:
-                content = read_text_file(file_path)
-                self.text_input.delete(1.0,tk.END)
-                self.text_input.insert(1.0,content)
-            except Exception as e:
-                messagebox.showerror("Error",f"No se pudo cargar el archivo:\n{str(e)}")
+        # cerrar correctamente al pulsar la X
+        import sys
+        self.protocol("WM_DELETE_WINDOW", lambda: sys.exit())
 
-    def analyze_text(self):
-        text = self.text_input.get(1.0,tk.END).strip()
-        if not text:
-            messagebox.showwarning("Advertencia","Por favor, ingrese texto o cargue un archivo.")
+        self.resultado_actual = None
+
+        self.create_layout()
+
+    
+    def create_layout(self):
+
+        # =========================
+        # TITULO
+        # =========================
+
+        title = ctk.CTkLabel(
+            self,
+            text="📊 ANALIZADOR DE TEXTO PROFESIONAL",
+            font=("Arial", 22, "bold")
+        )
+        title.pack(pady=15)
+
+        # =========================
+        # PANEL TEXTO
+        # =========================
+
+        frame_texto = ctk.CTkFrame(self)
+        frame_texto.pack(fill="both", padx=20, pady=10)
+
+        label_texto = ctk.CTkLabel(frame_texto, text="Texto o palabra a analizar")
+        label_texto.pack(anchor="w", padx=10, pady=5)
+
+        self.text_input = ctk.CTkTextbox(frame_texto, height=150)
+        self.text_input.pack(fill="both", padx=10, pady=10)
+
+        # =========================
+        # BOTONES
+        # =========================
+
+        frame_botones = ctk.CTkFrame(self)
+        frame_botones.pack(pady=10)
+
+        btn_cargar = ctk.CTkButton(
+            frame_botones,
+            text="📂 Cargar archivo",
+            command=self.cargar_archivo
+        )
+        btn_cargar.grid(row=0, column=0, padx=10)
+
+        btn_analizar = ctk.CTkButton(
+            frame_botones,
+            text="🔎 Analizar texto",
+            command=self.analizar_texto
+        )
+        btn_analizar.grid(row=0, column=1, padx=10)
+
+        btn_palabra = ctk.CTkButton(
+            frame_botones,
+            text="🧠 Analizar palabra",
+            command=self.analizar_palabra
+        )
+        btn_palabra.grid(row=0, column=2, padx=10)
+
+        btn_exportar = ctk.CTkButton(
+            frame_botones,
+            text="💾 Exportar",
+            command=self.exportar
+        )
+        btn_exportar.grid(row=0, column=3, padx=10)
+
+        btn_salir = ctk.CTkButton(
+            frame_botones,
+            text="❌ Salir",
+            fg_color="red",
+         hover_color="#8B0000",
+            command=lambda: sys.exit()
+        )
+        btn_salir.grid(row=0, column=4, padx=10)
+        
+        # =========================
+        # RESULTADOS
+        # =========================
+
+        frame_resultados = ctk.CTkFrame(self)
+        frame_resultados.pack(fill="both", expand=True, padx=20, pady=10)
+
+        label_result = ctk.CTkLabel(
+            frame_resultados,
+            text="📈 Resultados del análisis",
+            font=("Arial", 16, "bold")
+        )
+        label_result.pack(anchor="w", padx=10, pady=5)
+
+        self.result_box = ctk.CTkTextbox(frame_resultados)
+        self.result_box.pack(fill="both", expand=True, padx=10, pady=10)
+
+    # =========================
+    # CARGAR ARCHIVO
+    # =========================
+
+    def cargar_archivo(self):
+
+        path = filedialog.askopenfilename(
+            filetypes=[("Text files", "*.txt")]
+        )
+
+        if not path:
             return
-        try:
-            top_n = int(self.top_n_var.get() or 10)
-            config = AnalysisConfig(top_n=top_n)
-            result = analyze_text(text,config)
-            report = format_analysis_report(result)
 
-            self.results_text.config(state=tk.NORMAL)
-            self.results_text.delete(1.0,tk.END)
-            self.results_text.insert(1.0,report)
-            self.results_text.config(state=tk.DISABLED)
+        with open(path, "r", encoding="utf-8") as f:
+            contenido = f.read()
 
-            guardar_historial(report)
-        except Exception as e:
-            messagebox.showerror("Error",str(e))
+        self.text_input.delete("1.0", "end")
+        self.text_input.insert("1.0", contenido)
 
-    def save_report(self):
-        content = self.results_text.get(1.0,tk.END).strip()
-        if not content:
-            messagebox.showwarning("Advertencia","No hay resultados para guardar.")
+    # =========================
+    # ANALIZAR TEXTO
+    # =========================
+
+    def analizar_texto(self):
+
+        texto = self.text_input.get("1.0", "end").strip()
+
+        if not texto:
             return
-        file_path = filedialog.asksaveasfilename(defaultextension=".txt",
-                                                 filetypes=[("Archivos TXT","*.txt"),("Todos","*.*")])
-        if file_path:
-            try:
-                write_text_file(file_path,content)
-                messagebox.showinfo("Éxito",f"Informe guardado en:\n{file_path}")
-            except Exception as e:
-                messagebox.showerror("Error",f"No se pudo guardar:\n{str(e)}")
+
+        resultado = analyze_text(texto)
+
+        self.resultado_actual = resultado
+
+        salida = format_analysis(resultado)
+
+        self.result_box.delete("1.0", "end")
+        self.result_box.insert("1.0", salida)
+
+    # =========================
+    # ANALIZAR PALABRA
+    # =========================
+
+    def analizar_palabra(self):
+
+        palabra = self.text_input.get("1.0", "end").strip()
+
+        if not palabra:
+            return
+
+        data = analyze_single_word(palabra)
+
+        lines = []
+        lines.append("🧠 ANÁLISIS LINGÜÍSTICO\n")
+
+        lines.append(f"Palabra: {data['word']}")
+        lines.append(f"Sílabas: {'-'.join(data['syllables'])}")
+        lines.append(f"Número de sílabas: {data['syllable_count']}")
+        lines.append(f"Tiene tilde: {'Sí' if data['has_tilde'] else 'No'}")
+        lines.append(f"Tipo de palabra: {data['stress_type']}")
+
+        salida = "\n".join(lines)
+
+        self.result_box.delete("1.0", "end")
+        self.result_box.insert("1.0", salida)
+
+    # =========================
+    # EXPORTAR
+    # =========================
+
+    def exportar(self):
+
+        contenido = self.result_box.get("1.0", "end")
+
+        if not contenido.strip():
+            return
+
+        path = filedialog.asksaveasfilename(
+            defaultextension=".txt",
+            filetypes=[("Text file", "*.txt")]
+        )
+
+        if not path:
+            return
+
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(contenido)
+
 
 def run_gui():
-    root = tk.Tk()
-    app = TextAnalyzerGUI(root)
-    root.mainloop()
+
+    app = TextAnalyzerGUI()
+
+    app.mainloop()
+
