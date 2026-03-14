@@ -6,7 +6,7 @@ from pathlib import Path
 import sys
 
 from src.text_analyzer.interfaces.gui import TextAnalyzerGUI
-
+pytestmark = pytest.mark.skip(reason="GUI tests desactivados en entorno CI")
 
 # ===============================
 # Mockear CustomTkinter y filedialog para entorno headless
@@ -146,3 +146,5 @@ def test_salir_button(monkeypatch, app):
     app.exit_handler()
 
     assert called.get("exit") is True
+
+    

@@ -1019,3 +1019,1084 @@ TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
 2026-03-14 20:57:37,042 | INFO | text_analyzer | CLI finalizado por el usuario
 2026-03-14 20:57:37,986 | INFO | text_analyzer | Aplicación iniciada
 2026-03-14 20:57:38,085 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:00,606 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:00,608 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:04:00,622 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:00,631 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:04:00,634 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:04:00,644 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-43\test_exportar_results_txt0\export.txt
+2026-03-14 21:04:00,649 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:04:00,651 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:04:01,177 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:04:01,181 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:04:01,183 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:01,186 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:04:01,400 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:01,505 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:01,507 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 21:04:01,594 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:01,668 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:01,670 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:04:01,746 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:01,751 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-43\test_cargar_archivo0\test.txt
+2026-03-14 21:04:01,827 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:01,831 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-43\test_exportar0\export.txt
+2026-03-14 21:04:01,909 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:12,617 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:12,618 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:04:12,623 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:12,631 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:04:12,635 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:04:12,645 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-44\test_exportar_results_txt0\export.txt
+2026-03-14 21:04:12,648 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:04:12,650 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:04:13,172 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:04:13,177 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:04:13,179 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:13,182 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:04:13,344 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:13,437 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:13,439 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 21:04:13,510 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:13,584 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:13,586 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:04:13,665 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:13,671 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-44\test_cargar_archivo0\test.txt
+2026-03-14 21:04:13,755 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:13,759 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-44\test_exportar0\export.txt
+2026-03-14 21:04:13,840 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:49,981 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:49,983 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:04:49,988 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:49,996 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:04:50,000 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:04:50,012 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-45\test_exportar_results_txt0\export.txt
+2026-03-14 21:04:50,015 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:04:50,017 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:04:50,539 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:04:50,545 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:04:50,546 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:04:50,549 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:04:50,765 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:50,991 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:51,071 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:51,073 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:04:51,146 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:51,151 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-45\test_cargar_archivo0\test.txt
+2026-03-14 21:04:51,228 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:04:51,233 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-45\test_exportar0\export.txt
+2026-03-14 21:04:51,308 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:06,971 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:06,973 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:07:06,980 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:06,990 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:07:06,994 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:07:07,006 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-46\test_exportar_results_txt0\export.txt
+2026-03-14 21:07:07,011 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:07:07,014 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:07:07,536 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:07:07,541 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:07:07,543 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:07,545 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:07:07,708 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:08,072 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:08,074 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:07:08,146 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:08,151 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-46\test_cargar_archivo0\test.txt
+2026-03-14 21:07:08,221 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:08,225 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-46\test_exportar0\export.txt
+2026-03-14 21:07:08,308 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:20,156 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:20,157 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:07:20,163 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:20,172 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:07:20,175 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:07:20,185 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-47\test_exportar_results_txt0\export.txt
+2026-03-14 21:07:20,188 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:07:20,191 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:07:20,708 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:07:20,713 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:07:20,715 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:20,718 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:07:20,882 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:21,147 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:21,228 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:21,230 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:07:21,302 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:21,308 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-47\test_cargar_archivo0\test.txt
+2026-03-14 21:07:21,386 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:21,390 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-47\test_exportar0\export.txt
+2026-03-14 21:07:21,470 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:42,976 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:42,978 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:07:42,984 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:42,992 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:07:42,996 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:07:43,007 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-48\test_exportar_results_txt0\export.txt
+2026-03-14 21:07:43,012 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:07:43,014 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:07:43,536 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:07:43,541 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:07:43,543 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:07:43,545 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:07:43,712 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:43,805 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:43,808 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 21:07:43,914 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:44,139 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:44,145 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-48\test_cargar_archivo0\test.txt
+2026-03-14 21:07:44,214 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:07:44,219 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-48\test_exportar0\export.txt
+2026-03-14 21:07:44,289 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:34,868 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:34,869 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:08:34,874 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:34,882 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:08:34,886 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:08:34,897 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-49\test_exportar_results_txt0\export.txt
+2026-03-14 21:08:34,900 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:08:34,903 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:08:35,426 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:08:35,430 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:08:35,432 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:35,434 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:08:35,602 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:35,693 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:35,695 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 21:08:35,767 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:35,842 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:35,844 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:08:35,917 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:35,922 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-49\test_cargar_archivo0\test.txt
+2026-03-14 21:08:36,009 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:36,018 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-49\test_exportar0\export.txt
+2026-03-14 21:08:36,120 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:40,371 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:40,372 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:08:40,378 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:40,387 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:08:40,393 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:08:40,411 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-50\test_exportar_results_txt0\export.txt
+2026-03-14 21:08:40,417 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:08:40,419 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:08:40,939 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:08:40,944 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:08:40,946 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:40,949 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:08:41,116 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:41,399 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:41,479 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:41,481 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:08:41,636 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:41,641 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-50\test_exportar0\export.txt
+2026-03-14 21:08:41,715 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:46,218 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:46,220 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:08:46,225 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:46,233 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:08:46,236 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:08:46,247 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-51\test_exportar_results_txt0\export.txt
+2026-03-14 21:08:46,250 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:08:46,253 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:08:46,776 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:08:46,781 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:08:46,783 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:08:46,786 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:08:46,946 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:47,035 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:47,037 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 21:08:47,107 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:47,183 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:47,186 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:08:47,261 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:47,267 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-51\test_cargar_archivo0\test.txt
+2026-03-14 21:08:47,351 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:08:47,356 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-51\test_exportar0\export.txt
+2026-03-14 21:08:47,433 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:00,573 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:00,575 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:09:00,580 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:00,588 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:09:00,591 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:09:00,600 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-52\test_exportar_results_txt0\export.txt
+2026-03-14 21:09:00,603 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:09:00,605 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:09:01,129 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:09:01,134 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:09:01,136 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:01,138 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:09:01,303 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:01,568 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:01,799 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:01,805 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-52\test_cargar_archivo0\test.txt
+2026-03-14 21:09:01,876 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:01,881 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-52\test_exportar0\export.txt
+2026-03-14 21:09:01,954 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:05,988 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:05,990 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:09:05,995 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:06,003 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:09:06,008 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:09:06,019 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-53\test_exportar_results_txt0\export.txt
+2026-03-14 21:09:06,023 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:09:06,025 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:09:06,546 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:09:06,551 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:09:06,552 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:06,556 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:09:06,720 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:06,810 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:06,812 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 21:09:06,885 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:07,109 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:07,115 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-53\test_cargar_archivo0\test.txt
+2026-03-14 21:09:07,187 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:07,192 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-53\test_exportar0\export.txt
+2026-03-14 21:09:07,266 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:12,083 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:12,085 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 21:09:12,090 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:12,097 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 21:09:12,101 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 21:09:12,111 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-54\test_exportar_results_txt0\export.txt
+2026-03-14 21:09:12,114 | INFO | text_analyzer | CLI iniciado
+2026-03-14 21:09:12,116 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 21:09:12,641 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 21:09:12,646 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 21:09:12,647 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 21:09:12,650 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 21:09:12,818 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:12,934 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:12,936 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 21:09:13,005 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:13,078 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:13,080 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 21:09:13,154 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:13,159 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-54\test_cargar_archivo0\test.txt
+2026-03-14 21:09:13,242 | INFO | text_analyzer | GUI iniciada
+2026-03-14 21:09:13,247 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-54\test_exportar0\export.txt
+2026-03-14 21:09:13,325 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:28,618 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:06:28,619 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:06:28,626 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:06:28,634 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:06:28,637 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:06:28,648 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-55\test_exportar_results_txt0\export.txt
+2026-03-14 23:06:28,651 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:06:28,653 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:06:29,179 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:06:29,184 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:06:29,186 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:06:29,189 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:06:29,347 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:29,437 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:29,439 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:06:29,507 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:29,580 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:29,582 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:06:29,801 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:29,805 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-55\test_exportar0\export.txt
+2026-03-14 23:06:29,876 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:42,468 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:06:42,469 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:06:42,475 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:06:42,482 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:06:42,486 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:06:42,495 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-56\test_exportar_results_txt0\export.txt
+2026-03-14 23:06:42,499 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:06:42,501 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:06:43,026 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:06:43,032 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:06:43,034 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:06:43,037 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:06:43,191 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:43,281 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:43,283 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:06:43,354 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:43,431 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:43,433 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:06:43,507 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:43,513 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-56\test_cargar_archivo0\test.txt
+2026-03-14 23:06:43,593 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:06:43,597 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-56\test_exportar0\export.txt
+2026-03-14 23:06:43,670 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:07:10,096 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:07:13,472 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:07:17,547 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:07:28,561 | INFO | text_analyzer | CLI: análisis de palabra 'ganaron los canteranos' completado
+2026-03-14 23:07:32,896 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:07:41,337 | INFO | text_analyzer | CLI: resultados exportados a analysis_20260314_230741.txt
+2026-03-14 23:13:01,022 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:13:31,294 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:13:31,296 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:13:31,301 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:13:31,309 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:13:31,313 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:13:31,323 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-57\test_exportar_results_txt0\export.txt
+2026-03-14 23:13:31,327 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:13:31,329 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:13:31,853 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:13:31,858 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:13:31,860 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:13:31,863 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:13:32,022 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:13:32,307 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:13:32,385 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:13:32,387 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:13:32,454 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:13:32,460 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-57\test_cargar_archivo0\test.txt
+2026-03-14 23:13:32,533 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:13:32,538 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-57\test_exportar0\export.txt
+2026-03-14 23:13:32,614 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:18:44,104 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:18:44,106 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:18:44,120 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:18:44,135 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:18:44,140 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:18:44,151 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-58\test_exportar_results_txt0\export.txt
+2026-03-14 23:18:44,154 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:18:44,157 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:18:44,682 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:18:44,687 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:18:44,689 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:18:44,691 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:18:44,848 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:18:44,935 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:18:44,937 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:18:45,023 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:18:45,108 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:18:45,110 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:18:45,191 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:18:45,197 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-58\test_cargar_archivo0\test.txt
+2026-03-14 23:18:45,280 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:18:45,284 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-58\test_exportar0\export.txt
+2026-03-14 23:18:45,358 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:45,745 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:45,748 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:22:45,754 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:45,762 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:22:45,767 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:22:45,777 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-59\test_exportar_results_txt0\export.txt
+2026-03-14 23:22:45,781 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:22:45,783 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:22:46,306 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:22:46,311 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:22:46,312 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:46,315 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:22:46,475 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:46,593 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:46,595 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:22:46,668 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:46,935 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:46,941 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-59\test_cargar_archivo0\test.txt
+2026-03-14 23:22:47,012 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:47,016 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-59\test_exportar0\export.txt
+2026-03-14 23:22:47,095 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:51,189 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:51,191 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:22:51,196 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:51,204 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:22:51,209 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:22:51,219 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-60\test_exportar_results_txt0\export.txt
+2026-03-14 23:22:51,223 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:22:51,225 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:22:51,750 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:22:51,756 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:22:51,757 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:51,761 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:22:51,932 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:52,284 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:52,286 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:22:52,352 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:52,357 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-60\test_cargar_archivo0\test.txt
+2026-03-14 23:22:52,427 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:52,432 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-60\test_exportar0\export.txt
+2026-03-14 23:22:52,508 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:57,104 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:57,106 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:22:57,111 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:57,119 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:22:57,124 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:22:57,134 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-61\test_exportar_results_txt0\export.txt
+2026-03-14 23:22:57,138 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:22:57,140 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:22:57,666 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:22:57,671 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:22:57,673 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:22:57,676 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:22:57,825 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:57,914 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:57,916 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:22:58,158 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:58,160 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:22:58,226 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:58,232 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-61\test_cargar_archivo0\test.txt
+2026-03-14 23:22:58,299 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:22:58,304 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-61\test_exportar0\export.txt
+2026-03-14 23:22:58,378 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:01,847 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:01,848 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:23:01,853 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:01,861 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:23:01,864 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:23:01,874 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-62\test_exportar_results_txt0\export.txt
+2026-03-14 23:23:01,877 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:23:01,880 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:23:02,405 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:23:02,410 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:23:02,411 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:02,414 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:23:02,568 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:02,786 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:02,865 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:02,867 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:23:02,934 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:02,939 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-62\test_cargar_archivo0\test.txt
+2026-03-14 23:23:03,012 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:03,016 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-62\test_exportar0\export.txt
+2026-03-14 23:23:03,093 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:06,758 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:06,759 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:23:06,764 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:06,772 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:23:06,776 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:23:06,786 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-63\test_exportar_results_txt0\export.txt
+2026-03-14 23:23:06,790 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:23:06,792 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:23:07,317 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:23:07,322 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:23:07,324 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:07,327 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:23:07,476 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:07,717 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:07,795 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:07,797 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:23:07,866 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:07,872 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-63\test_cargar_archivo0\test.txt
+2026-03-14 23:23:07,944 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:07,948 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-63\test_exportar0\export.txt
+2026-03-14 23:23:08,023 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:12,918 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:12,919 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:23:12,924 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:12,935 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:23:12,939 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:23:12,949 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-64\test_exportar_results_txt0\export.txt
+2026-03-14 23:23:12,953 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:23:12,955 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:23:13,483 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:23:13,487 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:23:13,489 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:13,492 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:23:13,644 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:13,872 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:13,951 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:13,953 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:23:14,020 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:14,025 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-64\test_cargar_archivo0\test.txt
+2026-03-14 23:23:14,098 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:14,103 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-64\test_exportar0\export.txt
+2026-03-14 23:23:14,177 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:18,774 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:18,775 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:23:18,780 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:18,787 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:23:18,791 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:23:18,801 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-65\test_exportar_results_txt0\export.txt
+2026-03-14 23:23:18,805 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:23:18,807 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:23:19,333 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:23:19,337 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:23:19,339 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:23:19,342 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:23:19,485 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:19,598 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:19,600 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:23:19,669 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:19,743 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:19,745 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:23:19,816 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:19,822 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-65\test_cargar_archivo0\test.txt
+2026-03-14 23:23:19,902 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:19,907 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-65\test_exportar0\export.txt
+2026-03-14 23:23:19,983 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:23:45,266 | INFO | text_analyzer | Aplicación iniciada
+2026-03-14 23:23:45,348 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:24:43,613 | INFO | text_analyzer | Resultados exportados a: C:/Users/angel/OneDrive/Documentos/GitHub/Contador_Palabras_Texto/src/exportacionesDel_Usuario/primer intento.txt
+2026-03-14 23:25:11,832 | INFO | text_analyzer | Resultados exportados a: C:/Users/angel/OneDrive/Documentos/GitHub/Contador_Palabras_Texto/src/exportacionesDel_Usuario/holis.txt
+2026-03-14 23:26:21,585 | INFO | text_analyzer | Resultados exportados a: C:/Users/angel/OneDrive/Documentos/GitHub/Contador_Palabras_Texto/src/exportacionesDel_Usuario/chuleta wey.txt
+2026-03-14 23:26:33,586 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:26:35,450 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:27:18,466 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:27:38,723 | INFO | text_analyzer | CLI: análisis de palabra 'manuelita' completado
+2026-03-14 23:27:48,412 | INFO | text_analyzer | CLI: análisis de palabra 'josefina la loca' completado
+2026-03-14 23:27:52,498 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:28:01,563 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\exportacionesDel_Usuario\analysis_20260314_232801.txt
+2026-03-14 23:28:09,786 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:28:39,102 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:28:41,234 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:28:59,232 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:29:18,707 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\exportacionesDel_Usuario\analysis_20260314_232918.json
+2026-03-14 23:29:39,730 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:29:41,698 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:29:45,435 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\src\exportacionesDel_Usuario\analysis_20260314_232945.csv
+2026-03-14 23:30:08,962 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:30:15,765 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:30:15,766 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:30:15,771 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:30:15,778 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:30:15,782 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:30:15,793 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-66\test_exportar_results_txt0\export.txt
+2026-03-14 23:30:15,797 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:30:15,799 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:30:16,326 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:30:16,330 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:30:16,332 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:30:16,335 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:30:16,489 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:16,709 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:16,786 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:16,788 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:30:16,857 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:16,863 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-66\test_cargar_archivo0\test.txt
+2026-03-14 23:30:16,935 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:16,939 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-66\test_exportar0\export.txt
+2026-03-14 23:30:17,011 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:33,517 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:30:33,519 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:30:33,523 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:30:33,530 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:30:33,535 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:30:33,544 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-67\test_exportar_results_txt0\export.txt
+2026-03-14 23:30:33,547 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:30:33,549 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:30:34,072 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:30:34,077 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:30:34,079 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:30:34,082 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:30:34,237 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:34,472 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:34,551 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:34,553 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:30:34,619 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:34,624 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-67\test_cargar_archivo0\test.txt
+2026-03-14 23:30:34,695 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:30:34,699 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-67\test_exportar0\export.txt
+2026-03-14 23:30:34,773 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:14,637 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:14,639 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:31:14,644 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:14,653 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:31:14,657 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:31:14,668 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-68\test_exportar_results_txt0\export.txt
+2026-03-14 23:31:14,672 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:31:14,674 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:31:15,198 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:31:15,203 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:31:15,205 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:15,208 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:31:15,364 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:15,444 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:15,446 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:31:15,522 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:15,594 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:15,596 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:31:15,816 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:15,820 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-68\test_exportar0\export.txt
+2026-03-14 23:31:15,887 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:24,723 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:24,724 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:31:24,728 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:24,736 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:31:24,740 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:31:24,751 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-69\test_exportar_results_txt0\export.txt
+2026-03-14 23:31:24,755 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:31:24,757 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:31:25,283 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:31:25,288 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:31:25,289 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:25,292 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:31:25,468 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:25,555 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:25,557 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:31:25,625 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:25,843 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:25,849 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-69\test_cargar_archivo0\test.txt
+2026-03-14 23:31:25,917 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:25,921 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-69\test_exportar0\export.txt
+2026-03-14 23:31:25,989 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:34,364 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:34,366 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:31:34,370 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:34,378 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:31:34,381 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:31:34,391 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-70\test_exportar_results_txt0\export.txt
+2026-03-14 23:31:34,395 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:31:34,397 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:31:34,924 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:31:34,929 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:31:34,930 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:31:34,933 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:31:35,090 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:35,311 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:35,393 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:35,395 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:31:35,463 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:35,468 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-70\test_cargar_archivo0\test.txt
+2026-03-14 23:31:35,540 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:31:35,545 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-70\test_exportar0\export.txt
+2026-03-14 23:31:35,629 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:33:55,538 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:33:55,539 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:33:55,548 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:33:55,558 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:33:55,562 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:33:55,574 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-71\test_exportar_results_txt0\export.txt
+2026-03-14 23:33:55,579 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:33:55,581 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:33:56,104 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:33:56,109 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:33:56,111 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:33:56,114 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:33:56,267 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:33:56,365 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:33:56,367 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:33:56,441 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:33:56,660 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:33:56,666 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-71\test_cargar_archivo0\test.txt
+2026-03-14 23:33:56,735 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:33:56,739 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-71\test_exportar0\export.txt
+2026-03-14 23:33:56,807 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:34:38,817 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:34:38,819 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:34:38,825 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:34:38,833 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:34:38,837 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:34:38,848 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-72\test_exportar_results_txt0\export.txt
+2026-03-14 23:34:38,852 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:34:38,855 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:34:39,380 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:34:39,385 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:34:39,387 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:34:39,391 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:35:25,837 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:35:25,838 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:35:25,844 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:35:25,852 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:35:25,857 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:35:25,866 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-73\test_exportar_results_txt0\export.txt
+2026-03-14 23:35:25,870 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:35:25,872 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:35:26,399 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:35:26,404 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:35:26,406 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:35:26,409 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:35:44,503 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:35:44,504 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:35:44,509 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:35:44,517 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:35:44,521 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:35:44,530 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-74\test_exportar_results_txt0\export.txt
+2026-03-14 23:35:44,534 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:35:44,536 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:35:45,057 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:35:45,062 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:35:45,064 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:35:45,067 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:35:45,216 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:35:45,450 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:35:45,606 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:35:45,612 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-74\test_cargar_archivo0\test.txt
+2026-03-14 23:35:45,685 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:35:45,689 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-74\test_exportar0\export.txt
+2026-03-14 23:35:45,757 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:03,921 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:03,923 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:36:03,929 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:03,936 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:36:03,940 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:36:03,950 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-75\test_exportar_results_txt0\export.txt
+2026-03-14 23:36:03,953 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:36:03,955 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:36:04,481 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:36:04,487 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:36:04,488 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:04,491 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:36:04,645 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:04,933 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:05,004 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:05,007 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:36:05,073 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:05,079 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-75\test_cargar_archivo0\test.txt
+2026-03-14 23:36:05,151 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:05,156 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-75\test_exportar0\export.txt
+2026-03-14 23:36:05,228 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:17,459 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:17,460 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:36:17,465 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:17,473 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:36:17,478 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:36:17,488 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-76\test_exportar_results_txt0\export.txt
+2026-03-14 23:36:17,492 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:36:17,494 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:36:18,017 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:36:18,022 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:36:18,024 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:18,027 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:36:18,178 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:18,272 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:18,274 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:36:18,361 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:18,456 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:18,458 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:36:18,536 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:18,542 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-76\test_cargar_archivo0\test.txt
+2026-03-14 23:36:18,619 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:18,623 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-76\test_exportar0\export.txt
+2026-03-14 23:36:18,698 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:28,822 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:28,823 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:36:28,828 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:28,837 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:36:28,841 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:36:28,851 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-77\test_exportar_results_txt0\export.txt
+2026-03-14 23:36:28,855 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:36:28,858 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:36:29,379 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:36:29,384 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:36:29,386 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:29,389 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:36:29,549 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:29,817 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:29,898 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:29,900 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:36:29,971 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:29,977 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-77\test_cargar_archivo0\test.txt
+2026-03-14 23:36:30,052 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:30,058 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-77\test_exportar0\export.txt
+2026-03-14 23:36:30,133 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:34,714 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:34,716 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:36:34,722 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:34,731 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:36:34,736 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:36:34,748 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-78\test_exportar_results_txt0\export.txt
+2026-03-14 23:36:34,752 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:36:34,754 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:36:35,278 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:36:35,283 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:36:35,285 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:35,288 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:36:35,439 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:35,536 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:35,538 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:36:35,609 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:35,837 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:35,843 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-78\test_cargar_archivo0\test.txt
+2026-03-14 23:36:35,912 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:35,917 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-78\test_exportar0\export.txt
+2026-03-14 23:36:35,985 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:41,986 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:41,987 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:36:41,991 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:41,998 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:36:42,001 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:36:42,010 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-79\test_exportar_results_txt0\export.txt
+2026-03-14 23:36:42,014 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:36:42,016 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:36:42,538 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:36:42,543 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:36:42,545 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:36:42,548 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:36:42,700 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:42,788 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:42,790 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:36:42,858 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:42,930 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:42,932 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:36:43,004 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:43,010 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-79\test_cargar_archivo0\test.txt
+2026-03-14 23:36:43,094 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:36:43,098 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-79\test_exportar0\export.txt
+2026-03-14 23:36:43,171 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:30,848 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:30,850 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:37:30,856 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:30,864 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:37:30,869 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:37:30,880 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-80\test_exportar_results_txt0\export.txt
+2026-03-14 23:37:30,883 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:37:30,885 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:37:31,417 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:37:31,422 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:37:31,424 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:31,427 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:37:31,593 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:31,688 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:31,690 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:37:31,769 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:31,991 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:31,997 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-80\test_cargar_archivo0\test.txt
+2026-03-14 23:37:32,067 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:32,072 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-80\test_exportar0\export.txt
+2026-03-14 23:37:32,142 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:43,067 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:43,068 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:37:43,074 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:43,083 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:37:43,087 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:37:43,098 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-81\test_exportar_results_txt0\export.txt
+2026-03-14 23:37:43,102 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:37:43,104 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:37:43,629 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:37:43,634 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:37:43,635 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:43,639 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:37:43,811 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:44,150 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:44,241 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:44,243 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:37:44,410 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:44,414 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-81\test_exportar0\export.txt
+2026-03-14 23:37:44,491 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:52,667 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:52,669 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:37:52,673 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:52,681 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:37:52,685 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:37:52,695 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-82\test_exportar_results_txt0\export.txt
+2026-03-14 23:37:52,699 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:37:52,701 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:37:53,230 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:37:53,235 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:37:53,237 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:53,240 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:37:53,397 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:53,489 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:53,491 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:37:53,793 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:53,799 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-82\test_cargar_archivo0\test.txt
+2026-03-14 23:37:53,866 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:53,870 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-82\test_exportar0\export.txt
+2026-03-14 23:37:53,940 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:58,136 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:58,139 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:37:58,144 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:58,155 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:37:58,160 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:37:58,175 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-83\test_exportar_results_txt0\export.txt
+2026-03-14 23:37:58,181 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:37:58,183 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:37:58,708 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:37:58,713 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:37:58,715 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:37:58,718 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:37:58,891 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:58,985 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:58,988 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:37:59,058 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:59,307 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:59,313 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-83\test_cargar_archivo0\test.txt
+2026-03-14 23:37:59,379 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:37:59,384 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-83\test_exportar0\export.txt
+2026-03-14 23:37:59,452 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:48,743 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:48,744 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:39:48,750 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:48,758 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:39:48,762 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:39:48,773 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-84\test_exportar_results_txt0\export.txt
+2026-03-14 23:39:48,776 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:39:48,778 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:39:49,303 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:39:49,309 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:39:49,310 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:49,313 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:39:49,472 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:49,813 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:49,882 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:49,885 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:39:50,037 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:50,041 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-84\test_exportar0\export.txt
+2026-03-14 23:39:50,120 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:54,325 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:54,327 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:39:54,331 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:54,339 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:39:54,343 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:39:54,352 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-85\test_exportar_results_txt0\export.txt
+2026-03-14 23:39:54,356 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:39:54,358 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:39:54,885 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:39:54,891 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:39:54,892 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:54,895 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:39:55,045 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:55,136 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:55,138 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:39:55,206 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:55,431 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:55,437 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-85\test_cargar_archivo0\test.txt
+2026-03-14 23:39:55,506 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:55,511 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-85\test_exportar0\export.txt
+2026-03-14 23:39:55,579 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:39:59,952 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:59,953 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:39:59,959 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:39:59,970 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:39:59,976 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:39:59,988 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-86\test_exportar_results_txt0\export.txt
+2026-03-14 23:39:59,994 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:39:59,996 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:40:00,521 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:40:00,526 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:40:00,527 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:40:00,530 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:40:00,684 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:40:00,774 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:40:00,776 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:40:00,844 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:40:00,917 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:40:00,919 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:40:00,993 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:40:00,999 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-86\test_cargar_archivo0\test.txt
+2026-03-14 23:40:01,080 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:40:01,084 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-86\test_exportar0\export.txt
+2026-03-14 23:40:01,159 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:02,423 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:02,428 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:41:02,444 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:02,460 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:41:02,465 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:41:02,481 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-87\test_exportar_results_txt0\export.txt
+2026-03-14 23:41:02,485 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:41:02,490 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:41:03,016 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:41:03,021 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:41:03,022 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:03,025 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:41:03,182 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:03,464 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:03,545 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:03,547 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:41:03,616 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:03,621 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-87\test_cargar_archivo0\test.txt
+2026-03-14 23:41:03,694 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:03,699 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-87\test_exportar0\export.txt
+2026-03-14 23:41:03,775 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:07,763 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:07,764 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:41:07,770 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:07,778 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:41:07,782 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:41:07,793 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-88\test_exportar_results_txt0\export.txt
+2026-03-14 23:41:07,797 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:41:07,799 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:41:08,322 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:41:08,326 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:41:08,328 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:08,331 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:41:08,491 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:08,734 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:08,812 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:08,814 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:41:08,883 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:08,889 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-88\test_cargar_archivo0\test.txt
+2026-03-14 23:41:08,961 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:08,965 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-88\test_exportar0\export.txt
+2026-03-14 23:41:09,042 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:11,390 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:11,391 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:41:11,396 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:11,404 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:41:11,408 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:41:11,417 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-89\test_exportar_results_txt0\export.txt
+2026-03-14 23:41:11,421 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:41:11,423 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:41:11,950 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:41:11,955 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:41:11,956 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:11,959 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:41:12,110 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:12,337 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:12,415 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:12,417 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:41:12,566 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:12,570 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-89\test_exportar0\export.txt
+2026-03-14 23:41:12,645 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:15,070 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:15,071 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:41:15,077 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:15,086 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:41:15,091 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:41:15,101 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-90\test_exportar_results_txt0\export.txt
+2026-03-14 23:41:15,104 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:41:15,106 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:41:15,632 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:41:15,636 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:41:15,638 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:15,642 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:41:15,797 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:15,887 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:15,889 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:41:16,154 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:16,156 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:41:16,308 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:16,312 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-90\test_exportar0\export.txt
+2026-03-14 23:41:16,387 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:18,601 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:18,603 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:41:18,607 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:18,615 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:41:18,619 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:41:18,630 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-91\test_exportar_results_txt0\export.txt
+2026-03-14 23:41:18,634 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:41:18,636 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:41:19,163 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:41:19,168 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:41:19,170 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:41:19,173 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:41:19,325 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:19,409 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:19,411 | WARNING | text_analyzer | Intento de análisis de texto vacío
+2026-03-14 23:41:19,480 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:19,551 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:19,553 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:41:19,626 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:19,632 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-91\test_cargar_archivo0\test.txt
+2026-03-14 23:41:19,713 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:41:19,718 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-91\test_exportar0\export.txt
+2026-03-14 23:41:19,793 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:43:37,496 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:43:37,500 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:43:37,508 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:43:37,528 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:43:37,536 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:43:37,550 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-92\test_exportar_results_txt0\export.txt
+2026-03-14 23:43:37,554 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:43:37,557 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:43:38,085 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:43:38,091 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:43:38,092 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:43:38,095 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-14 23:43:38,250 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:43:38,537 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:43:38,617 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:43:38,619 | WARNING | text_analyzer | Intento de análisis de palabra vacío
+2026-03-14 23:43:38,683 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:43:38,689 | INFO | text_analyzer | Archivo cargado: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-92\test_cargar_archivo0\test.txt
+2026-03-14 23:43:38,761 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:43:38,766 | INFO | text_analyzer | Resultados exportados a: C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-92\test_exportar0\export.txt
+2026-03-14 23:43:38,839 | INFO | text_analyzer | GUI iniciada
+2026-03-14 23:46:44,126 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:46:44,127 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-14 23:46:44,133 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:46:44,140 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-14 23:46:44,144 | WARNING | text_analyzer | CLI: formato de exportación inválido
+2026-03-14 23:46:44,156 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-93\test_exportar_results_txt0\export.txt
+2026-03-14 23:46:44,160 | INFO | text_analyzer | CLI iniciado
+2026-03-14 23:46:44,162 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-14 23:46:44,685 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-14 23:46:44,690 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-14 23:46:44,692 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-14 23:46:44,695 | INFO | text_analyzer | CLI finalizado por el usuario
