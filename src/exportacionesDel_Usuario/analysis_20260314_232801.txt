@@ -1,0 +1,22 @@
+ANALISIS DE TEXTO
+
+Texto original:
+deje que la gui salira de la terminal apenas le de salir porque se supone que si le diste es porque te quieres salir.
+
+Palabras: 24
+Caracteres: 117
+Caracteres sin espacios: 94
+Oraciones: 1
+Parrafos: 1
+
+PALABRAS MAS FRECUENTES
+que: 2
+la: 2
+de: 2
+le: 2
+salir: 2
+porque: 2
+deje: 1
+gui: 1
+salira: 1
+terminal: 1

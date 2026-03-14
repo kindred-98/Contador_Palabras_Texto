@@ -1,0 +1,23 @@
+{
+    "texto_original": "eh utilizado branch",
+    "texto_normalizado": "eh utilizado branch",
+    "num_caracteres": 19,
+    "num_caracteres_sin_espacios": 17,
+    "num_palabras": 3,
+    "num_oraciones": 1,
+    "num_parrafos": 1,
+    "top_palabras": [
+        [
+            "eh",
+            1
+        ],
+        [
+            "utilizado",
+            1
+        ],
+        [
+            "branch",
+            1
+        ]
+    ]
+}
