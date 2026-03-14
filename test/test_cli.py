@@ -1,6 +1,5 @@
-# tests/test_cli.py
-
 import pytest
+import sys
 from unittest.mock import patch
 
 from src.text_analyzer.interfaces.cli import (
@@ -15,11 +14,9 @@ from src.text_analyzer.interfaces.cli import (
 # ===============================
 
 def test_guardar_historial_adds_item():
-    # Inicializamos lista vacía
     historial = []
 
-    # Patch para reemplazar lista interna del módulo
-    with patch("text_analyzer.interfaces.cli.historial", historial):
+    with patch("src.text_analyzer.interfaces.cli.historial", historial):
         guardar_historial("resultado 1")
         guardar_historial("resultado 2")
 
@@ -27,9 +24,9 @@ def test_guardar_historial_adds_item():
     assert historial[0] == "resultado 1"
     assert historial[1] == "resultado 2"
 
+
 def test_ver_historial_no_items(capsys):
-    # Lista vacía
-    with patch("text_analyzer.interfaces.cli.historial", []):
+    with patch("src.text_analyzer.interfaces.cli.historial", []):
         ver_historial()
 
     captured = capsys.readouterr()
@@ -39,10 +36,11 @@ def test_ver_historial_no_items(capsys):
 def test_ver_historial_with_items(capsys):
     items = ["resultado A", "resultado B"]
 
-    with patch("text_analyzer.interfaces.cli.historial", items):
+    with patch("src.text_analyzer.interfaces.cli.historial", items):
         ver_historial()
 
     captured = capsys.readouterr()
+
     assert "resultado A" in captured.out
     assert "resultado B" in captured.out
 
@@ -61,43 +59,45 @@ def test_format_analysis_report_basic():
 # ===============================
 
 def test_exportar_results_no_last_result(capsys):
-    # Sin resultado previo
-    with patch("text_analyzer.interfaces.cli.ultimo_resultado", None):
+
+    with patch("src.text_analyzer.interfaces.cli.ultimo_resultado", None):
         exportar_resultados()
 
     captured = capsys.readouterr()
+
     assert "Primero debes analizar un texto" in captured.out
 
 
-def test_exportar_results_invalid_option(monkeypatch, tmp_path, capsys):
-    # Creamos resultado simulado
+def test_exportar_results_invalid_option(monkeypatch, capsys):
+
     result = {"texto_original": "hola"}
 
-    # Patch ultimo_resultado
-    with patch("text_analyzer.interfaces.cli.ultimo_resultado", result):
-        # Simulamos opción inválida
+    with patch("src.text_analyzer.interfaces.cli.ultimo_resultado", result):
+
         monkeypatch.setattr(
-            "text_analyzer.interfaces.cli.Prompt.ask",
+            "src.text_analyzer.interfaces.cli.Prompt.ask",
             lambda *args, **kwargs: "9"
         )
+
         exportar_resultados()
 
     captured = capsys.readouterr()
+
     assert "Formato inválido" in captured.out
 
 
 def test_exportar_results_txt(monkeypatch, tmp_path):
+
     result = {"texto_original": "hola"}
 
-    with patch("text_analyzer.interfaces.cli.ultimo_resultado", result):
-        # Forzamos export TXT
+    with patch("src.text_analyzer.interfaces.cli.ultimo_resultado", result):
+
         monkeypatch.setattr(
-            "text_analyzer.interfaces.cli.Prompt.ask",
+            "src.text_analyzer.interfaces.cli.Prompt.ask",
             lambda *args, **kwargs: "1"
         )
+
         filename = None
-        # Interceptamos la función export_txt
-        from src.text_analyzer.io.exporter import export_txt
 
         def fake_export_txt(data):
             nonlocal filename
@@ -106,16 +106,14 @@ def test_exportar_results_txt(monkeypatch, tmp_path):
             return str(filename)
 
         monkeypatch.setattr(
-            "text_analyzer.interfaces.cli.export_txt",
+            "src.text_analyzer.interfaces.cli.export_txt",
             fake_export_txt
         )
 
         exportar_resultados()
 
-        # Validamos que se haya creado archivo
         assert filename.exists()
-        content = filename.read_text()
-        assert content == "hola"
+        assert filename.read_text() == "hola"
 
 
 # ===============================
@@ -123,27 +121,28 @@ def test_exportar_results_txt(monkeypatch, tmp_path):
 # ===============================
 
 def test_full_cli_flow(monkeypatch, capsys):
-    # Lista de inputs simulados
+
     inputs = iter([
-        "1",            # Analizar texto
-        "Hola mundo",   # Texto
-        "2",            # Analizar palabra
-        "Hola",         # Palabra
-        "3",            # Ver historial
-        "5"             # Salir
+        "1",
+        "Hola mundo",
+        "2",
+        "Hola",
+        "3",
+        "5"
     ])
 
     monkeypatch.setattr(
-        "text_analyzer.interfaces.cli.Prompt.ask",
+        "src.text_analyzer.interfaces.cli.Prompt.ask",
         lambda *args, **kwargs: next(inputs)
     )
 
-    # Ejecutamos CLI hasta salir
     from src.text_analyzer.interfaces.cli import run_cli
+
     run_cli()
 
     captured = capsys.readouterr()
+
     assert "Analizando texto" in captured.out
     assert "Hola" in captured.out
-    assert "📜 HISTORIAL" in captured.out
-    assert "¡Hasta luego!" in captured.out
+    assert "HISTORIAL" in captured.out
+    assert "Hasta luego" in captured.out

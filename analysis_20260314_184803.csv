@@ -1,0 +1,11 @@
+metric,value
+texto_original,Hola mundo
+num_caracteres,10
+num_caracteres_sin_espacios,0
+num_palabras,2
+num_oraciones,0
+num_parrafos,0
+
+word,frequency
+hola,1
+mundo,1

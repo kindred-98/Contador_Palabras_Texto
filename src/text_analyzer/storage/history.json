@@ -1351,6 +1351,25 @@
                 ]
             ],
             "errors": []
+        },
+        "dance": {
+            "raw_text": "dance",
+            "normalized_text": "dance",
+            "num_characters": 5,
+            "num_characters_no_spaces": 5,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "dance": 1
+            },
+            "most_common_words": [
+                [
+                    "dance",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
@@ -1655,6 +1674,16 @@
                 "lla"
             ],
             "syllable_count": 6,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "dance": {
+            "word": "dance",
+            "syllables": [
+                "da",
+                "nce"
+            ],
+            "syllable_count": 2,
             "has_tilde": false,
             "stress_type": "grave"
         }

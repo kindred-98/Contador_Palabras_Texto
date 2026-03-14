@@ -1,0 +1,14 @@
+ANALISIS DE TEXTO
+
+Texto original:
+Hola mundo
+
+Palabras: 2
+Caracteres: 10
+Caracteres sin espacios: 0
+Oraciones: 0
+Parrafos: 0
+
+PALABRAS MAS FRECUENTES
+hola: 1
+mundo: 1

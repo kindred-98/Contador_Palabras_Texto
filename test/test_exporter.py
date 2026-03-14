@@ -3,11 +3,16 @@
 import json
 import csv
 from pathlib import Path
-
+from unittest.mock import patch, MagicMock
 import pytest
 
 from src.text_analyzer.io.exporter import export_txt, export_json, export_csv
 
+@pytest.fixture(autouse=True)
+def mock_ctk(monkeypatch):
+    from customtkinter import CTk, CTkTextbox, CTkButton, CTkLabel, CTkFrame
+    for cls in [CTk, CTkTextbox, CTkButton, CTkLabel, CTkFrame]:
+        monkeypatch.setattr(cls, MagicMock())
 
 @pytest.fixture
 def sample_data():
@@ -54,8 +59,11 @@ def test_export_json(tmp_path, sample_data):
     # Validamos que los datos coinciden
     assert data["texto_original"] == sample_data["texto_original"]
     assert data["num_palabras"] == sample_data["num_palabras"]
-    assert data["top_palabras"] == sample_data["top_palabras"]
 
+    # Normalizamos tuples -> lists
+    expected_top = [list(x) for x in sample_data["top_palabras"]]
+
+    assert data["top_palabras"] == expected_top
 
 # ===============================
 # Test export CSV

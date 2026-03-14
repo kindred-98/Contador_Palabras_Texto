@@ -56,11 +56,13 @@ def analizar_texto():
     result = analyze_text(texto, config=config)
     ultimo_resultado = result  # Guardamos el objeto AnalysisResult real
 
+    # Panel resumen usando texto original o capitalización ligera
     analisis_panel = (
         f"[bold green]Total palabras:[/bold green] {result.num_words} | "
         f"[bold green]Total caracteres:[/bold green] {result.num_characters} | "
         f"[bold yellow]Palabra más frecuente:[/bold yellow] "
-        f"'{result.most_common_words[0][0]}' ({result.most_common_words[0][1]} veces)" if result.most_common_words else ""
+        f"'{result.most_common_words[0][0].capitalize()}' ({result.most_common_words[0][1]} veces)" 
+        if result.most_common_words else ""
     )
 
     console.print(Panel(analisis_panel, title="✅ Estadísticas Generales", expand=False))
@@ -73,13 +75,12 @@ def analizar_texto():
     max_freq = result.most_common_words[0][1] if result.most_common_words else 1
     for palabra, freq in result.most_common_words:
         bar = "█" * int((freq / max_freq) * 20)
-        table.add_row(palabra, str(freq), bar)
+        table.add_row(palabra.capitalize(), str(freq), bar)
 
     console.print(table)
     guardar_historial(analisis_panel)
     logger.info("CLI: análisis de texto completado")
     return texto
-
 # ===============================
 # ANALIZAR PALABRA
 # ===============================
@@ -89,15 +90,17 @@ def analizar_palabra(texto):
         console.print("[red]Primero debes analizar un texto completo.[/red]")
         return
 
-    palabra = Prompt.ask("Ingresa la palabra a analizar 🔍").lower()
-    logger.info(f"CLI: análisis de palabra '{palabra}'")
-    palabras_lista = texto.lower().split()
+    palabra_input = Prompt.ask("Ingresa la palabra a analizar 🔍")
+    palabra = palabra_input.lower()  # solo para conteo interno
+
+    palabras_lista = [p.lower() for p in texto.split()]
     contador = palabras_lista.count(palabra)
-    posiciones = [i + 1 for i, p in enumerate(palabras_lista) if p == palabra]
+    posiciones = [i + 1 for i, p in enumerate([p.lower() for p in texto.split()]) if p == palabra]
+
     linguistic = analyze_single_word(palabra)
 
     analisis = (
-        f"[bold yellow]Palabra:[/bold yellow] '{palabra}' | "
+        f"[bold yellow]Palabra:[/bold yellow] '{palabra_input}' | "
         f"[bold cyan]Veces encontrada:[/bold cyan] {contador} | "
         f"[bold magenta]Posiciones:[/bold magenta] {posiciones}"
     )
@@ -112,13 +115,11 @@ def analizar_palabra(texto):
     table.add_row("Número de sílabas", str(linguistic["syllable_count"]))
     table.add_row("Tiene tilde", "Sí" if linguistic["has_tilde"] else "No")
     table.add_row("Tipo de palabra", linguistic["stress_type"])
+
     console.print(table)
     guardar_historial(analisis)
-    logger.info(f"CLI: análisis de palabra '{palabra}' completado")
+    logger.info(f"CLI: análisis de palabra '{palabra_input}' completado")
 
-# ===============================
-# HISTORIAL
-# ===============================
 # ===============================
 # HISTORIAL
 # ===============================

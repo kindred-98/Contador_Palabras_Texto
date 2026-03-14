@@ -45,7 +45,8 @@ def read_text_file(file_path: str, encoding: str = "utf-8") -> str:
     if path.suffix.lower() != ".txt":
         raise FileReadError(f"Solo se permiten archivos .txt, recibido: {file_path}")
     
-    encodings_to_try = [encoding, "utf-8-sig", "latin-1", "cp1252"]
+    # Solo encodings estrictos
+    encodings_to_try = [encoding, "utf-8-sig"]
     last_error = None
 
     for enc in encodings_to_try:
@@ -58,8 +59,10 @@ def read_text_file(file_path: str, encoding: str = "utf-8") -> str:
         except (PermissionError, OSError) as e:
             raise FileReadError(f"Error de permisos o acceso: {e}")
 
-    raise FileReadError(f"No se pudo leer {file_path} con ningún encoding conocido. Último error: {last_error}")
-
+    # Si ningún encoding funcionó, lanzamos excepción
+    raise FileReadError(
+        f"No se pudo leer {file_path} con ningún encoding conocido. Último error: {last_error}"
+    )
 
 def write_text_file(file_path: str, content: str, encoding: str = "utf-8") -> None:
     """

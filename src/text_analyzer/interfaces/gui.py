@@ -21,21 +21,19 @@ class TextAnalyzerGUI(ctk.CTk):
         self.title("📊 Text Analyzer Pro")
         self.geometry("900x700")
 
-        # cerrar correctamente al pulsar la X
-        import sys
-        self.protocol("WM_DELETE_WINDOW", lambda: sys.exit())
-
         self.resultado_actual = None
+
+        # cerrar correctamente al pulsar la X
+        self.exit_handler = lambda: sys.exit()
+        self.protocol("WM_DELETE_WINDOW", self.exit_handler)
 
         self.create_layout()
 
-    
     def create_layout(self):
 
         # =========================
         # TITULO
         # =========================
-
         title = ctk.CTkLabel(
             self,
             text="📊 ANALIZADOR DE TEXTO PROFESIONAL",
@@ -46,7 +44,6 @@ class TextAnalyzerGUI(ctk.CTk):
         # =========================
         # PANEL TEXTO
         # =========================
-
         frame_texto = ctk.CTkFrame(self)
         frame_texto.pack(fill="both", padx=20, pady=10)
 
@@ -59,7 +56,6 @@ class TextAnalyzerGUI(ctk.CTk):
         # =========================
         # BOTONES
         # =========================
-
         frame_botones = ctk.CTkFrame(self)
         frame_botones.pack(pady=10)
 
@@ -95,15 +91,14 @@ class TextAnalyzerGUI(ctk.CTk):
             frame_botones,
             text="❌ Salir",
             fg_color="red",
-         hover_color="#8B0000",
-            command=lambda: sys.exit()
+            hover_color="#8B0000",
+            command=self.salir
         )
         btn_salir.grid(row=0, column=4, padx=10)
-        
+
         # =========================
         # RESULTADOS
         # =========================
-
         frame_resultados = ctk.CTkFrame(self)
         frame_resultados.pack(fill="both", expand=True, padx=20, pady=10)
 
@@ -120,88 +115,71 @@ class TextAnalyzerGUI(ctk.CTk):
     # =========================
     # CARGAR ARCHIVO
     # =========================
-
     def cargar_archivo(self):
-
         path = filedialog.askopenfilename(
             filetypes=[("Text files", "*.txt")]
         )
-
         if not path:
             return
-        
+
         with open(path, "r", encoding="utf-8") as f:
             contenido = f.read()
-        
+
         self.text_input.delete("1.0", "end")
         self.text_input.insert("1.0", contenido)
         logger.info(f"Archivo cargado: {path}")
+
     # =========================
     # ANALIZAR TEXTO
     # =========================
-
     def analizar_texto(self):
-    
-        texto = self.text_input.get("1.0", "end").strip()
+        self.result_box.delete("1.0", "end")  # limpia resultados previos
 
+        texto = self.text_input.get("1.0", "end").strip()
         if not texto:
+            logger.warning("Intento de análisis de texto vacío")
             return
 
         resultado = analyze_text(texto)
-
         self.resultado_actual = resultado
-
         salida = format_analysis(resultado)
-
-        self.result_box.delete("1.0", "end")
         self.result_box.insert("1.0", salida)
 
     # =========================
     # ANALIZAR PALABRA
     # =========================
-
     def analizar_palabra(self):
-        logger.info("Usuario ejecutó análisis de palabra")
-        
+        self.result_box.delete("1.0", "end")  # limpia resultados previos
 
         palabra = self.text_input.get("1.0", "end").strip()
-
         if not palabra:
+            logger.warning("Intento de análisis de palabra vacío")
             return
 
         data = analyze_single_word(palabra)
-
-        lines = []
-        lines.append("🧠 ANÁLISIS LINGÜÍSTICO\n")
-
-        lines.append(f"Palabra: {data['word']}")
-        lines.append(f"Sílabas: {'-'.join(data['syllables'])}")
-        lines.append(f"Número de sílabas: {data['syllable_count']}")
-        lines.append(f"Tiene tilde: {'Sí' if data['has_tilde'] else 'No'}")
-        lines.append(f"Tipo de palabra: {data['stress_type']}")
-
+        lines = [
+            "🧠 ANÁLISIS LINGÜÍSTICO\n",
+            f"Palabra: {data['word']}",
+            f"Sílabas: {'-'.join(data['syllables'])}",
+            f"Número de sílabas: {data['syllable_count']}",
+            f"Tiene tilde: {'Sí' if data['has_tilde'] else 'No'}",
+            f"Tipo de palabra: {data['stress_type']}"
+        ]
         salida = "\n".join(lines)
-
-        self.result_box.delete("1.0", "end")
         self.result_box.insert("1.0", salida)
-        logger.warning("Intento de análisis de palabra vacío")
 
     # =========================
     # EXPORTAR
     # =========================
-
     def exportar(self):
-
-        contenido = self.result_box.get("1.0", "end")
-
-        if not contenido.strip():
+        contenido = self.result_box.get("1.0", "end").rstrip()  # elimina salto final
+        if not contenido:
             return
 
         path = filedialog.asksaveasfilename(
             defaultextension=".txt",
             filetypes=[("Text file", "*.txt")]
         )
-
         if not path:
             return
 
@@ -210,11 +188,14 @@ class TextAnalyzerGUI(ctk.CTk):
 
         logger.info(f"Resultados exportados a: {path}")
 
+    # =========================
+    # SALIR
+    # =========================
+    def salir(self):
+        sys.exit()
+
+
 def run_gui():
-
     logger.info("Aplicación iniciada")
-
     app = TextAnalyzerGUI()
-
     app.mainloop()
-

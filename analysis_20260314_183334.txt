@@ -1,0 +1,7 @@
+ANÁLISIS DE TEXTO
+
+Texto original:
+Hola mundo
+
+Palabras: 2
+Caracteres: 10

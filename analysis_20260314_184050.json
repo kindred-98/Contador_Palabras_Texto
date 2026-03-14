@@ -1,0 +1,19 @@
+{
+    "texto_original": "Hola mundo",
+    "texto_normalizado": "",
+    "num_caracteres": 10,
+    "num_caracteres_sin_espacios": 0,
+    "num_palabras": 2,
+    "num_oraciones": 0,
+    "num_parrafos": 0,
+    "top_palabras": [
+        [
+            "hola",
+            1
+        ],
+        [
+            "mundo",
+            1
+        ]
+    ]
+}
