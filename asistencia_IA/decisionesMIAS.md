@@ -64,4 +64,11 @@ Originalmente querías que GUI guardara strings como CLI, pero decidimos guardar
 -Creacion de linguistic.py para no contaminar analyzer.py, sino crear un módulo lingüístico separado.
 - la propuesta de la IA me tento.
 
-## FASE 4
+## FASE FINAL
+
+Me falto refactorizarla y terminal el roadmap pero eh llegado hasta la fase 6 de los test y eh dejado la app funcional y me ha dado mucha enseñanza de python y de la IA. 
+El reto de hacerla lo mas complicado posible es una de las cosas que me propongo dia a dia para entender como funciona cada bloque o pieza de codigo.
+De este proyecto me llevo mas enseñanza de el de los primeros.
+
+Hare un readme algo sencillo y sin complicaciones.
+

@@ -8,7 +8,7 @@ from collections import Counter
 import time
 
 from text_analyzer.core.analyzer import analyze_single_word, analyze_text, AnalysisResult, AnalysisConfig
-from text_analyzer.io.exporter import export_json, export_csv, export_txt
+from text_analyzer.io.exporter import export_json, export_csv, export_txt, EXPORT_DIR
 from text_analyzer.login.logger import setup_logger
 from text_analyzer.errors.error_handler import handle_error
 
@@ -176,6 +176,7 @@ def exportar_resultados():
     console.print("1) TXT")
     console.print("2) JSON")
     console.print("3) CSV")
+    console.print(f"[dim]Los archivos se guardarán en:[/dim] {EXPORT_DIR}")
 
     opcion = Prompt.ask("Selecciona formato")
 
@@ -192,7 +193,8 @@ def exportar_resultados():
 
     logger.info(f"CLI: resultados exportados a {filename}")
     console.print(f"[green]Archivo exportado:[/green] {filename}")
-
+    console.print(f"[dim]Carpeta:[/dim] {EXPORT_DIR}")
+    
 # ===============================
 # RUN CLI
 # ===============================

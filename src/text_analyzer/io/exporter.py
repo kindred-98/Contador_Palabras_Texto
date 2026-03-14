@@ -1,15 +1,23 @@
 import json
 import csv
 from datetime import datetime
+from pathlib import Path
 from text_analyzer.core.analyzer import AnalysisResult
 
+# Ruta base del proyecto (src)
+BASE_DIR = Path(__file__).resolve().parents[2]
+
+# Carpeta de exportaciones dentro de src
+EXPORT_DIR = BASE_DIR / "exportacionesDel_Usuario"
+EXPORT_DIR.mkdir(exist_ok=True)
 
 # ===============================
 # GENERAR NOMBRE DE ARCHIVO
 # ===============================
 def generate_filename(prefix: str, extension: str) -> str:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    return f"{prefix}_{timestamp}.{extension}"
+    # ahora incluye la carpeta exportaciones
+    return str(EXPORT_DIR / f"{prefix}_{timestamp}.{extension}")
 
 
 # ===============================
@@ -101,6 +109,7 @@ def export_csv(result) -> str:
         })
 
     return filename
+
 
 # ===============================
 # EXPORTAR TXT

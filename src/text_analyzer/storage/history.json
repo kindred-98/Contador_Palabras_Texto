@@ -1370,6 +1370,356 @@
                 ]
             ],
             "errors": []
+        },
+        "test finales pasan": {
+            "raw_text": "test finales pasan",
+            "normalized_text": "test finales pasan",
+            "num_characters": 18,
+            "num_characters_no_spaces": 16,
+            "num_words": 3,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "test": 1,
+                "finales": 1,
+                "pasan": 1
+            },
+            "most_common_words": [
+                [
+                    "test",
+                    1
+                ],
+                [
+                    "finales",
+                    1
+                ],
+                [
+                    "pasan",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "el gui quedo chulo": {
+            "raw_text": "el gui quedo chulo",
+            "normalized_text": "el gui quedo chulo",
+            "num_characters": 18,
+            "num_characters_no_spaces": 15,
+            "num_words": 4,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "el": 1,
+                "gui": 1,
+                "quedo": 1,
+                "chulo": 1
+            },
+            "most_common_words": [
+                [
+                    "el",
+                    1
+                ],
+                [
+                    "gui",
+                    1
+                ],
+                [
+                    "quedo",
+                    1
+                ],
+                [
+                    "chulo",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "real madrid": {
+            "raw_text": "real madrid",
+            "normalized_text": "real madrid",
+            "num_characters": 11,
+            "num_characters_no_spaces": 10,
+            "num_words": 2,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "real": 1,
+                "madrid": 1
+            },
+            "most_common_words": [
+                [
+                    "real",
+                    1
+                ],
+                [
+                    "madrid",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "hemos agregado una carpeta de exportaciones": {
+            "raw_text": "hemos agregado una carpeta de exportaciones",
+            "normalized_text": "hemos agregado una carpeta de exportaciones",
+            "num_characters": 43,
+            "num_characters_no_spaces": 38,
+            "num_words": 6,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hemos": 1,
+                "agregado": 1,
+                "una": 1,
+                "carpeta": 1,
+                "de": 1,
+                "exportaciones": 1
+            },
+            "most_common_words": [
+                [
+                    "hemos",
+                    1
+                ],
+                [
+                    "agregado",
+                    1
+                ],
+                [
+                    "una",
+                    1
+                ],
+                [
+                    "carpeta",
+                    1
+                ],
+                [
+                    "de",
+                    1
+                ],
+                [
+                    "exportaciones",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "hay que elegir la carpeta asi que chuleta wey": {
+            "raw_text": "hay que elegir la carpeta asi que chuleta wey",
+            "normalized_text": "hay que elegir la carpeta asi que chuleta wey",
+            "num_characters": 45,
+            "num_characters_no_spaces": 37,
+            "num_words": 9,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "hay": 1,
+                "que": 2,
+                "elegir": 1,
+                "la": 1,
+                "carpeta": 1,
+                "asi": 1,
+                "chuleta": 1,
+                "wey": 1
+            },
+            "most_common_words": [
+                [
+                    "que",
+                    2
+                ],
+                [
+                    "hay",
+                    1
+                ],
+                [
+                    "elegir",
+                    1
+                ],
+                [
+                    "la",
+                    1
+                ],
+                [
+                    "carpeta",
+                    1
+                ],
+                [
+                    "asi",
+                    1
+                ],
+                [
+                    "chuleta",
+                    1
+                ],
+                [
+                    "wey",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "deje que la gui salira de la terminal apenas le de salir porque se supone que si le diste es porque te quieres salir.": {
+            "raw_text": "deje que la gui salira de la terminal apenas le de salir porque se supone que si le diste es porque te quieres salir.",
+            "normalized_text": "deje que la gui salira de la terminal apenas le de salir porque se supone que si le diste es porque te quieres salir.",
+            "num_characters": 117,
+            "num_characters_no_spaces": 94,
+            "num_words": 24,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "deje": 1,
+                "que": 2,
+                "la": 2,
+                "gui": 1,
+                "salira": 1,
+                "de": 2,
+                "terminal": 1,
+                "apenas": 1,
+                "le": 2,
+                "salir": 2,
+                "porque": 2,
+                "se": 1,
+                "supone": 1,
+                "si": 1,
+                "diste": 1,
+                "es": 1,
+                "te": 1,
+                "quieres": 1
+            },
+            "most_common_words": [
+                [
+                    "que",
+                    2
+                ],
+                [
+                    "la",
+                    2
+                ],
+                [
+                    "de",
+                    2
+                ],
+                [
+                    "le",
+                    2
+                ],
+                [
+                    "salir",
+                    2
+                ],
+                [
+                    "porque",
+                    2
+                ],
+                [
+                    "deje",
+                    1
+                ],
+                [
+                    "gui",
+                    1
+                ],
+                [
+                    "salira",
+                    1
+                ],
+                [
+                    "terminal",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "en el cli indicamos que se guardara directamente en esa carpetaq": {
+            "raw_text": "en el cli indicamos que se guardara directamente en esa carpetaq",
+            "normalized_text": "en el cli indicamos que se guardara directamente en esa carpetaq",
+            "num_characters": 64,
+            "num_characters_no_spaces": 54,
+            "num_words": 11,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "en": 2,
+                "el": 1,
+                "cli": 1,
+                "indicamos": 1,
+                "que": 1,
+                "se": 1,
+                "guardara": 1,
+                "directamente": 1,
+                "esa": 1,
+                "carpetaq": 1
+            },
+            "most_common_words": [
+                [
+                    "en",
+                    2
+                ],
+                [
+                    "el",
+                    1
+                ],
+                [
+                    "cli",
+                    1
+                ],
+                [
+                    "indicamos",
+                    1
+                ],
+                [
+                    "que",
+                    1
+                ],
+                [
+                    "se",
+                    1
+                ],
+                [
+                    "guardara",
+                    1
+                ],
+                [
+                    "directamente",
+                    1
+                ],
+                [
+                    "esa",
+                    1
+                ],
+                [
+                    "carpetaq",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "eh utilizado branch": {
+            "raw_text": "eh utilizado branch",
+            "normalized_text": "eh utilizado branch",
+            "num_characters": 19,
+            "num_characters_no_spaces": 17,
+            "num_words": 3,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "eh": 1,
+                "utilizado": 1,
+                "branch": 1
+            },
+            "most_common_words": [
+                [
+                    "eh",
+                    1
+                ],
+                [
+                    "utilizado",
+                    1
+                ],
+                [
+                    "branch",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
@@ -1684,6 +2034,140 @@
                 "nce"
             ],
             "syllable_count": 2,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "el historial se llena de archivo": {
+            "word": "el historial se llena de archivo",
+            "syllables": [
+                "e",
+                "l hi",
+                "sto",
+                "ria",
+                "l se",
+                " lle",
+                "na",
+                " de",
+                " a",
+                "rchi",
+                "vo"
+            ],
+            "syllable_count": 11,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "5": {
+            "word": "5",
+            "syllables": [
+                "5"
+            ],
+            "syllable_count": 1,
+            "has_tilde": false,
+            "stress_type": "monosílaba"
+        },
+        "el gui quedo chulo": {
+            "word": "el gui quedo chulo",
+            "syllables": [
+                "e",
+                "l gui",
+                " que",
+                "do",
+                " chu",
+                "lo"
+            ],
+            "syllable_count": 6,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "ganaron los canteranos": {
+            "word": "ganaron los canteranos",
+            "syllables": [
+                "ga",
+                "na",
+                "ro",
+                "n lo",
+                "s ca",
+                "nte",
+                "ra",
+                "no"
+            ],
+            "syllable_count": 8,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "hemos agregado una carpeta de exportaciones": {
+            "word": "hemos agregado una carpeta de exportaciones",
+            "syllables": [
+                "he",
+                "mo",
+                "s a",
+                "gre",
+                "ga",
+                "do",
+                " u",
+                "na",
+                " ca",
+                "rpe",
+                "ta",
+                " de",
+                " e",
+                "xpo",
+                "rta",
+                "cio",
+                "ne"
+            ],
+            "syllable_count": 17,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "hay que elegir la carpeta asi que chuleta wey": {
+            "word": "hay que elegir la carpeta asi que chuleta wey",
+            "syllables": [
+                "ha",
+                "y que",
+                " e",
+                "le",
+                "gi",
+                "r la",
+                " ca",
+                "rpe",
+                "ta",
+                " a",
+                "si",
+                " que",
+                " chu",
+                "le",
+                "ta",
+                " we"
+            ],
+            "syllable_count": 16,
+            "has_tilde": false,
+            "stress_type": "aguda"
+        },
+        "manuelita": {
+            "word": "manuelita",
+            "syllables": [
+                "ma",
+                "nue",
+                "li",
+                "ta"
+            ],
+            "syllable_count": 4,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "josefina la loca": {
+            "word": "josefina la loca",
+            "syllables": [
+                "jo",
+                "se",
+                "fi",
+                "na",
+                " la",
+                " lo",
+                "ca"
+            ],
+            "syllable_count": 7,
             "has_tilde": false,
             "stress_type": "grave"
         }
