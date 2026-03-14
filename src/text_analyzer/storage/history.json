@@ -1370,6 +1370,69 @@
                 ]
             ],
             "errors": []
+        },
+        "test finales pasan": {
+            "raw_text": "test finales pasan",
+            "normalized_text": "test finales pasan",
+            "num_characters": 18,
+            "num_characters_no_spaces": 16,
+            "num_words": 3,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "test": 1,
+                "finales": 1,
+                "pasan": 1
+            },
+            "most_common_words": [
+                [
+                    "test",
+                    1
+                ],
+                [
+                    "finales",
+                    1
+                ],
+                [
+                    "pasan",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "el gui quedo chulo": {
+            "raw_text": "el gui quedo chulo",
+            "normalized_text": "el gui quedo chulo",
+            "num_characters": 18,
+            "num_characters_no_spaces": 15,
+            "num_words": 4,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "el": 1,
+                "gui": 1,
+                "quedo": 1,
+                "chulo": 1
+            },
+            "most_common_words": [
+                [
+                    "el",
+                    1
+                ],
+                [
+                    "gui",
+                    1
+                ],
+                [
+                    "quedo",
+                    1
+                ],
+                [
+                    "chulo",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
@@ -1684,6 +1747,48 @@
                 "nce"
             ],
             "syllable_count": 2,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "el historial se llena de archivo": {
+            "word": "el historial se llena de archivo",
+            "syllables": [
+                "e",
+                "l hi",
+                "sto",
+                "ria",
+                "l se",
+                " lle",
+                "na",
+                " de",
+                " a",
+                "rchi",
+                "vo"
+            ],
+            "syllable_count": 11,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "5": {
+            "word": "5",
+            "syllables": [
+                "5"
+            ],
+            "syllable_count": 1,
+            "has_tilde": false,
+            "stress_type": "monosílaba"
+        },
+        "el gui quedo chulo": {
+            "word": "el gui quedo chulo",
+            "syllables": [
+                "e",
+                "l gui",
+                " que",
+                "do",
+                " chu",
+                "lo"
+            ],
+            "syllable_count": 6,
             "has_tilde": false,
             "stress_type": "grave"
         }

@@ -9,15 +9,26 @@ from src.text_analyzer.interfaces.gui import TextAnalyzerGUI
 
 
 # ===============================
-# Mockear CTk para entornos headless (CI / sin GUI)
+# Mockear CustomTkinter y filedialog para entorno headless
 # ===============================
 @pytest.fixture(autouse=True)
 def mock_ctk(monkeypatch):
-    monkeypatch.setattr("customtkinter.CTk", MagicMock())
-    monkeypatch.setattr("customtkinter.CTkTextbox", MagicMock())
-    monkeypatch.setattr("customtkinter.CTkLabel", MagicMock())
-    monkeypatch.setattr("customtkinter.CTkFrame", MagicMock())
-    monkeypatch.setattr("customtkinter.CTkButton", MagicMock())
+    import customtkinter as ctk
+    import tkinter.filedialog as fd
+
+    # Mockear clases de GUI
+    for cls_name in ["CTk", "CTkTextbox", "CTkLabel", "CTkFrame", "CTkButton"]:
+        monkeypatch.setattr(ctk, cls_name, MagicMock())
+
+    # Mockear diálogos de archivos
+    monkeypatch.setattr(fd, "askopenfilename", lambda **kwargs: "")
+    monkeypatch.setattr(fd, "asksaveasfilename", lambda **kwargs: "")
+
+    # Mockear métodos de widgets que se usan en tests
+    mock_textbox = ctk.CTkTextbox.return_value
+    mock_textbox.get.return_value = ""
+    mock_textbox.insert.return_value = None
+    mock_textbox.delete.return_value = None
 
 
 # ===============================
@@ -33,30 +44,28 @@ def app():
 # ===============================
 # Pruebas de Text Input y Análisis
 # ===============================
-
 def test_analizar_texto_basic(app):
     app.text_input.get.return_value = "Hola mundo"
-    
+
     with patch("src.text_analyzer.interfaces.gui.analyze_text") as mock_analyze, \
          patch("src.text_analyzer.interfaces.gui.format_analysis", return_value="RESULTADO FORMATEADO") as mock_format:
         mock_analyze.return_value = {"dummy": True}
         app.analizar_texto()
-    
+
     app.result_box.insert.assert_called_once_with("1.0", "RESULTADO FORMATEADO")
     mock_analyze.assert_called_once_with("Hola mundo")
     mock_format.assert_called_once()
 
 
 def test_analizar_texto_empty(app):
-    app.text_input.get.return_value = "\n"  # simula textbox vacío
+    app.text_input.get.return_value = "\n"
     app.analizar_texto()
-    content = app.result_box.delete.call_args  # result_box debería estar vaciado
-    assert content is not None
+    app.result_box.delete.assert_called_once()
 
 
 def test_analizar_palabra_basic(app):
     app.text_input.get.return_value = "Python es genial"
-    
+
     with patch("src.text_analyzer.interfaces.gui.analyze_single_word") as mock_word:
         mock_word.return_value = {
             "word": "Python",
@@ -66,7 +75,7 @@ def test_analizar_palabra_basic(app):
             "stress_type": "Aguda"
         }
         app.analizar_palabra()
-    
+
     inserted_text = "\n".join([
         "🧠 ANÁLISIS LINGÜÍSTICO\n",
         "Palabra: Python",
@@ -81,7 +90,6 @@ def test_analizar_palabra_basic(app):
 def test_analizar_palabra_empty(app):
     app.text_input.get.return_value = "\n"
     app.analizar_palabra()
-    # Debe borrar result_box pero no insertar texto
     app.result_box.delete.assert_called_once()
 
 
@@ -115,7 +123,8 @@ def test_exportar(monkeypatch, app, tmp_path):
 
     app.result_box.get.return_value = "Texto a exportar"
     app.exportar()
-    
+
+    # El archivo debería existir y contener el texto
     assert save_file.exists()
     content = save_file.read_text().strip()
     assert content == "Texto a exportar"

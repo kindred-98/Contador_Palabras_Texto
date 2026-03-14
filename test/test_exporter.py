@@ -3,17 +3,13 @@
 import json
 import csv
 from pathlib import Path
-from unittest.mock import patch, MagicMock
 import pytest
 
 from src.text_analyzer.io.exporter import export_txt, export_json, export_csv
 
-@pytest.fixture(autouse=True)
-def mock_ctk(monkeypatch):
-    from customtkinter import CTk, CTkTextbox, CTkButton, CTkLabel, CTkFrame
-    for cls in [CTk, CTkTextbox, CTkButton, CTkLabel, CTkFrame]:
-        monkeypatch.setattr(cls, MagicMock())
-
+# ===============================
+# Fixture de datos de prueba
+# ===============================
 @pytest.fixture
 def sample_data():
     return {
@@ -23,63 +19,64 @@ def sample_data():
         "top_palabras": [("hola", 1), ("mundo", 1)]
     }
 
-
 # ===============================
 # Test export TXT
 # ===============================
-
 def test_export_txt(tmp_path, sample_data):
-    filename = tmp_path / "output.txt"
+    # Sobrescribimos generate_filename para que use tmp_path
+    from src.text_analyzer.io import exporter
+    original_gen = exporter.generate_filename
+    exporter.generate_filename = lambda prefix, ext: str(tmp_path / f"{prefix}.{ext}")
 
-    result_file = export_txt(sample_data)
-
-    # Verificamos que se creó un archivo
-    assert Path(result_file).exists()
-
-    # Comprobamos contenido
-    content = Path(result_file).read_text()
-    assert "Hola mundo" in content
-    assert "num_palabras" not in content  # TXT solo incluye texto original
-
+    try:
+        result_file = export_txt(sample_data)
+        assert Path(result_file).exists()
+        content = Path(result_file).read_text(encoding="utf-8")
+        assert "Hola mundo" in content
+        assert "num_palabras" not in content
+    finally:
+        exporter.generate_filename = original_gen
 
 # ===============================
 # Test export JSON
 # ===============================
-
 def test_export_json(tmp_path, sample_data):
-    filename = tmp_path / "output.json"
+    from src.text_analyzer.io import exporter
+    original_gen = exporter.generate_filename
+    exporter.generate_filename = lambda prefix, ext: str(tmp_path / f"{prefix}.{ext}")
 
-    result_file = export_json(sample_data)
+    try:
+        result_file = export_json(sample_data)
+        assert Path(result_file).exists()
 
-    assert Path(result_file).exists()
+        with open(result_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
 
-    with open(result_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
+        assert data["texto_original"] == sample_data["texto_original"]
+        assert data["num_palabras"] == sample_data["num_palabras"]
 
-    # Validamos que los datos coinciden
-    assert data["texto_original"] == sample_data["texto_original"]
-    assert data["num_palabras"] == sample_data["num_palabras"]
-
-    # Normalizamos tuples -> lists
-    expected_top = [list(x) for x in sample_data["top_palabras"]]
-
-    assert data["top_palabras"] == expected_top
+        expected_top = [list(x) for x in sample_data["top_palabras"]]
+        assert data["top_palabras"] == expected_top
+    finally:
+        exporter.generate_filename = original_gen
 
 # ===============================
 # Test export CSV
 # ===============================
-
 def test_export_csv(tmp_path, sample_data):
-    filename = tmp_path / "output.csv"
+    from src.text_analyzer.io import exporter
+    original_gen = exporter.generate_filename
+    exporter.generate_filename = lambda prefix, ext: str(tmp_path / f"{prefix}.{ext}")
 
-    result_file = export_csv(sample_data)
+    try:
+        result_file = export_csv(sample_data)
+        assert Path(result_file).exists()
 
-    assert Path(result_file).exists()
+        with open(result_file, newline="", encoding="utf-8") as csvfile:
+            reader = csv.DictReader(csvfile)
+            rows = list(reader)
 
-    with open(result_file, newline="", encoding="utf-8") as csvfile:
-        reader = csv.DictReader(csvfile)
-        rows = list(reader)
-
-    # CSV debería tener 1 fila con las claves principales (texto_original)
-    # Si tu CSV está formateado de otra forma, ajusta esta verificación
-    assert any(sample_data["texto_original"] in row["texto_original"] for row in rows)
+        # Verificamos que alguna fila tenga texto_original
+        assert any(sample_data["texto_original"] in row.get("texto_original", "") for row in rows)
+    finally:
+        exporter.generate_filename = original_gen
