@@ -62,11 +62,15 @@ El proyecto fue construido con foco en:
 
 | CLI en acción | Interfaz GUI |
 |:---:|:---:|
-| ![CLI Demo](IMG/cli_demo.gif) | ![GUI Screenshot](IMG/gui_screenshot.png) |
+| ![CLI](IMG/1-Usar_CLI.png) | ![GUI](IMG/GUI_Actualizado.png) |
 
 | Resultados de análisis | Arquitectura del proyecto |
 |:---:|:---:|
-| ![Analysis](IMG/analysis_result.png) | ![Architecture](IMG/architecture.png) |
+| ![Analysis](IMG/Documentacion_FASE5.png) | ![Architecture](IMG/Arquitectura_inicial.png) ||
+
+| Pantalla de inicio |
+|:---:|:---:|
+| ![Inicio](IMG/0-Interfaz_De_Inicio.png) |
 
 ---
 
