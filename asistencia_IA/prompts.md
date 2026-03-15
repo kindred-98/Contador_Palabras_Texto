@@ -110,4 +110,4 @@ Se usó el mismo prompt de la fase directamente: se pegó el enunciado completo 
 
 > Documentada de forma diferente como práctica de distintos estilos de trabajo con IA.
 
-![Imagen Fase 5](ChatGPT%20Image%2013%20mar%202026%2C%2001_34_00.png)
+![!\[Imagen Fase 5\](ChatGPT%20Image%2013%20mar%202026%2C%2001_34_00.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0ee6a3defc958166d8b49bc397b37093f4f3f018/asistencia_IA/IMG/Documentacion_FASE5.png)

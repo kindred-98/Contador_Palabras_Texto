@@ -263,3 +263,5 @@ La aplicación incluye: CLI con Rich, GUI, análisis de texto, análisis lingü�
 ## ⬛ Fase 5
 
 Documentada bajo imagen por práctica de distintos estilos de trabajo con IA.
+
+![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0ee6a3defc958166d8b49bc397b37093f4f3f018/asistencia_IA/IMG/Documentacion_FASE5.png)

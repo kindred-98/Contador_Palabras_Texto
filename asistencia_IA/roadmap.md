@@ -145,7 +145,7 @@ Ideas para continuar el proyecto:
 ![\[C:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\asistencia_IA\IMG\Arquictectura_inicial.png)\](https://github.com/kindred-98/Contador_Palabras_Texto/blob/fd74fd9fb7c6c6d77b63d3f9f8ea39e7f580cbcb/asistencia_asistencia_IA/IMG/Arquictectura_inicial.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/Arquictectura_inicial.png)
 
 **Tests pasando antes de comenzar cambios**
-![asistencia_IA/IMG/Arquictectura_inicial.png](IMG/PruebasDe_QueTodoPasa.png)
+![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/PruebasDe_QueTodoPasa.png)
 
 **Interfaz de inicio actualizada**
 
@@ -156,4 +156,3 @@ Ideas para continuar el proyecto:
 ![!\[Interfaz 5\](Captura%20de%20pantalla%202026-03-12%20110446.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/4-Salir.png)
 
 
-[PruebaDe_QueTodoPasa.png]: https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/PruebasDe_QueTodoPasa.png
