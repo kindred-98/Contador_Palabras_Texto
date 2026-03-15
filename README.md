@@ -300,43 +300,56 @@ tests/test_gui.py           ..........   PASSED
 Contador_Palabras_Texto/
 │
 ├── src/
-│   ├── text_analyzer/
-│   │   ├── core/
-│   │   │   ├── analyzer.py          # Lógica principal de análisis
-│   │   │   ├── linguistic.py        # Análisis lingüístico por palabra
-│   │   │   └── models.py            # Modelos de datos
-│   │   │
-│   │   ├── interfaces/
-│   │   │   ├── cli.py               # Interfaz de línea de comandos
-│   │   │   ├── gui.py               # Interfaz gráfica (Tkinter)
-│   │   │   └── gui_formatter.py     # Formateador para GUI
-│   │   │
-│   │   ├── io/
-│   │   │   ├── exporter.py          # Exportación JSON / CSV / TXT
-│   │   │   ├── file_loader.py       # Carga de archivos externos
-│   │   │   └── input_handler.py     # Gestión de entradas del usuario
-│   │   │
-│   │   ├── storage/
-│   │   │   ├── history_manager.py   # Gestión del historial
-│   │   │   └── history.json         # Historial persistente
-│   │   │
-│   │   ├── errors/
-│   │   │   ├── custom_exceptions.py # Excepciones personalizadas
-│   │   │   └── error_handler.py     # Manejador centralizado de errores
-│   │   │
-│   │   └── login/
-│   │       └── logger.py            # Sistema de logs
-│   │
-│   └── exportacionesDel_Usuario/    # Resultados exportados por el usuario
+│   ├── main.py                      # Punto de entrada principal
+│   └── text_analyzer/
+│       ├── app.py                   # Orquestador CLI / GUI
+│       │
+│       ├── core/
+│       │   ├── analyzer.py          # Lógica principal de análisis
+│       │   ├── linguistic.py        # Análisis lingüístico por palabra
+│       │   ├── models.py            # Modelos de datos
+│       │   └── utils.py             # Funciones auxiliares
+│       │
+│       ├── interfaces/
+│       │   ├── cli.py               # Interfaz de línea de comandos
+│       │   ├── gui.py               # Interfaz gráfica (Tkinter)
+│       │   └── gui_formatter.py     # Formateador para GUI
+│       │
+│       ├── io/
+│       │   ├── exporter.py          # Exportación JSON / CSV / TXT
+│       │   ├── file_loader.py       # Carga de archivos externos
+│       │   └── input_handler.py     # Gestión de entradas del usuario
+│       │
+│       ├── storage/
+│       │   ├── history_manager.py   # Gestión del historial
+│       │   └── history.json         # Historial persistente
+│       │
+│       ├── errors/
+│       │   ├── custom_exceptions.py # Excepciones personalizadas
+│       │   └── error_handler.py     # Manejador centralizado de errores
+│       │
+│       └── login/
+│           └── logger.py            # Sistema de logs
+│
+├── logs/
+│   ├── errors.log                   # Registro de errores en ejecución
+│   └── text_analyzer.log            # Log general de la aplicación
+│
+├── exportacionesDel_Usuario/        # Resultados exportados por el usuario
 │
 ├── tests/
+│   ├── conftest.py                  # Fixtures compartidos entre tests
 │   ├── test_analyzer.py
 │   ├── test_cli.py
 │   ├── test_exporter.py
 │   ├── test_file_loader.py
 │   └── test_gui.py
 │
-├── IMG/                             # Capturas, GIFs y diagrama de arquitectura
+├── asistencia_ia/
+│   └── IMG/                         # Capturas, GIFs y diagrama de arquitectura
+│
+├── pyproject.toml                   # Configuración del proyecto
+├── pytest.ini                       # Configuración de pytest
 ├── requirements.txt
 ├── README.md
 └── LICENSE
