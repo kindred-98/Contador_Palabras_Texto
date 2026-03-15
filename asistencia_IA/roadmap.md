@@ -149,12 +149,11 @@ Ideas para continuar el proyecto:
 
 **Interfaz de inicio actualizada**
 
-![Interfaz 1](Captura%20de%20pantalla%202026-03-12%20105619.png)
-![Interfaz 2](Captura%20de%20pantalla%202026-03-12%20105642.png)
-![Interfaz 3](Captura%20de%20pantalla%202026-03-12%20105825.png)
-![Interfaz 4](Captura%20de%20pantalla%202026-03-12%20105852.png)
-![Interfaz 5](Captura%20de%20pantalla%202026-03-12%20110446.png)
-![Estado final](Captura%20de%20pantalla%202026-03-15%20002031.png)
+![!\[Interfaz 1\](Captura%20de%20pantalla%202026-03-12%20105619.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/0-Interfaz_De_Inicio.png)
+![!\[Interfaz 2\](Captura%20de%20pantalla%202026-03-12%20105642.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/1-Usar_CLI.png)
+![!\[Interfaz 3\](Captura%20de%20pantalla%202026-03-12%20105825.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0ee6a3defc958166d8b49bc397b37093f4f3f018/asistencia_IA/IMG/GUI_Actualizado.png)
+![!\[Interfaz 4\](Captura%20de%20pantalla%202026-03-12%20105852.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/3-Ver_historial_rapido.png)
+![!\[Interfaz 5\](Captura%20de%20pantalla%202026-03-12%20110446.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/4-Salir.png)
 
 
 [PruebaDe_QueTodoPasa.png]: https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/PruebasDe_QueTodoPasa.png
