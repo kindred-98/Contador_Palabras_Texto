@@ -64,7 +64,7 @@ El proyecto fue construido con foco en:
 |:---:|:---:|
 | ![!\[CLI\](IMG/1-Usar_CLI.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/1-Usar_CLI.png) | 
 
-![!\[GUI\](IMG/GUI_Actualizado.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0ee6a3defc958166d8b49bc397b37093f4f3f018/asistencia_IA/IMG/GUI_Actualizado.png)
+| ![!\[GUI\](IMG/GUI_Actualizado.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0ee6a3defc958166d8b49bc397b37093f4f3f018/asistencia_IA/IMG/GUI_Actualizado.png)|
 
 | Resultados de análisis | Arquitectura del proyecto |
 |:---:|:---:|
