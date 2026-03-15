@@ -429,6 +429,8 @@ Ninguna IA tomó decisiones por sí sola. Todo el código generado fue analizado
 
 ---
 
+<div align="center">
+
 ## 📜 Licencia
 
 Este proyecto está distribuido bajo la licencia **MIT**.
@@ -436,6 +438,8 @@ Este proyecto está distribuido bajo la licencia **MIT**.
 Puedes usar, modificar y distribuir este software libremente siempre que se incluya la licencia original.
 
 Ver archivo [LICENSE](LICENSE) para más detalles.
+
+</div>
 
 ---
 
