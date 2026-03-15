@@ -1,139 +1,157 @@
-<!-- markdownlint-disable MD032 -->
+# 🗺️ Roadmap Profesional — Text Analyzer
 
-# 🗺 Roadmap Profesional – Text Analyzer
+---
 
-## Fase 0 – Base (ya implementada)
-✅ Objetivo: Tener un proyecto funcional y testeado.
+## Fase 0 — Base del proyecto
+**✅ Completada**
 
-- Arquitectura modular (core, io, interfaces)
+Objetivo: tener un proyecto funcional y testeado antes de agregar funcionalidades.
+
+- Arquitectura modular: `core`, `io`, `interfaces`
 - CLI básico funcional
-- Funciones de análisis de texto: palabras, caracteres, oraciones, párrafos
+- Funciones de análisis: palabras, caracteres, oraciones, párrafos
 - Tests unitarios con pytest
-- Normalización de texto confiable (normalize_text)
+- Normalización de texto confiable (`normalize_text`)
 
-Resultado esperado: todos los tests pasan, CLI mínimo funcional, código limpio.
+**Resultado:** todos los tests pasan, CLI mínimo funcional, código limpio.
 
-## Fase 1 – Mejoras en CLI y experiencia usuario
-🎯 Objetivo: Hacer la app más legible y profesional en la terminal.
+---
 
-1. Crear un menú interactivo para seleccionar modo:
-´´´
-1) Analizar texto
-2) Analizar palabra
-3) Ver historial
-4) Exportar resultados
-5) Salir
-´´´
-2. guiada para analizar palabras individuales.
-3. Usar librería de terminal para mejorar presentación:
-- Rich (Python library) – tablas, colores
-- Indicadores visuales de progreso o separación de secciones
-4. Mejorar la salida de análisis de texto:
-- 📝 Número de palabras, caracteres, oraciones, párrafos
-- 🏆 Top N palabras con frecuencia
-- Distinción visual entre datos principales y secundarios
+## Fase 1 — Mejoras en CLI y experiencia de usuario
+**✅ Completada**
 
-Resultado esperado: CLI limpio, comprensible, atractivo visualmente.
+Objetivo: hacer la app más legible y profesional en la terminal.
 
-## Fase 2 – Historial y persistencia
-🎯 Objetivo: Evitar recalcular palabras o textos ya analizados.
+- Menú interactivo con 5 opciones: Analizar texto, Analizar palabra, Ver historial, Exportar resultados, Salir
+- Entrada guiada para analizar palabras individuales
+- Integración de Rich: tablas, colores, separadores visuales
+- Salida mejorada: top N palabras con frecuencia, distinción visual entre datos principales y secundarios
 
-1. Implementar módulo history_manager.py en storage/.
-2. Guardar resultados de palabras y textos en JSON o SQLite.
-3. Flujo de análisis:
-- Si palabra/texto existe → leer del historial
-- Si no existe → generar análisis y guardar
-- Permitir consultar historial desde el CLI.
+**Resultado:** CLI limpio, comprensible y atractivo visualmente.
 
-Resultado esperado: app recuerda todos los análisis previos, mejora velocidad y experiencia.
+---
 
+## Fase 2 — Historial y persistencia
+**✅ Completada**
 
-## Fase 3 – Análisis lingüístico de palabras
-🎯 Objetivo: Analizar cada palabra más a fondo.
+Objetivo: evitar recalcular palabras o textos ya analizados.
 
-1. Dividir palabras en sílabas.
-2. Determinar tipo de palabra (aguda, grave, esdrújula, sobresdrújula).
-3. Detectar acento escrito (tilde) y número de sílabas.
-4. Guardar análisis lingüístico en historial.
+- Módulo `history_manager.py` en `storage/`
+- Guardado de resultados en JSON
+- Flujo de análisis: si existe en historial → leer; si no → analizar y guardar
+- Consulta de historial desde la CLI
 
-Resultado esperado: palabras analizadas con información completa, usable desde historial.
+**Resultado:** la app recuerda todos los análisis previos, mejora velocidad y experiencia.
 
+---
 
-## Fase 4 – Exportación de resultados
-🎯 Objetivo: Permitir guardar y compartir análisis.
+## Fase 3 — Análisis lingüístico de palabras
+**✅ Completada**
 
-1. Exportar análisis a:
-- CSV
-- TXT
-- JSON
-2. Permitir exportar solo historial, solo resultado actual o ambos.
-3. Añadir timestamp a los archivos exportados.
+Objetivo: analizar cada palabra más a fondo.
 
-Resultado esperado: usuario puede guardar, revisar y compartir resultados fácilmente.
+- División en sílabas
+- Tipo de palabra: aguda, grave, esdrújula, sobresdrújula
+- Detección de tilde y número de sílabas
+- Guardado del análisis lingüístico en historial
 
+**Resultado:** palabras analizadas con información completa, accesible desde el historial.
 
-## Fase 5 – GUI básica (opcional pero profesional)
-🎯 Objetivo: Proveer una interfaz visual para usuarios menos técnicos.
+---
 
-1. Usar librería simple: Tkinter o CustomTkinter
-2. Mostrar análisis de texto en tablas y paneles.
-3. Permitir selección de archivo, entrada de texto y palabra individual.
-4. Guardar historial y exportar desde GUI.
+## Fase 4 — Exportación de resultados
+**✅ Completada**
 
-Resultado esperado: GUI funcional y coherente con la CLI, reutilizando lógica del backend.
+Objetivo: permitir guardar y compartir análisis.
 
+- Exportación a CSV, TXT y JSON
+- Opción de exportar historial, resultado actual o ambos
+- Timestamp automático en los nombres de archivo generados
 
-## Fase 6 – Optimización y escalabilidad
+**Resultado:** el usuario puede guardar, revisar y compartir resultados fácilmente.
 
-🎯 Objetivo: Proyectos grandes requieren código eficiente y mantenible.
+---
 
-1. Añadir logging profesional (logging module)
-2. Manejar errores y excepciones con mensajes claros
-3. Mejorar tests:
-- Cobertura de tests ≥ 95% (pytest-cov)
-- Tests de CLI y GUI
-- Casos de borde: texto vacío, espacios, caracteres especiales
-4. Refactorizar módulos para mantener principio de responsabilidad única
-5. Documentación profesional:
-- README con instalación, ejemplos, screenshots
-- sistencia_ia/ actualizado con decisiones y prompts
+## Fase 5 — GUI básica
+**✅ Completada**
 
-Resultado esperado: proyecto estable, testeable, profesional y listo para portfolio.
+Objetivo: interfaz visual para usuarios menos técnicos.
 
-## Fase 7 – Extras opcionales (destacan en GitHub)
+- Librería: CustomTkinter
+- Tablas y paneles para mostrar resultados
+- Selección de archivo, entrada de texto y análisis de palabra individual
+- Historial y exportación disponibles desde la GUI
+- Lógica de backend reutilizada sin duplicar código
 
-1. Añadir análisis avanzado:
-- Longitud media de palabras
-- Densidad de palabras clave
-- Nube de palabras (ASCII o GUI)
-2. Integración con API externa (opcional):
-- Por ejemplo, para corrección ortográfica o análisis de sentimiento.
-3. Versionado de historial con timestamps y hashes, para asegurar integridad.
+**Resultado:** GUI funcional y coherente con la CLI.
 
+---
 
-## 💡 Tip senior
+## Fase 6 — Optimización y estabilidad
+**✅ Completada**
 
-- Cada fase debe ser autocontenida y testeable.
-- No mezclar CLI, GUI y lógica antes de tener tests robustos.
-- Mantener código limpio y modular: core no debe depender de GUI/CLI.
-- Cada feature nueva → test unitario + test de integración.
-- Documentar cada decisión y mantener historial de cambios.
+Objetivo: código eficiente, mantenible y listo para portafolio.
 
+- Logging profesional con el módulo `logging`
+- Manejo de errores con mensajes claros al usuario
+- Tests mejorados: cobertura ~88%, tests de CLI y GUI, casos de borde
+- Refactorización para mantener responsabilidad única por módulo
+- Documentación: README completo, `asistencia_ia/` actualizado
 
-## ROADMAP VISUAL
-![alt text](<ChatGPT Image 8 mar 2026, 22_30_40.png>)
+**Resultado:** proyecto estable, testeable y profesional.
 
-## ESTRUCTURA BASICA INICIAL ANTES DE COMENZAR CON EL ROADMAP
-![alt text](image.png)
+---
 
-## PRUEBA DE QUE TODO PASA, ANTES DE COMENZAR A APLICAR CAMBIOS.
-![alt text](<Captura de pantalla 2026-03-08 235759.png>)
+## Fase 7 — Documentación de tests
+**✅ Completada**
 
-## INTERFAZ DE INICIO ACTUALIZADA
-![alt text](<Captura de pantalla 2026-03-12 105619.png>)
-![alt text](<Captura de pantalla 2026-03-12 105642.png>)
-![alt text](<Captura de pantalla 2026-03-12 105825.png>)
-![alt text](<Captura de pantalla 2026-03-12 105852.png>)
-![alt text](<Captura de pantalla 2026-03-12 110446.png>)
-![alt text](image.png)
-![alt text](<Captura de pantalla 2026-03-15 002031.png>)
+Objetivo: documentar exhaustivamente el proceso de pruebas.
+
+- Decisiones del desarrollador y acuerdos con la IA
+- Incidencias detectadas y soluciones implementadas
+- Flujo de testeo paso a paso
+- Resolución del error `_tkinter.TclError` mediante mocking
+
+**Resultado:** proceso de testing documentado para referencia futura.
+
+---
+
+## 💡 Principios aplicados durante el desarrollo
+
+- Cada fase autocontenida y testeable antes de pasar a la siguiente
+- `core` sin dependencias de GUI ni CLI
+- Cada feature nueva acompañada de test unitario
+- Decisiones documentadas en `asistencia_ia/`
+
+---
+
+## Extras opcionales (Fase 8 — Futura)
+
+Ideas para continuar el proyecto:
+
+- Longitud media de palabras y densidad de palabras clave
+- Nube de palabras en ASCII o GUI
+- Integración con API externa (corrección ortográfica, análisis de sentimiento)
+- Versionado de historial con timestamps y hashes
+
+---
+
+## 📸 Capturas del proyecto
+
+**Roadmap visual**
+![Roadmap visual](ChatGPT%20Image%208%20mar%202026%2C%2022_30_40.png)
+
+**Estructura inicial antes del roadmap**
+![Estructura inicial](image.png)
+
+**Tests pasando antes de comenzar cambios**
+![Tests iniciales](Captura%20de%20pantalla%202026-03-08%20235759.png)
+
+**Interfaz de inicio actualizada**
+
+![Interfaz 1](Captura%20de%20pantalla%202026-03-12%20105619.png)
+![Interfaz 2](Captura%20de%20pantalla%202026-03-12%20105642.png)
+![Interfaz 3](Captura%20de%20pantalla%202026-03-12%20105825.png)
+![Interfaz 4](Captura%20de%20pantalla%202026-03-12%20105852.png)
+![Interfaz 5](Captura%20de%20pantalla%202026-03-12%20110446.png)
+![Estado final](Captura%20de%20pantalla%202026-03-15%20002031.png)

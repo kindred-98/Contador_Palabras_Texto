@@ -1,74 +1,70 @@
-# FASE 0
+# 🗒️ Devlog 
 
-1. Eh agregado el archivo respuestaDeLaIA.md 
-para documentar todo lo posible de perplexity.
+Registro del proceso de desarrollo, decisiones tomadas y aprendizajes del proyecto.
 
-2. Luego de que la separacion de responsabiliades que me dio se la 
-cuestione me ha cambiado la estructura del proyecto.
-Eh aceptado la segunda que me ha dado porque la primera no me convencia.
+---
 
-3. Voy a seguir este orden en la creacion de codigo: models → utils → analyzer → file_loader → input_handler → cli → app.  
+## 🟦 Fase 0 — Base del proyecto
 
-4. Decidi hacer los test robustos por gusto.
+- Agregado `respuestaDeLaIA.md` para documentar el proceso con Perplexity.
+- Se cuestionó la primera propuesta de separación de responsabilidades y se aceptó la segunda por ser más convincente.
+- Orden de creación definido: `models → utils → analyzer → file_loader → input_handler → cli → app`.
+- Decisión de hacer tests robustos por gusto y aprendizaje.
+- Cambios de imports manuales para no romper el proyecto durante la migración.
+- Revisión de código y documentación antes de continuar.
+- No se avanzó hasta tener los tests en orden.
+- Cada proyecto se hace distinto a propósito, para practicar errores distintos y entender mejor cómo funciona Python.
+- Problema de tests resuelto. Se continúa.
+- Con la base lista, se inicia la planificación real. Se agrega `roadmap.md` e imagen del mismo.
 
-5. Cambios de import manuales para no romper todo. 
+---
 
-6. Revision del codigo y documentancion. 
+## 🟨 Fase 1 — Mejora de la terminal
 
-7. No avanzo en el proyecto hasta acomodar los test.
+- `run.py` eliminado y reemplazado por `main.py` para evitar dos puntos de arranque distintos.
+- Mejora visual de la terminal con **Rich**.
 
-8. Cada proyecto lo hago distinto por practicar errores y conocer mas
-de como funciona python.
+---
 
-9. Problema resulto de los test, sigo avanzado.
+## 🟩 Fase 2 — Historial y caché
 
-10. Ya que tengo la base del proyecto ahora si comienzo con mi planificacion.
-Agrego archivo roadmap.md y imagen del mismo.
-Ire implementando cada cosa paso a paso y comentandolo todo.
+- Implementación de caché para evitar recalcular textos o palabras ya analizadas.
+- Creación del módulo `storage`: `history_manager.py` + `history.json`.
+- Modificación de `analizar_texto()` y `analyzer.py` con dos nuevos bloques: consulta de historial y guardado en historial.
 
-## FASE 1
+**Implementado a petición del usuario:**
 
-11. Eliminacion de run.py por main.py. Se evito tener dos arranques distintos.
-12. Mejorando la terminal con rich.
+- Menú principal con Rich, iconos y colores (`🚀 📂 🖥️ 📜 ❌`).
+- Opción de historial rápido visible desde el menú principal.
+- Función `resumen_historial()` para compatibilidad entre CLI y GUI.
+- `main.py` ejecutable tanto desde VS Code como desde línea de comandos dentro de `src/`.
+- Historial dinámico con los últimos 5 análisis, independiente del origen.
 
-## FASE 2
+**Nota técnica:** La clave del caché es `raw_text` porque el proyecto no requiere escalar a gran volumen. Si se ampliara, se usaría `hash(text)`.
 
-13. Evitar recalcular textos o palabras que ya fueron analizados.
-14. Craecion de storage ( history_manager.py / history.json )
-15. Modificacion de analizar_texto()
-16. Modificacion de analayzer.py se añadieron bloques nuevo: Consulta de historial, Guardado en historial.
+**Acuerdos y desacuerdos durante el desarrollo:**
 
-17. Lo que se implementó específicamente a petición del usuario
+| | Punto |
+|:---:|---|
+| ✅ | Mantener menú con Rich y colores |
+| ✅ | Historial compartido entre CLI y GUI |
+| ✅ | Historial rápido con resumen legible de los últimos análisis |
+| ⚠️ | Originalmente se quería que GUI guardara strings como CLI, pero se decidió guardar `AnalysisResult` y resumirlo dinámicamente |
 
-- Menú principal con Rich, iconos y colores (🚀, 📂, 🖥️, 📜, ❌).
-- Opción de Historial rápido visible desde el menú principal.
-- Función resumen_historial() para compatibilidad CLI/GUI.
-- Mantener main.py ejecutable desde VS Code y desde línea de comandos dentro de src/.
-- Historial dinámico con últimos 5 análisis, independiente del origen (CLI o GUI).
+---
 
-18. el cache de la key es raw_text porque no hare el proyecto tan grande, si lo fuera ampliar usaria hash(text)
+## 🟪 Fase 3 — Módulo lingüístico
 
-19. Puntos de acuerdo y desacuerdo
+- Creación de `linguistic.py` para separar el análisis lingüístico de `analyzer.py` y mantener cada módulo con una única responsabilidad.
+- La propuesta de la IA fue convincente y se aceptó.
 
-✅ Acuerdo:
+---
 
-- Mantener menú con Rich y colores.
-- Historial debe ser compartido entre CLI y GUI.
-- Historial rápido debe mostrar resumen legible de los últimos análisis.
+## 🏁 Fase Final — Cierre y reflexión
 
-⚠️ Desacuerdo / ajuste:
+Quedó pendiente refactorizar y terminar el roadmap, pero el proyecto llegó hasta la **Fase 6 de los tests** con la app funcional.
 
-Originalmente querías que GUI guardara strings como CLI, pero decidimos guardar AnalysisResult y resumirlo dinámicamente.
+El reto personal fue hacerlo lo más complejo posible a propósito, para entender cómo funciona cada bloque de código. De este proyecto se extrajo más aprendizaje que de los anteriores.
 
-## FASE 3
--Creacion de linguistic.py para no contaminar analyzer.py, sino crear un módulo lingüístico separado.
-- la propuesta de la IA me tento.
-
-## FASE FINAL
-
-Me falto refactorizarla y terminal el roadmap pero eh llegado hasta la fase 6 de los test y eh dejado la app funcional y me ha dado mucha enseñanza de python y de la IA. 
-El reto de hacerla lo mas complicado posible es una de las cosas que me propongo dia a dia para entender como funciona cada bloque o pieza de codigo.
-De este proyecto me llevo mas enseñanza de el de los primeros.
-
-Hare un readme algo sencillo y sin complicaciones.
-
+> *"Hare un readme algo sencillo y sin complicaciones."*  
+> — MDL, al cerrar el proyecto

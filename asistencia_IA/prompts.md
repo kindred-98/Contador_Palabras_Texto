@@ -1,107 +1,113 @@
-# FASE 0
+# 🗒️ Devlog 
 
-# PRIMER PROMPT
+Registro del proceso de desarrollo: prompts utilizados, decisiones tomadas y evolución del proyecto fase a fase.
 
-Tengo una tareas.
+---
 
-1. Descripción del Ejercicio 
-Este proyecto consiste en desarrollar un analizador de texto interactivo en terminal que permita al usuario introducir un texto directamente en la terminal y obtener al instante estadísticas detalladas: número de palabras, caracteres, oraciones, párrafos y las palabras más frecuentes. El desarrollo se realizará paso a paso utilizando Git para control de versiones y contando con la asistencia de herramientas de IA para generar código, el cual deberá ser analizado, comprendido y modificado según las necesidades del proyecto. 
- 
-El programa permitirá analizar tanto texto introducido directamente en la terminal como texto cargado desde un archivo .txt externo, mostrando un informe completo y guardando los resultados si el usuario lo desea.
+## 🟦 Fase 0 — Planificación y base del proyecto
 
-Es esa practicamente.
+### Descripción del ejercicio
 
+Desarrollar un analizador de texto interactivo en terminal que permita introducir texto directamente o cargarlo desde un `.txt`, obteniendo estadísticas detalladas: palabras, caracteres, oraciones, párrafos y palabras más frecuentes. Con control de versiones en Git y asistencia de IA para generar código a analizar, comprender y modificar.
 
-# SEGUNDO PROMPT
+---
 
-No he hecho nda tengop que comenzar de cero pero quiero primero hacer una planifcacion de como hacerla pasoa paso y entregarla hoy ya que no es proyecto largo.
+### Prompts utilizados
 
-Quiero una estrcutura modularizada repartiendo responsabilidades, queiro test, validaciones, manejo de errores y que pueda correr en la terminal o en gui.
-Quiero gitignore, readme.
+**Prompt 1 — Definición del ejercicio**
+Se entregó la descripción del proyecto tal como estaba planteada en la tarea.
 
-una carpeta que se llame asistencia ia donde podremos todo los prompt usado y lo que hemos arreglado y falla mientras hacemos la tarea.
+**Prompt 2 — Planificación antes de código**
+> *"No he hecho nada, tengo que comenzar de cero pero quiero primero hacer una planificación paso a paso. Quiero estructura modularizada repartiendo responsabilidades, tests, validaciones, manejo de errores y que pueda correr en terminal o GUI. Quiero `.gitignore`, `README` y una carpeta `asistencia_ia` donde guardar los prompts usados y los fallos encontrados. No quiero código aún — quiero una planificación y estructura profesional como la haría un senior."*
 
-No quiero codigo aun. Como eh dicho quiero una planificacion y una estructura como la que te eh dicho pero hazmela mas profesional como lo haria un señior tanto la estructura como la planificacion del proyecto.
+**Prompt 3 — Corrección de estructura**
+> *"¿Por qué en la estructura me pone la carpeta `interfaces` dentro de la carpeta `errores`? ¿Por qué no dejarla en `src` a la altura de las demás carpetas?"*
 
-# TERCER PROMPT
-Porque en la estructura creada me pone la carpeta interfaces dentro de la carpeta errores? porque no mejor dejarla en el src a la altura de las demas carpetas.
+La IA había cometido un error de diseño. Se corrigió.
 
-# CUARTO PROMPT 
-Comenzemos con el models. Creame los models como un señior para el contador de palabras
+**Prompt 4 — Models**
+> *"Comencemos con el models. Créame los models como un senior para el contador de palabras."*
 
-# QUINTO PROMPT
-Ahora quiero conectar los models con los utils y firmame las funciones que devolveran estos modelos.
+**Prompt 5 — Conexión models + utils**
+> *"Ahora quiero conectar los models con los utils y fírmame las funciones que devolverán estos modelos."*
 
-# SEXTO PROMPT 
-Quiero que me generes los test como un señior y con caso de prueba reales
+**Prompt 6 — Tests**
+> *"Quiero que me generes los tests como un senior con casos de prueba reales."*
 
-# SEPTIMO PROMPT
-Creame el codigo de file_loader y input_handler. 
+**Prompt 7 — file_loader e input_handler**
+> *"Créame el código de `file_loader` e `input_handler`."*
 
-# OCTAVO PROMPT 
-Fueron muchos de preguntas y mandadas de errores a la IA sobre problmas con los test.
-Claro esta que primero los busque por mismos. viendo los erroes que me salian en la terminal
-PD: Intente cambiarlo usando el metodo prueba y error sin ayuda.
-Luego la IA me guio un poco con pregunta directas del error donde era el cambio y porque-
-Dejo todo en incidencias, documentado en incidencias.
+**Prompt 8 — Resolución de errores en tests**
 
-## NOVENO PROMPT
-PD: Interectue con ella mucho con preguntas y dudas por lo tanto fuero muchas preguntas asi que eh resumido un poco aqui lo que le he pedido. las dudas y preguntas eran sobre el proyecto y el codigo.
+Primero se intentó resolver los errores de tests de forma independiente, leyendo los mensajes de la terminal y aplicando el método prueba-error. Luego se recurrió a la IA con preguntas directas sobre cada error puntual: qué era, dónde estaba y por qué ocurría. Todo quedó documentado en el archivo de incidencias.
 
-Quiero hacerla lo mas profersional posible este proyecto, ya que todo lo que hago lo monto en mi repositorio de git hub, pero a esta app le faltan muchas cosas por hacer o arreglar.
+**Prompt 9 — Roadmap de evolución**
 
-cosas que no hace y deberia hacer:
-- solo funciona en la terminal, no hay un modo de seleccion para el cli o gui. 
-- no es muy interactiva o entendible al ojo humano cuando se despliega- es un contado de palabra lo se pero quiero que al entrar sea mas legible, por ej: pon aqui la palabra que quieres que cuente, que la cuentes que la separe en silabas, que diga si la palabra es esdrujula. grave etc.
-- que guarde la paalabra en un archivo y que nunca se boorre, por si alguien la vuelve a buscar que ya eeste guardada y no tenga que volver a hacer el proceso, si no que la toma desde el historia y si no esta ahi si la genere la app. 
+Tras tener la base funcionando, el output era este:
 
-📊 ANÁLISIS DE TEXTO - 29 caracteres ======================================= 
-📈 CARACTERES: 29 (sin espacios: 24) 
-📝 PALABRAS: 5 
-📜 ORACIONES: 1 
-📑 PÁRRAFOS: 1 
-🏆 TOP 5 PALABRAS MÁS FRECUENTES: ---------------------------------------- 
-1. kindred → 1 veces 
-2. yasuo → 1 veces 
-3. son → 1 veces 
-4. unos → 1 veces 5. mmgv → 1 veces 
+```
+📊 ANÁLISIS DE TEXTO - 29 caracteres
+=======================================
+📈 CARACTERES: 29 (sin espacios: 24)
+📝 PALABRAS:   5
+📜 ORACIONES:  1
+📑 PÁRRAFOS:   1
 
-hasta ahora hace esto, y esta bien, me gusta pero, quiero que haga mas.
-Entonces analizando todo, lo que te eh dicho quiero que piense como un señior y me des un roadmap de evolución para mi app.
+🏆 TOP 5 PALABRAS MÁS FRECUENTES:
+----------------------------------------
+1. kindred → 1 veces
+2. yasuo   → 1 veces
+3. son     → 1 veces
+4. unos    → 1 veces
+5. mmgv    → 1 veces
+```
 
-- luego se lo eh pedido en visual.
+Funcionaba, pero se quería más. Se le pidió a la IA que pensara como un senior y propusiera un roadmap de evolución, considerando:
 
-# FASE 1
+- Solo corría en terminal, sin modo de selección CLI / GUI
+- La interfaz no era suficientemente legible ni interactiva
+- No había análisis lingüístico por palabra (sílabas, tipo de acento, etc.)
+- No había historial persistente para evitar recalcular palabras ya analizadas
 
-Mejora la experiencia de usuario en terminal creando una CLI profesional con la libreria rich.
-Quiero que sea claro y visual, con herramientas de análisis de texto y navegación mediante menú interactivo.
+El roadmap también se solicitó en formato visual.
 
-Tambien fueron usados distintos prompt para ciertas cositas, como la exportaciones de resultado, creacion del script de main.
+---
 
-# FASE 2
+## 🟨 Fase 1 — CLI profesional con Rich
 
-- Vamos a la fase 2: implementar historial y persistencia en JSON/SQLite y consultar desde CLI.
+Mejora de la experiencia en terminal con la librería Rich: interfaz visual, menú interactivo y navegación clara. Se usaron prompts adicionales para la exportación de resultados y la creación del script `main.py`.
 
-- Cuando el GUI analiza una palabra, el historial rompe el menú principal. porque y como lo arreglamos.
+---
 
-- Le eh dado especificamente luego como queria que fuera mi interfaz del cli al entrar y eh agregago un historial rapido.
+## 🟩 Fase 2 — Historial y persistencia
 
+- Implementación del historial persistente en JSON/SQLite con consulta desde CLI.
+- Se detectó que al analizar una palabra desde GUI, el historial rompía el menú principal. Se investigó, se preguntó a la IA la causa y se corrigió.
+- Se especificó el diseño exacto deseado para la pantalla de inicio de la CLI y se añadió un historial rápido visible al entrar.
 
-# FASE 3 
-Apliquemos la 3 fase.
-Fase 3 – Análisis lingüístico de palabras
-🎯 Objetivo: Analizar cada palabra más a fondo.
+---
 
-1. Dividir palabras en sílabas.
-2. Determinar tipo de palabra (aguda, grave, esdrújula, sobresdrújula).
-3. Detectar acento escrito (tilde) y número de sílabas.
-4. Guardar análisis lingüístico en historial.
+## 🟪 Fase 3 — Análisis lingüístico
 
-- Quiero que el script nuevo este fuera de analyzer, para no mezclar codigo.
+Se solicitó implementar análisis lingüístico por palabra:
 
-# FASE 4
-Use el mismo prompt de la fase. solo le dije implementame esto. y pegue el la fase entera.
+- División en sílabas
+- Tipo de palabra: aguda, grave, esdrújula, sobresdrújula
+- Detección de tilde y número de sílabas
+- Guardado del análisis lingüístico en historial
 
-# LA FASE 5 LA VOY A DOCUMENTAR DIFERENTE SOLO POR HACER TODO TIPO DE PRACTICAR CON LA IA.
+El nuevo módulo se creó fuera de `analyzer.py` para no mezclar responsabilidades.
 
-![alt text](<ChatGPT Image 13 mar 2026, 01_34_00.png>)
+---
+
+## 🟥 Fase 4
+
+Se usó el mismo prompt de la fase directamente: se pegó el enunciado completo de la Fase 4 y se pidió implementarlo tal cual.
+
+---
+
+## ⬛ Fase 5
+
+> Documentada de forma diferente como práctica de distintos estilos de trabajo con IA.
+
+![Imagen Fase 5](ChatGPT%20Image%2013%20mar%202026%2C%2001_34_00.png)
