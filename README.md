@@ -403,8 +403,11 @@ Contador_Palabras_Texto/
 
 ## 📜 Licencia
 
-Este proyecto está bajo licencia **MIT**.  
-Consulta el archivo [LICENSE](LICENSE) para más información.
+Este proyecto está distribuido bajo la licencia **MIT**.
+
+Puedes usar, modificar y distribuir este software libremente siempre que se incluya la licencia original.
+
+Ver archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
