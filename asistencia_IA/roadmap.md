@@ -139,7 +139,7 @@ Ideas para continuar el proyecto:
 ## 📸 Capturas del proyecto
 
 **Roadmap visual**
-![Roadmap visual](ChatGPT%20Image%208%20mar%202026%2C%2022_30_40.png)
+!![C:\Users\angel\OneDrive\Documentos\GitHub\Contador_Palabras_Texto\asistencia_IA\IMG\Roadmap.png](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/Roadmap.png)
 
 **Estructura inicial antes del roadmap**
 ![Estructura inicial](image.png)
