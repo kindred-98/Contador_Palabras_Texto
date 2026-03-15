@@ -68,3 +68,5 @@ El reto personal fue hacerlo lo más complejo posible a propósito, para entende
 
 > *"Hare un readme algo sencillo y sin complicaciones."*  
 > — MDL, al cerrar el proyecto
+
+

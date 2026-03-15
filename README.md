@@ -414,6 +414,21 @@ Contador_Palabras_Texto/
 
 ---
 
+## 🤖 IA utilizadas durante el desarrollo
+
+Este proyecto fue desarrollado con asistencia de múltiples herramientas de IA, cada una con un rol distinto y complementario.
+
+| IA | Uso principal |
+|---|---|
+| **ChatGPT** | Generación de código, resolución de errores en tests y documentación de fases |
+| **Claude** | Revisión de código, mejora de estructura y redacción del README |
+| **Copilot** | Autocompletado y sugerencias en tiempo real dentro de VS Code |
+| **Perplexity** | Consultas técnicas, planificación inicial y arquitectura del proyecto |
+
+Ninguna IA tomó decisiones por sí sola. Todo el código generado fue analizado, comprendido y modificado según las necesidades del proyecto. Las herramientas se usaron como asistentes, no como reemplazos del criterio del desarrollador.
+
+---
+
 ## 📜 Licencia
 
 Este proyecto está distribuido bajo la licencia **MIT**.
