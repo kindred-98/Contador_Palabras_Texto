@@ -178,9 +178,11 @@ python -m src.text_analyzer.interfaces.gui
 
 ### Desde VS Code
 
+```bash
 Abre `src/main.py` y pulsa el botón **▷ Run** (esquina superior derecha).
 
 O con atajo de teclado: `F5`
+```bash
 
 ---
 
