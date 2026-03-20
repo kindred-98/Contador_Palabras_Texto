@@ -145,7 +145,7 @@ Ideas para continuar el proyecto:
 ![Arquitectura inicial](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/Arquictectura_inicial.png)
 
 **Tests pasando antes de comenzar cambios**
-![Tests pasando](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/PruebasDe_QueTodoPasa.png)
+![Tests pasando](https://github.com/kindred-98/Contador_Palabras_Texto/blob/06bc9e5fac928cd0144f45810d762d4dfc7655d3/asistencia_IA/IMG/PruebasDe_QueTodoPasa.png)
 
 **Interfaz de inicio actualizada**
 
