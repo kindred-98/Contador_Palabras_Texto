@@ -150,8 +150,8 @@ Corrección del patching en `export_txt`, `export_json` y `export_csv` para elim
 Todos los tests pasan correctamente en entorno headless. Los errores de Tkinter y el `TypeError` se eliminaron mediante mocking y ajuste del patching. La lógica de producción quedó intacta y el flujo de tests está documentado paso a paso para referencia futura.
 
 
-![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/8196b0bf9e1ee78df9df2e92ec7f18cf22fd5d38/asistencia_IA/IMG/fase7_testFinales/test_Final1.png)
+![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/main/asistencia_IA/IMG/fase7_testFinales/test_Final1.png)
 
-![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/8196b0bf9e1ee78df9df2e92ec7f18cf22fd5d38/asistencia_IA/IMG/fase7_testFinales/test_Final2.png)
+![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/main/asistencia_IA/IMG/fase7_testFinales/test_Final2.pngg)
 
-![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/8196b0bf9e1ee78df9df2e92ec7f18cf22fd5d38/asistencia_IA/IMG/fase7_testFinales/test_Final3.png)
+![alt text](https://github.com/kindred-98/Contador_Palabras_Texto/blob/main/asistencia_IA/IMG/fase7_testFinales/test_Final3.png)
