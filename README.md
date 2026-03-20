@@ -62,13 +62,13 @@ El proyecto fue construido con foco en:
 
 | CLI en acción | Interfaz GUI |
 |:---:|:---:|
-| ![!\[CLI\](IMG/1-Usar_CLI.png)]
+![!\[CLI\](IMG/1-Usar_CLI.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/73d01104824439745dab0d5f5bb38be38c4a3237/asistencia_IA/IMG/1-Usar_CLI.png)
 
 ![!\[GUI\](IMG/GUI_Actualizado.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0ee6a3defc958166d8b49bc397b37093f4f3f018/asistencia_IA/IMG/GUI_Actualizado.png)|
 
 | Pantalla de inicio |
 |:---:|
-| ![!\[Inicio\](IMG/0-Interfaz_De_Inicio.png)]
+![!\[Inicio\](IMG/0-Interfaz_De_Inicio.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/9903b8f5029dbdcb84a0f96a29ef02210968b6db/asistencia_IA/IMG/0-Interfaz_De_Inicio.png)
 
 
 ---
