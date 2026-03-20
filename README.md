@@ -68,6 +68,7 @@ El proyecto fue construido con foco en:
 |:---:|
 | ![!\[Inicio\](IMG/0-Interfaz_De_Inicio.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/0-Interfaz_De_Inicio.png) |
 
+
 ---
 
 ## 🚀 Características
