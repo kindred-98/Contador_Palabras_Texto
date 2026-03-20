@@ -2179,3 +2179,27 @@ TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
 2026-03-20 22:28:35,430 | INFO | text_analyzer | CLI finalizado por el usuario
 2026-03-20 22:28:37,142 | INFO | text_analyzer | Aplicación iniciada
 2026-03-20 22:28:37,618 | INFO | text_analyzer | GUI iniciada
+2026-03-20 22:32:01,892 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-20 22:32:01,893 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-20 22:32:01,899 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-20 22:32:01,907 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-20 22:32:01,988 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-96\test_exportar_results_txt0\export.txt
+2026-03-20 22:32:01,992 | INFO | text_analyzer | CLI iniciado
+2026-03-20 22:32:01,994 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-20 22:32:02,517 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-20 22:32:02,523 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-20 22:32:02,524 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-20 22:32:02,527 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-20 22:35:48,155 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-20 22:35:48,157 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-20 22:35:48,162 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-20 22:35:48,169 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-20 22:35:48,186 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-97\test_exportar_results_txt0\export.txt
+2026-03-20 22:35:48,190 | INFO | text_analyzer | CLI iniciado
+2026-03-20 22:35:48,192 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-20 22:35:48,718 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-20 22:35:48,723 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-20 22:35:48,725 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-20 22:35:48,728 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-20 22:37:01,043 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-20 22:37:01,044 | WARNING | text_analyzer | CLI: historial consultado pero está vacío

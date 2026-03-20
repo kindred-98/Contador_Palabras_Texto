@@ -207,7 +207,7 @@ def exportar_resultados():
             return
         objetivo = "palabra"
     else:
-        console.print("[red]Opción inválida. Escribe 1 o 2.[/red]")
+        console.print("[red]Formato inválido[/red]")
         return
 
     console.print("\n[bold cyan]Formato de exportación[/bold cyan]")
