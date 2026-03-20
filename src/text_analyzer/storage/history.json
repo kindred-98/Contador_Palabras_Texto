@@ -1852,6 +1852,112 @@
                 ]
             ],
             "errors": []
+        },
+        "Arreglando cosas informacion de las imagenes": {
+            "raw_text": "Arreglando cosas informacion de las imagenes",
+            "normalized_text": "arreglando cosas informacion de las imagenes",
+            "num_characters": 44,
+            "num_characters_no_spaces": 39,
+            "num_words": 6,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "arreglando": 1,
+                "cosas": 1,
+                "informacion": 1,
+                "de": 1,
+                "las": 1,
+                "imagenes": 1
+            },
+            "most_common_words": [
+                [
+                    "arreglando",
+                    1
+                ],
+                [
+                    "cosas",
+                    1
+                ],
+                [
+                    "informacion",
+                    1
+                ],
+                [
+                    "de",
+                    1
+                ],
+                [
+                    "las",
+                    1
+                ],
+                [
+                    "imagenes",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "A": {
+            "raw_text": "A",
+            "normalized_text": "a",
+            "num_characters": 1,
+            "num_characters_no_spaces": 1,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "a": 1
+            },
+            "most_common_words": [
+                [
+                    "a",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "angel a": {
+            "raw_text": "angel a",
+            "normalized_text": "angel a",
+            "num_characters": 7,
+            "num_characters_no_spaces": 6,
+            "num_words": 2,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "angel": 1,
+                "a": 1
+            },
+            "most_common_words": [
+                [
+                    "angel",
+                    1
+                ],
+                [
+                    "a",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "a": {
+            "raw_text": "a",
+            "normalized_text": "a",
+            "num_characters": 1,
+            "num_characters_no_spaces": 1,
+            "num_words": 1,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "a": 1
+            },
+            "most_common_words": [
+                [
+                    "a",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
@@ -2372,6 +2478,19 @@
             "syllable_count": 1,
             "has_tilde": false,
             "stress_type": "monosílaba"
+        },
+        "la lie un poco": {
+            "word": "la lie un poco",
+            "syllables": [
+                "la",
+                " lie",
+                " u",
+                "n po",
+                "co"
+            ],
+            "syllable_count": 5,
+            "has_tilde": false,
+            "stress_type": "grave"
         }
     }
 }
