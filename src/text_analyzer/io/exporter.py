@@ -140,3 +140,51 @@ def export_txt(result) -> str:
             f.write(f"{palabra}: {freq}\n")
 
     return filename
+
+
+# ===============================
+# EXPORTAR ANÁLISIS DE PALABRA — JSON
+# ===============================
+def export_word_json(word_result: dict) -> str:
+    filename = generate_filename("word_analysis", "json")
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(word_result, f, indent=4, ensure_ascii=False)
+    return filename
+
+
+# ===============================
+# EXPORTAR ANÁLISIS DE PALABRA — CSV
+# ===============================
+def export_word_csv(word_result: dict) -> str:
+    filename = generate_filename("word_analysis", "csv")
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        fieldnames = ["palabra", "silabas", "num_silabas", "tiene_tilde", "tipo_palabra", "veces_encontrada", "posiciones"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerow({
+            "palabra": word_result.get("word", ""),
+            "silabas": "-".join(word_result.get("syllables", [])),
+            "num_silabas": word_result.get("syllable_count", 0),
+            "tiene_tilde": "Sí" if word_result.get("has_tilde") else "No",
+            "tipo_palabra": word_result.get("stress_type", ""),
+            "veces_encontrada": word_result.get("count", 0),
+            "posiciones": str(word_result.get("positions", [])),
+        })
+    return filename
+
+
+# ===============================
+# EXPORTAR ANÁLISIS DE PALABRA — TXT
+# ===============================
+def export_word_txt(word_result: dict) -> str:
+    filename = generate_filename("word_analysis", "txt")
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("ANALISIS DE PALABRA\n\n")
+        f.write(f"Palabra:            {word_result.get('word', '')}\n")
+        f.write(f"Silabas:            {'-'.join(word_result.get('syllables', []))}\n")
+        f.write(f"Numero de silabas:  {word_result.get('syllable_count', 0)}\n")
+        f.write(f"Tiene tilde:        {'Si' if word_result.get('has_tilde') else 'No'}\n")
+        f.write(f"Tipo de palabra:    {word_result.get('stress_type', '')}\n")
+        f.write(f"Veces encontrada:   {word_result.get('count', 0)}\n")
+        f.write(f"Posiciones:         {word_result.get('positions', [])}\n")
+    return filename
