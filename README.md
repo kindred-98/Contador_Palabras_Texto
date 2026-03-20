@@ -66,7 +66,7 @@ El proyecto fue construido con foco en:
 
 | Pantalla de inicio |
 |:---:|
-| ![!\[Inicio\](IMG/0-Interfaz_De_Inicio.png)]asistencia_IA/IMG/0-interfazinicio1.png |
+| ![!\[Inicio\](IMG/0-Interfaz_De_Inicio.png)] c:\Users\IA\Documents\GitHub\Contador_Palabras_Texto\asistencia_IA\IMG\0-interfazinicio1.png|
 
 
 
