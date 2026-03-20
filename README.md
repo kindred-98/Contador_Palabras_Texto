@@ -66,9 +66,7 @@ El proyecto fue construido con foco en:
 
 | Pantalla de inicio |
 |:---:|
-| ![!\[Inicio\](IMG/0-Interfaz_De_Inicio.png)] c:\Users\IA\Documents\GitHub\Contador_Palabras_Texto\asistencia_IA\IMG\0-interfazinicio1.png|
-
-
+| ![!\[Inicio\](IMG/0-Interfaz_De_Inicio.png)](https://github.com/kindred-98/Contador_Palabras_Texto/blob/0019289c7f7ff51d971d84128f3d767bdcca5569/asistencia_IA/IMG/0-Interfaz_De_Inicio.png) |
 
 ---
 
@@ -136,7 +134,7 @@ El proyecto fue construido con foco en:
 **1. Clonar el repositorio:**
 
 ```bash
-git clone https://github.com/kindred-98/Contador_Palabras_Texto.git
+git clone https://github.com/TU_USUARIO/Contador_Palabras_Texto.git
 cd Contador_Palabras_Texto
 ```
 
