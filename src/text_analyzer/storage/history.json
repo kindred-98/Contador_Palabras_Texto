@@ -1720,6 +1720,138 @@
                 ]
             ],
             "errors": []
+        },
+        "que locura\nme saca del la terminal": {
+            "raw_text": "que locura\nme saca del la terminal",
+            "normalized_text": "que locura me saca del la terminal",
+            "num_characters": 34,
+            "num_characters_no_spaces": 28,
+            "num_words": 7,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "que": 1,
+                "locura": 1,
+                "me": 1,
+                "saca": 1,
+                "del": 1,
+                "la": 1,
+                "terminal": 1
+            },
+            "most_common_words": [
+                [
+                    "que",
+                    1
+                ],
+                [
+                    "locura",
+                    1
+                ],
+                [
+                    "me",
+                    1
+                ],
+                [
+                    "saca",
+                    1
+                ],
+                [
+                    "del",
+                    1
+                ],
+                [
+                    "la",
+                    1
+                ],
+                [
+                    "terminal",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "ANGEL ESTA LOCO PERO A VECES ESTA RE DE A CUERDO": {
+            "raw_text": "ANGEL ESTA LOCO PERO A VECES ESTA RE DE A CUERDO",
+            "normalized_text": "angel esta loco pero a veces esta re de a cuerdo",
+            "num_characters": 48,
+            "num_characters_no_spaces": 38,
+            "num_words": 11,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "angel": 1,
+                "esta": 2,
+                "loco": 1,
+                "pero": 1,
+                "a": 2,
+                "veces": 1,
+                "re": 1,
+                "de": 1,
+                "cuerdo": 1
+            },
+            "most_common_words": [
+                [
+                    "esta",
+                    2
+                ],
+                [
+                    "a",
+                    2
+                ],
+                [
+                    "angel",
+                    1
+                ],
+                [
+                    "loco",
+                    1
+                ],
+                [
+                    "pero",
+                    1
+                ],
+                [
+                    "veces",
+                    1
+                ],
+                [
+                    "re",
+                    1
+                ],
+                [
+                    "de",
+                    1
+                ],
+                [
+                    "cuerdo",
+                    1
+                ]
+            ],
+            "errors": []
+        },
+        "QUE LOUCRA": {
+            "raw_text": "QUE LOUCRA",
+            "normalized_text": "que loucra",
+            "num_characters": 10,
+            "num_characters_no_spaces": 9,
+            "num_words": 2,
+            "num_sentences": 1,
+            "num_paragraphs": 1,
+            "word_frequencies": {
+                "que": 1,
+                "loucra": 1
+            },
+            "most_common_words": [
+                [
+                    "que",
+                    1
+                ],
+                [
+                    "loucra",
+                    1
+                ]
+            ],
+            "errors": []
         }
     },
     "words": {
@@ -2170,6 +2302,76 @@
             "syllable_count": 7,
             "has_tilde": false,
             "stress_type": "grave"
+        },
+        "angel david": {
+            "word": "angel david",
+            "syllables": [
+                "a",
+                "nge",
+                "l da",
+                "vi"
+            ],
+            "syllable_count": 4,
+            "has_tilde": false,
+            "stress_type": "aguda"
+        },
+        "que locura\nme saca del la terminal": {
+            "word": "que locura\nme saca del la terminal",
+            "syllables": [
+                "que",
+                " lo",
+                "cu",
+                "ra",
+                "\nme",
+                " sa",
+                "ca",
+                " de",
+                "l la",
+                " te",
+                "rmi",
+                "na"
+            ],
+            "syllable_count": 12,
+            "has_tilde": false,
+            "stress_type": "aguda"
+        },
+        "a": {
+            "word": "a",
+            "syllables": [
+                "a"
+            ],
+            "syllable_count": 1,
+            "has_tilde": false,
+            "stress_type": "monosílaba"
+        },
+        "danger": {
+            "word": "danger",
+            "syllables": [
+                "da",
+                "nge"
+            ],
+            "syllable_count": 2,
+            "has_tilde": false,
+            "stress_type": "aguda"
+        },
+        "viejo": {
+            "word": "viejo",
+            "syllables": [
+                "vie",
+                "jo"
+            ],
+            "syllable_count": 2,
+            "has_tilde": false,
+            "stress_type": "grave"
+        },
+        "b": {
+            "word": "b",
+            "syllables": [
+                "b"
+            ],
+            "syllable_count": 1,
+            "has_tilde": false,
+            "stress_type": "monosílaba"
         }
     }
 }

@@ -134,7 +134,7 @@ El proyecto fue construido con foco en:
 **1. Clonar el repositorio:**
 
 ```bash
-git clone https://github.com/TU_USUARIO/Contador_Palabras_Texto.git
+git clone https://github.com/kindred-98/Contador_Palabras_Texto.git
 cd Contador_Palabras_Texto
 ```
 

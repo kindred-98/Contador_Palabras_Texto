@@ -8,7 +8,7 @@ from collections import Counter
 import time
 
 from text_analyzer.core.analyzer import analyze_single_word, analyze_text, AnalysisResult, AnalysisConfig
-from text_analyzer.io.exporter import export_json, export_csv, export_txt, EXPORT_DIR
+from text_analyzer.io.exporter import export_json, export_csv, export_txt, export_word_json, export_word_csv, export_word_txt, EXPORT_DIR
 from text_analyzer.login.logger import setup_logger
 from text_analyzer.errors.error_handler import handle_error
 
@@ -20,6 +20,7 @@ historial = []
 # Nuevo: ultimo_resultado ahora es AnalysisResult
 # ===============================
 ultimo_resultado: AnalysisResult | None = None
+ultimo_resultado_palabra: dict | None = None
 
 # ===============================
 # MENÚ
@@ -85,6 +86,8 @@ def analizar_texto():
 # ANALIZAR PALABRA
 # ===============================
 def analizar_palabra(texto):
+    global ultimo_resultado_palabra
+
     if not texto:
         logger.warning("CLI: intento de analizar palabra sin texto previo")
         console.print("[red]Primero debes analizar un texto completo.[/red]")
@@ -93,9 +96,11 @@ def analizar_palabra(texto):
     palabra_input = Prompt.ask("Ingresa la palabra a analizar 🔍")
     palabra = palabra_input.lower()  # solo para conteo interno
 
-    palabras_lista = [p.lower() for p in texto.split()]
-    contador = palabras_lista.count(palabra)
-    posiciones = [i + 1 for i, p in enumerate([p.lower() for p in texto.split()]) if p == palabra]
+    import re as _re
+    _PATRON = r"\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]{1,}\b"
+    palabras_normalizadas = _re.findall(_PATRON, ultimo_resultado.normalized_text) if ultimo_resultado else []
+    contador = ultimo_resultado.word_frequencies.get(palabra, 0) if ultimo_resultado else 0
+    posiciones = [i + 1 for i, p in enumerate(palabras_normalizadas) if p == palabra]
 
     linguistic = analyze_single_word(palabra)
 
@@ -118,6 +123,13 @@ def analizar_palabra(texto):
 
     console.print(table)
     guardar_historial(analisis)
+
+    ultimo_resultado_palabra = {
+        **linguistic,
+        "count": contador,
+        "positions": posiciones,
+    }
+
     logger.info(f"CLI: análisis de palabra '{palabra_input}' completado")
 
 # ===============================
@@ -167,9 +179,35 @@ def ver_historial():
 # EXPORTAR RESULTADOS
 # ===============================
 def exportar_resultados():
-    if not ultimo_resultado:
+    if not ultimo_resultado and not ultimo_resultado_palabra:
         logger.warning("CLI: intento de exportar sin análisis previo")
-        console.print("[red]Primero debes analizar un texto.[/red]")
+        console.print("[red]Primero debes analizar un texto o una palabra.[/red]")
+        return
+
+    console.print("\n[bold cyan]¿Qué quieres exportar?[/bold cyan]")
+    if ultimo_resultado:
+        console.print("[green]1) Análisis de texto completo[/green]")
+    else:
+        console.print("[dim]1) Análisis de texto completo — no disponible (usa opción 1 del menú primero)[/dim]")
+    if ultimo_resultado_palabra:
+        console.print("[yellow]2) Análisis de palabra específica[/yellow]")
+    else:
+        console.print("[dim]2) Análisis de palabra específica — no disponible (usa opción 2 del menú primero)[/dim]")
+
+    tipo = Prompt.ask("Selecciona qué exportar (1 o 2)")
+
+    if tipo == "1":
+        if not ultimo_resultado:
+            console.print("[red]Aún no has analizado ningún texto. Ve al menú y usa la opción 1 primero.[/red]")
+            return
+        objetivo = "texto"
+    elif tipo == "2":
+        if not ultimo_resultado_palabra:
+            console.print("[red]Aún no has analizado ninguna palabra. Ve al menú y usa la opción 2 primero.[/red]")
+            return
+        objetivo = "palabra"
+    else:
+        console.print("[red]Opción inválida. Escribe 1 o 2.[/red]")
         return
 
     console.print("\n[bold cyan]Formato de exportación[/bold cyan]")
@@ -180,16 +218,20 @@ def exportar_resultados():
 
     opcion = Prompt.ask("Selecciona formato")
 
-    if opcion == "1":
-        filename = export_txt(ultimo_resultado)
-    elif opcion == "2":
-        filename = export_json(ultimo_resultado)
-    elif opcion == "3":
-        filename = export_csv(ultimo_resultado)
+    if objetivo == "texto":
+        exportadores = {"1": export_txt, "2": export_json, "3": export_csv}
+        fn = exportadores.get(opcion)
+        if not fn:
+            console.print("[red]Formato inválido[/red]")
+            return
+        filename = fn(ultimo_resultado)
     else:
-        logger.warning("CLI: formato de exportación inválido")
-        console.print("[red]Formato inválido[/red]")
-        return
+        exportadores = {"1": export_word_txt, "2": export_word_json, "3": export_word_csv}
+        fn = exportadores.get(opcion)
+        if not fn:
+            console.print("[red]Formato inválido[/red]")
+            return
+        filename = fn(ultimo_resultado_palabra)
 
     logger.info(f"CLI: resultados exportados a {filename}")
     console.print(f"[green]Archivo exportado:[/green] {filename}")

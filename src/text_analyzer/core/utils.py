@@ -26,7 +26,7 @@ def extract_words(text: str, config: AnalysisConfig) -> List[str]:
     if not text:
         return []
 
-    words = re.findall(r"\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]{2,}\b", text)
+    words = re.findall(r"\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]{1,}\b", text)
     min_len = getattr(config, "min_word_length", 1)
     words = [w for w in words if len(w) >= min_len]
 
