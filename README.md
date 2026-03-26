@@ -12,7 +12,8 @@
 
 <!-- BADGES -->
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Tests](https://img.shields.io/badge/Tests-48%20passed-2ea44f?style=for-the-badge&logo=pytest&logoColor=white)](tests/)
+[![Tests](https://github.com/kindred-98/Contador_Palabras_Texto/actions/workflows/tests.yml/badge.svg)](https://github.com/kindred-98/Contador_Palabras_Texto/actions/workflows/tests.yml)
+[![Linting](https://github.com/kindred-98/Contador_Palabras_Texto/actions/workflows/linting.yml/badge.svg)](https://github.com/kindred-98/Contador_Palabras_Texto/actions/workflows/linting.yml)
 [![Coverage](https://img.shields.io/badge/Coverage-88%25-brightgreen?style=for-the-badge&logo=codecov&logoColor=white)](tests/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)]()
@@ -292,6 +293,44 @@ tests/test_gui.py           ..........   PASSED
 
 ---------- coverage: 88% ----------
 ```
+
+### 🔄 GitHub Actions - Automatización CI/CD
+
+El proyecto incluye pipelines automatizados con **GitHub Actions** que se ejecutan en cada `push` y `pull request`:
+
+#### 📋 Workflows disponibles:
+
+1. **Tests y Cobertura** (`.github/workflows/tests.yml`)
+   - Ejecuta tests en Python 3.10, 3.11, 3.12 y 3.13
+   - Genera reportes de cobertura usando pytest-cov
+   - Sube resultados a Codecov
+   - Comenta automáticamente en PRs
+
+2. **Linting y Análisis** (`.github/workflows/linting.yml`)
+   - Validación de formato con Black
+   - Orden de imports con isort
+   - Análisis estático con flake8
+   - Type checking con mypy
+   - Validación de seguridad con bandit
+
+#### 📊 Características del pipeline:
+
+- ✅ **Testing multi-versión** — Compatibilidad con múltiples versiones de Python
+- 📦 **Caché de dependencias** — Acelera las builds reutilizando paquetes
+- 📈 **Reportes de cobertura** — Enviados automáticamente a Codecov
+- 💬 **Comentarios automáticos** — Feedback en PRs sobre resultados
+- 🔍 **Análisis de seguridad** — Detección de vulnerabilidades comunes
+
+#### 🚀 Cómo funciona:
+
+Los workflows se ejecutan automáticamente cuando:
+- Haces un `push` a `main` o `develop`
+- Abres un `pull request` hacia `main` o `develop`
+
+Los resultados se muestran en:
+- La pestaña **Actions** de tu repositorio
+- **Checks** en los PRs
+- **Codecov** (si está configurado)
 
 ---
 

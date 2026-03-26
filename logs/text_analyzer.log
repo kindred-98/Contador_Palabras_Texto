@@ -2203,3 +2203,5 @@ TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
 2026-03-20 22:35:48,728 | INFO | text_analyzer | CLI finalizado por el usuario
 2026-03-20 22:37:01,043 | INFO | text_analyzer | CLI: usuario consultó historial
 2026-03-20 22:37:01,044 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-26 12:30:41,566 | INFO | text_analyzer | CLI iniciado
+2026-03-26 12:30:44,550 | INFO | text_analyzer | CLI finalizado por el usuario
