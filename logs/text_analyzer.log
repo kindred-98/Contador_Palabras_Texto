@@ -2205,3 +2205,14 @@ TypeError: normalize_text() got an unexpected keyword argument 'case_sensitive'
 2026-03-20 22:37:01,044 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
 2026-03-26 12:30:41,566 | INFO | text_analyzer | CLI iniciado
 2026-03-26 12:30:44,550 | INFO | text_analyzer | CLI finalizado por el usuario
+2026-03-26 12:33:16,325 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-26 12:33:16,327 | WARNING | text_analyzer | CLI: historial consultado pero está vacío
+2026-03-26 12:33:16,333 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-26 12:33:16,341 | WARNING | text_analyzer | CLI: intento de exportar sin análisis previo
+2026-03-26 12:33:16,356 | INFO | text_analyzer | CLI: resultados exportados a C:\Users\angel\AppData\Local\Temp\pytest-of-angel\pytest-148\test_exportar_results_txt0\export.txt
+2026-03-26 12:33:16,360 | INFO | text_analyzer | CLI iniciado
+2026-03-26 12:33:16,363 | INFO | text_analyzer | CLI: usuario inició análisis de texto
+2026-03-26 12:33:16,893 | INFO | text_analyzer | CLI: análisis de texto completado
+2026-03-26 12:33:16,898 | INFO | text_analyzer | CLI: análisis de palabra 'Hola' completado
+2026-03-26 12:33:16,900 | INFO | text_analyzer | CLI: usuario consultó historial
+2026-03-26 12:33:16,903 | INFO | text_analyzer | CLI finalizado por el usuario
