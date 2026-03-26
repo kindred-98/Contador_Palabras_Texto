@@ -96,28 +96,28 @@ El proyecto fue construido con foco en:
 ┌─────────────────────────────────────────────────────────────────┐
 │                     Contador de Palabra MDL                     │
 │                                                                 │
-│  ┌───────────────┐          ┌───────────────────────────────┐  │
-│  │  Interfaces   │          │            Core               │  │
-│  │               │◄────────►│                               │  │
-│  │  CLI (Rich)   │          │  analyzer.py   → estadísticas │  │
-│  │  GUI (Tk)     │          │  linguistic.py → por palabra  │  │
-│  │               │          │  models.py     → estructuras  │  │
-│  └───────────────┘          └───────────────────────────────┘  │
+│  ┌───────────────┐          ┌───────────────────────────────┐   │
+│  │  Interfaces   │          │            Core               │   │
+│  │               │◄────────►│                               │   │
+│  │  CLI (Rich)   │          │  analyzer.py   → estadísticas │   │
+│  │  GUI (Tk)     │          │  linguistic.py → por palabra  │   │
+│  │               │          │  models.py     → estructuras  │   │
+│  └───────────────┘          └───────────────────────────────┘   │
 │          │                                  │                   │
 │          ▼                                  ▼                   │
-│  ┌───────────────┐          ┌───────────────────────────────┐  │
-│  │      IO       │          │           Storage             │  │
-│  │               │          │                               │  │
-│  │  exporter     │          │  history_manager.py           │  │
-│  │  file_loader  │          │  history.json                 │  │
-│  │  input_handler│          │                               │  │
-│  └───────────────┘          └───────────────────────────────┘  │
+│  ┌───────────────┐          ┌───────────────────────────────┐   │
+│  │      IO       │          │           Storage             │   │
+│  │               │          │                               │   │
+│  │  exporter     │          │  history_manager.py           │   │
+│  │  file_loader  │          │  history.json                 │   │
+│  │  input_handler│          │                               │   │
+│  └───────────────┘          └───────────────────────────────┘   │
 │                                                                 │
-│  ┌──────────────────────────────┐   ┌──────────────────────┐  │
-│  │           Errors             │   │        Logging       │  │
-│  │  custom_exceptions.py        │   │  logger.py           │  │
-│  │  error_handler.py            │   │                      │  │
-│  └──────────────────────────────┘   └──────────────────────┘  │
+│  ┌──────────────────────────────┐   ┌──────────────────────┐    │
+│  │           Errors             │   │        Logging       │    │
+│  │  custom_exceptions.py        │   │  logger.py           │    │
+│  │  error_handler.py            │   │                      │    │
+│  └──────────────────────────────┘   └──────────────────────┘    │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
