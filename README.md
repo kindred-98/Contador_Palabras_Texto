@@ -448,7 +448,7 @@ Contador_Palabras_Texto/
 
 *Proyecto educativo enfocado en arquitectura limpia, testing automatizado y separación por capas en Python.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-@TU_USUARIO-181717?style=for-the-badge&logo=github)](https://github.com/kindred-98/Contador_Palabras_Texto.git)
+[![GitHub](https://img.shields.io/badge/GitHub-kindred--98-181717?style=for-the-badge&logo=github)](https://github.com/kindred-98)
 
 </div>
 
